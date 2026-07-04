@@ -1,223 +1,294 @@
 # 🛍️ AI Retail Decision Copilot
 
-> An AI-powered decision support platform that combines Business Analytics, Retrieval-Augmented Generation (RAG), and Large Language Models (LLMs) to help retail businesses make data-driven decisions.
+> **An AI-powered decision support platform that combines Business Analytics, Retrieval-Augmented Generation (RAG), Machine Learning, and Large Language Models (LLMs) to help retail businesses make intelligent, data-driven decisions.**
 
 ---
 
-## 👩‍💻 Student Information
 
-**Name:** Tanishka Arora
-
-**Internship Segment:** Foundations of Applied AI & Analytics *(Update if your official segment name differs.)*
-
-**Problem Statement Code:** `PS-XX` *(Replace with your assigned problem statement code.)*
-
-**Internship Duration:** June 2026 – July 2026
-
----
 
 # 📌 Project Overview
 
-AI Retail Decision Copilot is an intelligent business assistant designed for retail businesses.
+Retail businesses generate large volumes of structured data (sales, inventory, customer records) and unstructured data (reports, manuals, market research). Extracting meaningful insights from this information often requires multiple tools and technical expertise.
 
-The platform enables users to upload structured business data (CSV files) and business documents (PDFs), then interact with an AI copilot to analyze business performance, answer questions, retrieve relevant information, and generate actionable recommendations.
+**AI Retail Decision Copilot** is designed to simplify this process by combining business analytics, Retrieval-Augmented Generation (RAG), machine learning, and AI-powered conversational interfaces into a single intelligent platform.
 
-The long-term vision is to evolve this project into a production-grade enterprise AI platform during my third year.
+Users will be able to upload retail datasets and business documents, ask natural language questions, explore dashboards, retrieve information from documents, and receive actionable business recommendations.
+
+This project is being developed as the foundation for a larger enterprise AI platform that will continue evolving throughout my third year.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Project Objectives
 
-* Build an AI-powered retail analytics platform
-* Analyze sales, inventory, and customer datasets
+* Analyze retail sales, inventory, and customer datasets
+* Generate business KPIs and interactive dashboards
 * Answer business questions using natural language
-* Retrieve information from business documents using RAG
+* Retrieve information from uploaded documents using RAG
 * Generate intelligent business recommendations
-* Build a scalable architecture for future AI agents
+* Build a scalable architecture for future AI agents and enterprise deployment
+
+---
+
+# 📄 Project Documentation
+
+| Document                       | Description                          |
+| ------------------------------ | ------------------------------------ |
+| `docs/design_doc.md`           | Initial Design Document              |
+| `docs/architecture.md`         | High-Level System Architecture       |
+| `docs/images/architecture.png` | Architecture Diagram *(Coming Soon)* |
 
 ---
 
 # ✨ Planned Features
 
-## Business Analytics
+## 📊 Business Analytics
 
 * Revenue Analysis
 * Profit Analysis
 * KPI Dashboard
+* Sales Trend Analysis
 * Category Performance
 * Inventory Insights
-* Customer Insights
+* Customer Analytics
 
-## AI Copilot
+---
+
+## 🤖 AI Business Copilot
 
 * Natural Language Business Queries
-* Business Insights
+* Conversational Analytics
 * Decision Support
-* Recommendation Generation
+* Business Recommendations
+* Context-Aware Responses
 
-## Document Intelligence (RAG)
+---
+
+## 📚 Document Intelligence (RAG)
 
 * PDF Upload
 * Semantic Search
+* Document Question Answering
 * Source Citations
-* Report Summarization
+* Business Report Summarization
 
-## Future Enhancements
+---
+
+## 📈 Machine Learning
 
 * Demand Forecasting
+* Sales Forecasting
+* Inventory Prediction
+* Customer Segmentation
+* Product Recommendations
+
+---
+
+## 🚀 Future Enterprise Features
+
 * Multi-Agent AI
-* Recommendation Engine
-* Enterprise Authentication
+* Authentication & Authorization
+* Multi-Tenant Support
 * Cloud Deployment
+* Real-Time Data Pipelines
+* Monitoring & Logging
 
 ---
 
 # 🏗️ Tech Stack
 
-| Component            | Technology             | Why                             |
-| -------------------- | ---------------------- | ------------------------------- |
-| Frontend             | Lovable                | Rapid UI development            |
-| Backend              | FastAPI                | High-performance Python APIs    |
-| Programming Language | Python                 | Core development language       |
-| Data Processing      | Pandas, NumPy          | Data analysis and preprocessing |
-| Visualization        | Plotly                 | Interactive dashboards          |
-| Machine Learning     | Scikit-learn           | Forecasting and analytics       |
-| AI Framework         | LangChain              | LLM orchestration               |
-| Agent Framework      | LangGraph *(Future)*   | Multi-agent workflows           |
-| Vector Database      | FAISS / Chroma         | Semantic document retrieval     |
-| LLM                  | OpenAI / Gemini / Groq | AI-powered responses            |
-| Version Control      | Git & GitHub           | Source control                  |
+| Component        | Technology             | Purpose               |
+| ---------------- | ---------------------- | --------------------- |
+| Frontend         | Lovable                | User Interface        |
+| Backend          | FastAPI                | REST APIs             |
+| Language         | Python                 | Core Development      |
+| Data Processing  | Pandas, NumPy          | Analytics             |
+| Visualization    | Plotly                 | Interactive Charts    |
+| Machine Learning | Scikit-learn           | Predictive Analytics  |
+| AI Framework     | LangChain              | LLM Orchestration     |
+| Agent Framework  | LangGraph *(Future)*   | Multi-Agent Workflows |
+| Vector Database  | FAISS / Chroma         | Document Retrieval    |
+| LLM              | OpenAI / Gemini / Groq | AI Responses          |
+| Version Control  | Git & GitHub           | Source Control        |
 
 ---
 
-# 🗂️ Repository Structure
+# 🏛️ High-Level Architecture
 
 ```text
-docs/
-backend/
-frontend/
-data/
-notebooks/
-tests/
-README.md
-requirements.txt
+                           User
+                             │
+                             ▼
+                   Lovable Frontend
+                             │
+                     REST API Calls
+                             │
+                             ▼
+                     FastAPI Backend
+                             │
+      ┌───────────────┬───────────────┬──────────────┐
+      │               │               │              │
+      ▼               ▼               ▼              ▼
+ Data Ingestion  Analytics Engine  RAG Engine  AI Copilot
+      │               │               │              │
+      └───────────────┴───────┬───────┴──────────────┘
+                              ▼
+                      Large Language Model
+                              │
+                              ▼
+                    Business Insights & Answers
+```
+
+*A detailed architecture document is available in* **`docs/architecture.md`**.
+
+---
+
+# 📂 Repository Structure
+
+```text
+ai-retail-copilot/
+│
+├── backend/
+├── frontend/
+├── data/
+├── docs/
+│   ├── design_doc.md
+│   ├── architecture.md
+│   └── images/
+├── notebooks/
+├── tests/
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
-# 📄 Documentation
+# 📅 Development Roadmap
 
-| Document                | Status        |
-| ----------------------- | ------------- |
-| README                  | ✅             |
-| Initial Design Document | ⏳ In Progress |
-| Architecture Diagram    | ⏳ Planned     |
-| ADRs                    | ⏳ Planned     |
-
----
-
-# 📊 Current Progress
-
-| Module               | Status         |
-| -------------------- | -------------- |
-| Repository Setup     | ✅ Completed    |
-| Project Planning     | ✅ Completed    |
-| Architecture Design  | 🟡 In Progress |
-| Backend Development  | ⏳ Planned      |
-| Frontend Development | ⏳ Planned      |
-| Analytics Engine     | ⏳ Planned      |
-| RAG Pipeline         | ⏳ Planned      |
-| AI Copilot           | ⏳ Planned      |
-
----
-
-# 📅 Internship Roadmap
-
-## Week 1
+## ✅ Week 1 — Foundation
 
 * [x] Repository Created
 * [x] README Created
-* [ ] Initial Design Document
-* [ ] Architecture Design
+* [ ] Design Document
+* [ ] Architecture Diagram
 * [ ] Backend Setup
 * [ ] Frontend Setup
-* [ ] Sample Dataset Integration
+* [ ] Sample Dataset Added
 * [ ] Data Ingestion Pipeline
 
-## Week 2
+---
 
-* [ ] Dashboard
-* [ ] CSV Analytics
+## 📊 Week 2 — Business Analytics
+
+* [ ] CSV Upload
+* [ ] Data Cleaning
 * [ ] KPI Engine
+* [ ] Dashboard
 * [ ] API Integration
 
-## Week 3
+---
 
-* [ ] RAG Pipeline
-* [ ] AI Copilot
-* [ ] PDF Processing
+## 🤖 Week 3 — AI & RAG
+
+* [ ] PDF Upload
+* [ ] Document Processing
+* [ ] Embeddings
 * [ ] Vector Database
+* [ ] AI Chat Interface
+* [ ] Source Citations
 
-## Week 4
+---
+
+## 🚀 Week 4 — Deployment
 
 * [ ] Testing
 * [ ] Deployment
 * [ ] Documentation
 * [ ] Demo Video
+* [ ] Presentation
 
 ---
 
-# 📚 What I Learned This Week
+# 📊 Current Project Status
 
-* Repository planning is as important as coding.
-* A scalable architecture makes future feature development easier.
-* Separating frontend, backend, and AI modules improves maintainability.
-* Proper Git commit practices help track project progress.
-* Understanding the project architecture before implementation reduces future rework.
+| Module           | Status         |
+| ---------------- | -------------- |
+| Repository Setup | ✅ Completed    |
+| Planning         | ✅ Completed    |
+| Design           | ✅ completed |
+| Backend          | ⏳ Planned      |
+| Frontend         | ⏳ Planned      |
+| Analytics        | ⏳ Planned      |
+| AI Copilot       | ⏳ Planned      |
+| RAG              | ⏳ Planned      |
+| Deployment       | ⏳ Planned      |
 
 ---
 
-# 📌 Week 1 Status
+# 📖 What I Learned This Week
 
-### ✅ What's Done
+* [x] Understanding the problem domain
+* [x] Designing scalable software architecture
+* [x] Planning modular AI applications
+* [x] Git & GitHub workflow
+* [x] Researching the technology stack
+
+---
+
+# 📌 Week 1 Status Report
+
+## ✅ What's Done
 
 * Repository initialized
 * Project idea finalized
-* README prepared
+* README completed
 * Technology stack selected
-* High-level project architecture planned
+* Initial architecture planned
 
-### 🚧 What's Stuck
+## 🚧 Current Challenges
 
-* Initial design document pending mentor review.
-* Backend and frontend implementation yet to begin.
+* Finalizing architecture after mentor feedback
+* Preparing implementation roadmap
 
-### 🎯 Goals for Next Week
+## 🎯 Goals for Next Week
 
-1. Initialize FastAPI backend.
-2. Build the first Lovable frontend screens.
-3. Implement CSV upload and data ingestion.
+1. Initialize FastAPI backend
+2. Build Lovable frontend
+3. Implement CSV upload
+4. Build analytics pipeline
 
-### 💬 Mentor Feedback Needed
+## 💬 Mentor Feedback Requested
 
-Review the proposed architecture and technology choices before implementation begins.
+* Review overall architecture
+* Validate technology choices
+* Suggest improvements before implementation begins
 
 ---
 
-# 🚀 Long-Term Vision
+# 🛣️ Long-Term Roadmap (3rd Year)
 
-This internship project is intended to become a production-grade AI Retail Decision Copilot during my third year by adding:
+This project is intentionally designed to evolve beyond the internship into a production-grade enterprise AI platform.
 
-* Multi-Agent AI
+Planned future enhancements include:
+
+* Multi-Agent AI Architecture
+* Autonomous Decision Support
 * Demand Forecasting
 * Recommendation Engine
+* Customer Segmentation
+* Real-Time Data Pipelines
 * Enterprise Authentication
 * Cloud Deployment
-* Real-Time Data Pipelines
-* SaaS Architecture
+* SaaS Multi-Tenant Platform
 
 ---
 
-## 📄 License
+# 🤝 Acknowledgements
+
+This project is being developed as part of my Summer Internship 2026 and serves as the foundation for a long-term AI engineering project that will continue throughout my third year.
+
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
