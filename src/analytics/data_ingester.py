@@ -1,0 +1,94 @@
+"""CSV and Excel ingestion with cleaning for business data"""
+
+import pandas as pd
+from typing import Tuple
+
+class DataIngester:
+    """Loads, cleans, and profiles business CSV/Excel files"""
+
+    def ingest(self, uploaded_file) -> Tuple[pd.DataFrame, dict]:
+        """
+        Main entry: takes Streamlit UploadedFile → returns (clean_df, profile)
+        """
+        raw_df = self._load(uploaded_file)
+        clean_df = self._clean(raw_df)
+        profile = self._profile(clean_df)
+        return clean_df, profile
+
+    def _load(self, uploaded_file) -> pd.DataFrame:
+        name = uploaded_file.name.lower()
+        if name.endswith(".csv"):
+            for enc in ["utf-8", "latin-1", "cp1252"]:
+                try:
+                    return pd.read_csv(uploaded_file, encoding=enc)
+                except UnicodeDecodeError:
+                    uploaded_file.seek(0)
+            raise ValueError("Cannot decode CSV. Try saving as UTF-8.")
+        elif name.endswith((".xlsx", ".xls")):
+            return pd.read_excel(uploaded_file, engine="openpyxl")
+        else:
+            raise ValueError(f"Unsupported file type: {name}")
+
+    def _clean(self, df: pd.DataFrame) -> pd.DataFrame:
+        df = df.copy()
+        # Standardise column names
+        df.columns = [c.lower().strip().replace(" ", "_").replace("-", "_")
+                      for c in df.columns]
+        # Strip whitespace from strings
+        for col in df.select_dtypes(include="object").columns:
+            df[col] = df[col].astype(str).str.strip()
+        # Auto-convert date columns
+        for col in df.columns:
+            if any(k in col for k in ["date", "time", "month", "year"]):
+                try:
+                    df[col] = pd.to_datetime(df[col])
+                except Exception:
+                    pass
+        # Convert currency strings to numeric
+        for col in df.select_dtypes(include="object").columns:
+            cleaned = df[col].str.replace(r"[$,£€%]", "", regex=True).str.strip()
+            try:
+                df[col] = pd.to_numeric(cleaned)
+            except Exception:
+                pass
+        # Fill numeric nulls with median
+        for col in df.select_dtypes(include="number").columns:
+            df[col] = df[col].fillna(df[col].median())
+        # Remove full duplicates
+        df.drop_duplicates(inplace=True)
+        return df
+
+    def _profile(self, df: pd.DataFrame) -> dict:
+        """Generate a text summary of the data for use in LLM prompts"""
+        numeric_cols = df.select_dtypes(include="number").columns.tolist()
+        cat_cols = df.select_dtypes(include="object").columns.tolist()
+        date_cols = df.select_dtypes(include="datetime").columns.tolist()
+
+        summary_parts = [
+            f"Dataset: {len(df):,} rows, {len(df.columns)} columns.",
+            f"Columns: {', '.join(df.columns.tolist())}.",
+        ]
+        for col in numeric_cols[:4]:
+            summary_parts.append(
+                f"{col}: min={df[col].min():.2f}, max={df[col].max():.2f}, "
+                f"mean={df[col].mean():.2f}, sum={df[col].sum():.2f}."
+            )
+        for col in cat_cols[:3]:
+            top = df[col].value_counts().index[:3].tolist()
+            summary_parts.append(
+                f"{col}: {df[col].nunique()} unique values. Top: {', '.join(str(v) for v in top)}."
+            )
+        if date_cols:
+            col = date_cols[0]
+            summary_parts.append(
+                f"Date range ({col}): {df[col].min()} to {df[col].max()}."
+            )
+
+        return {
+            "summary_text": " ".join(summary_parts),
+            "numeric_cols": numeric_cols,
+            "cat_cols": cat_cols,
+            "date_cols": date_cols,
+            "row_count": len(df),
+            "col_count": len(df.columns),
+        }

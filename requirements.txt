@@ -1,0 +1,14 @@
+pandas
+openpyxl
+streamlit
+plotly
+langchain
+langchain-community
+langchain-openai
+langgraph
+pydantic
+faiss-cpu
+python-dotenv
+pytest
+langchain-google-genai
+
