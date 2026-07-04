@@ -227,6 +227,13 @@ This project will continue to evolve into a production-grade enterprise platform
 
 ---
 
+## 👤 Author & Course Track
+
+* **Author:** Tanishka Arora
+* **Track:** Segment 3 — Foundations of Applied ML
+
+---
+
 ## 🤝 Acknowledgements
 
 Developed as part of my Summer Internship 2026. This project serves as the foundation for a long-term AI engineering project continuing through my third academic year.
