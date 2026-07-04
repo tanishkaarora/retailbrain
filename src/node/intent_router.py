@@ -13,7 +13,8 @@ class IntentRouterNode:
         This is a cheap LLM call — just classification, no generation.
         """
         # Get context from session (passed via state or config)
-        has_csv = bool(state.kpi_summary)    # kpi_summary is set if CSV was uploaded
+        import streamlit as st
+        has_csv = st.session_state.get("clean_df") is not None
 
         prompt = INTENT_ROUTER_PROMPT.format(
             has_csv=str(has_csv),
@@ -34,4 +35,4 @@ class IntentRouterNode:
         else:
             route = "rag"  # default fallback
 
-        return CopilotState(**{**state.dict(), "route": route})
+        return CopilotState(**{**state.model_dump(), "route": route})

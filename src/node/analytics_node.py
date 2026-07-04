@@ -24,7 +24,7 @@ class AnalyticsNode:
         else:
             analytics_result = self._run_analysis(state.question, df, profile)
 
-        return CopilotState(**{**state.dict(), "analytics_result": analytics_result})
+        return CopilotState(**{**state.model_dump(), "analytics_result": analytics_result})
 
     def _run_analysis(self, question: str, df, profile: dict) -> str:
         """Select and run the right analytics based on question content"""

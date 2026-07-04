@@ -38,7 +38,7 @@ class Config:
             return os.getenv("GEMINI_API_KEY", "")
 
     # Model — switch between OpenAI, Groq, and Gemini
-    USE_GEMINI = os.getenv("USE_GEMINI", "true").lower() == "true"
+    USE_GEMINI = os.getenv("USE_GEMINI", "false").lower() == "true"
     USE_GROQ = os.getenv("USE_GROQ", "false").lower() == "true"
     LLM_MODEL = "gemini-1.5-flash" if USE_GEMINI else ("groq:llama-3.1-8b-instant" if USE_GROQ else "openai:gpt-4o-mini")
 

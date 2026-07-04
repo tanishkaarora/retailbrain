@@ -55,7 +55,7 @@ class SynthesiserNode:
                 sources.append(f"{src}" + (f" p.{page}" if page else ""))
 
         return CopilotState(**{
-            **state.dict(),
+            **state.model_dump(),
             "answer": answer,
             "sources": sources
         })

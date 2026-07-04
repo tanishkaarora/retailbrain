@@ -40,7 +40,7 @@ class CopilotGraphBuilder:
             docs = []
             context = "No documents have been indexed yet."
 
-        return CopilotState(**{**state.dict(), "retrieved_docs": docs, "rag_context": context})
+        return CopilotState(**{**state.model_dump(), "retrieved_docs": docs, "rag_context": context})
 
     def _route_edge(self, state: CopilotState) -> str:
         """Conditional edge function — determines which node runs after intent router"""
