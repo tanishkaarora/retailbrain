@@ -191,22 +191,22 @@ python run_tests.py
 | **Design & Architecture** | ✅ Completed | Created design doc and architecture diagrams. |
 | **Data Ingestion** | ✅ Completed | Implemented Pandas cleaning and metadata profiling. |
 | **Analytics Engine** | ✅ Completed | Built calculations for trends, categories, anomalies, and Plotly visualization. |
-| **RAG Pipeline** | ✅ Completed | Setup PDF text chunker and local FAISS vector database. |
-| **Graph Orchestration** | ✅ Completed | Designed LangGraph StateGraph pipeline with routing. |
-| **User Interface** | ✅ Completed | Streamlit chat widget, file upload drawers, and dashboards are live. |
+| **RAG Pipeline** | ⏳ in progess | Setup PDF text chunker and local FAISS vector database. |
+| **Graph Orchestration** | ⏳ in progess | Designed LangGraph StateGraph pipeline with routing. |
+| **User Interface** | ⏳ in progess | Streamlit chat widget, file upload drawers, and dashboards are live. |
 | **Deployment** | ⏳ Planned | Preparation for production cloud hosting. |
 
 ---
 
-## 📅 Weekly Progress (Week 1 & 2)
+## 📅 Weekly Progress (Week 0 & 1)
 
-### ✅ Week 1 — Foundation & Architecture
+### ✅ Week 0 — Foundation & Architecture
 * [x] Initialized Git repository and set up standard `.gitignore`.
 * [x] Drafted system architecture, decoupled responsibilities, and designed data paths.
 * [x] Drafted professional software design documentation.
 * [x] Designed the interactive, unified Streamlit dashboard and chat user interface.
 
-### ✅ Week 2 — Core Engine & LangGraph Integration
+### ✅ Week 1 — Core Engine & LangGraph Integration
 * [x] Built the Python Data Ingestion Pipeline to parse, clean, and profile spreadsheets.
 * [x] Developed the business analytics algorithms (Top/Bottom, Trend, Anomaly Detection).
 * [x] Implemented PDF chunking and embedded indexing in local FAISS.
