@@ -257,6 +257,9 @@ with tab_charts:
 
 # Chat Tab
 with tab_chat:
+    if "api_error_warning" in st.session_state:
+        st.warning(f"⚠️ Model API Error: {st.session_state['api_error_warning']}. Running in local Mock Mode.")
+
     # Display chat history
     for msg in st.session_state.chat_history:
         with st.chat_message(msg["role"]):
