@@ -182,7 +182,7 @@ class Config:
             from langchain_google_genai import ChatGoogleGenerativeAI
             os.environ["GEMINI_API_KEY"] = gemini_key
             os.environ["GOOGLE_API_KEY"] = gemini_key
-            return ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=gemini_key)
+            return ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=gemini_key)
         elif cls.USE_GROQ and groq_key:
             from langchain.chat_models import init_chat_model
             os.environ["GROQ_API_KEY"] = groq_key
@@ -196,7 +196,7 @@ class Config:
             from langchain.chat_models import init_chat_model
             if gemini_key:
                 from langchain_google_genai import ChatGoogleGenerativeAI
-                return ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=gemini_key)
+                return ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=gemini_key)
             elif groq_key:
                 os.environ["GROQ_API_KEY"] = groq_key
                 return init_chat_model("groq:llama-3.1-8b-instant")
