@@ -121,16 +121,35 @@ class CopilotGraphBuilder:
 
             class ForceMockChatModel(BaseChatModel):
                 def _generate(self, messages: List[BaseMessage], stop: Optional[List[str]] = None, **kwargs: Any) -> ChatResult:
-                    last_msg = messages[-1].content.lower()
-                    if "classifying" in last_msg or "router" in last_msg or "intent" in last_msg:
-                        if any(w in last_msg for w in ["highest", "trend", "anomaly", "outlier", "sales", "revenue", "product", "quantity", "price"]):
+                    original_msg = messages[-1].content
+                    last_msg_lower = original_msg.lower()
+                    
+                    if "classifying" in last_msg_lower or "router" in last_msg_lower or "intent" in last_msg_lower:
+                        if any(w in last_msg_lower for w in ["highest", "trend", "anomaly", "outlier", "sales", "revenue", "product", "quantity", "price"]):
                             content = "analytics"
-                        elif any(w in last_msg for w in ["report", "strategy", "policy", "document"]):
+                        elif any(w in last_msg_lower for w in ["report", "strategy", "policy", "document"]):
                             content = "rag"
                         else:
                             content = "both"
-                    elif "map a user's question to the correct columns" in last_msg:
+                    elif "map a user's question to the correct columns" in last_msg_lower:
                         content = '{"numeric_col": "quantity", "categorical_col": "product", "date_col": "order_date"}'
+                    elif "analytics results:" in last_msg_lower:
+                        try:
+                            idx = last_msg_lower.find("analytics results:")
+                            after_analytics = original_msg[idx + len("analytics results:"):]
+                            after_analytics_lower = after_analytics.lower()
+                            
+                            next_headers = ["document context:", "recent chat history:", "user question:", "human:", "system:"]
+                            min_index = len(after_analytics)
+                            for header in next_headers:
+                                h_idx = after_analytics_lower.find(header)
+                                if h_idx != -1 and h_idx < min_index:
+                                    min_index = h_idx
+                            content = after_analytics[:min_index].strip()
+                            
+                            content = "### 📊 Business Analytics Report\n\n" + content
+                        except Exception:
+                            content = "Based on your sales data, the calculation is completed but could not be parsed."
                     else:
                         content = (
                             "Based on the sales data, the top product is Laptop with a total quantity of 3 units. "
