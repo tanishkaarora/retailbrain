@@ -95,50 +95,52 @@ class CopilotGraphBuilder:
         self.graph = builder.compile()
         return self.graph
 
-    def run(self, question: str, chat_history: list = None) -> CopilotState:
+    def run(self, question: str, chat_history: list = None) -> dict:
+        """Run the graph for a single question. Falls back to mock on LLM error."""
         if self.graph is None:
             self.build()
+
         initial = CopilotState(
             question=question,
             chat_history=chat_history or []
         )
-        try:
-            result = self.graph.invoke(initial)
-            return result
-        except Exception as e:
-            import logging
-            import streamlit as st
-            logging.getLogger(__name__).warning(f"Graph execution failed with LLM error: {e}. Falling back to MockChatModel.")
-            
-            # Save the warning to session state for display in UI
-            st.session_state["api_error_warning"] = str(e)
-            
-            # Create a mock chat model
-            from src.utils.mock_llm import MockChatModel
-            mock_llm = MockChatModel()
-            
-            # Ensure vector store does not crash on embeddings calls
-            from src.vectorstore.vectorstore import VectorStore
-            from langchain_core.embeddings import Embeddings
-            class ForceMockEmbeddings(Embeddings):
-                def embed_documents(self, texts): return [[0.1] * 1536 for _ in texts]
-                def embed_query(self, text): return [0.1] * 1536
-            
-            if st.session_state.get("vector_store"):
-                st.session_state["vector_store"].embeddings = ForceMockEmbeddings()
-            else:
-                st.session_state["vector_store"] = VectorStore()
-                st.session_state["vector_store"].embeddings = ForceMockEmbeddings()
 
-            # Rebuild graph with Mock components
-            from src.graph_builder.graph_builder import CopilotGraphBuilder
-            mock_builder = CopilotGraphBuilder(llm=mock_llm, vector_store=st.session_state["vector_store"])
-            mock_builder.build()
-            
-            # Update the application's active graph instance
-            st.session_state.graph = mock_builder
-            
-            # Execute query using the mock graph
-            result = mock_builder.graph.invoke(initial)
-            return result
+        try:
+            return self.graph.invoke(initial)
+        except Exception as e:
+            return self._fallback_with_mock(initial, e)
+
+    def _fallback_with_mock(self, initial: CopilotState, error: Exception) -> dict:
+        """
+        Called when the real LLM raises an error (bad key, quota, network).
+        Rebuilds the graph with MockChatModel and retries once.
+        Saves the error to session state so the UI can show a warning banner.
+        """
+        import logging
+        import streamlit as st
+        from src.utils.mock_llm import MockChatModel
+        from langchain_core.embeddings import Embeddings
+
+        logger = logging.getLogger(__name__)
+        logger.warning("LLM call failed (%s). Falling back to MockChatModel.", error)
+        st.session_state["api_error_warning"] = str(error)
+
+        # Swap embeddings to avoid re-triggering the API key error
+        class _MockEmbeddings(Embeddings):
+            def embed_documents(self, texts): return [[0.1] * 768 for _ in texts]
+            def embed_query(self, text): return [0.1] * 768
+
+        vs = st.session_state.get("vector_store", self.vector_store)
+        if vs:
+            vs.embeddings = _MockEmbeddings()
+        st.session_state["vector_store"] = vs
+
+        mock_builder = CopilotGraphBuilder(
+            llm=MockChatModel(),
+            vector_store=vs
+        )
+        mock_builder.build()
+        st.session_state.graph = mock_builder
+
+        return mock_builder.graph.invoke(initial)
 

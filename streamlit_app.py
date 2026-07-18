@@ -130,6 +130,16 @@ with st.sidebar:
                     st.session_state.kpis = engine.compute_kpis(df, profile)
                     st.session_state.charts = generate_charts(df, profile)
                     st.success(f"✅ Data loaded: {len(df):,} rows")
+                    if len(df) > st.session_state.get("MAX_ROWS", 100_000):
+                        st.warning(
+                            f"⚠️ Large dataset ({len(df):,} rows). "
+                            "Analytics may be slow. Consider uploading a sample."
+                        )
+                    if len(df) < 10:
+                        st.warning(
+                            "⚠️ Very small dataset (fewer than 10 rows). "
+                            "Insights and trends may not be meaningful."
+                        )
                 except ValueError as e:
                     st.error(str(e))
 
@@ -231,6 +241,18 @@ with st.sidebar:
 # ── MAIN CONTENT TABS ────────────────────────────────────────────────────────
 tab_overview, tab_charts, tab_chat = st.tabs(["📈 Overview", "📊 Charts", "💬 Ask"])
 
+# Show API error warning if LLM fell back to mock
+if st.session_state.get("api_error_warning"):
+    st.warning(
+        f"⚠️ LLM API error: {st.session_state['api_error_warning']}. "
+        "Running in offline mode with mock responses. "
+        "Add a valid API key in the sidebar to enable real AI answers.",
+        icon="⚠️"
+    )
+    if st.button("Dismiss warning", key="dismiss_api_warn"):
+        del st.session_state["api_error_warning"]
+        st.rerun()
+
 # Overview Tab
 with tab_overview:
     if st.session_state.kpis:
@@ -245,6 +267,11 @@ with tab_overview:
         st.markdown("---")
         st.markdown("### 📋 Data Profile Summary")
         st.code(st.session_state.data_profile["summary_text"], language="text")
+        with st.expander("🔍 Preview raw data (first 10 rows)"):
+            st.dataframe(
+                st.session_state.clean_df.head(10),
+                use_container_width=True
+            )
 
 # Charts Tab
 with tab_charts:
@@ -290,7 +317,14 @@ with tab_chat:
                     elapsed = time.time() - start
 
                 st.write(result.get("answer", "Sorry, I could not generate an answer. Please try again."))
-                st.caption(f"Route: {result.get('route', 'unknown').upper()} | Processing time: {elapsed:.1f}s")
+                route = result.get('route', 'unknown')
+                route_emoji = {
+                    "analytics": "📊 Analytics",
+                    "rag":       "📄 Document",
+                    "both":      "🔀 Combined",
+                    "unknown":   "❓ Unknown"
+                }.get(route, route)
+                st.caption(f"{route_emoji} · {elapsed:.1f}s")
 
                 # Show Smart Column Detective mapping
                 analytics_res = result.get("analytics_result", "")

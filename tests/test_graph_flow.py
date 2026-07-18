@@ -73,5 +73,38 @@ def test_graph_analytics_route():
     assert result["answer"] == "This is a synthesized analytics answer."
     print("test_graph_analytics_route passed!")
 
+def test_graph_fallback_on_llm_error():
+    """
+    When the LLM raises an exception, the graph should
+    fall back to MockChatModel and still return a valid answer.
+    """
+    import streamlit as st
+    from src.utils.mock_llm import MockChatModel
+
+    class FailingLLM:
+        def invoke(self, prompt):
+            raise ConnectionError("Simulated API key error")
+
+    class MockVS:
+        embeddings = None
+        db = None
+        def get_retriever(self):
+            raise ValueError("No PDF")
+
+    st.session_state["clean_df"] = None
+    st.session_state["data_profile"] = None
+    st.session_state["vector_store"] = None
+
+    builder = CopilotGraphBuilder(llm=FailingLLM(), vector_store=MockVS())
+    builder.build()
+
+    result = builder.run("Which product has the highest sales?")
+
+    assert result is not None
+    assert result.get("answer", "") != ""
+    assert "api_error_warning" in st.session_state
+    print("test_graph_fallback_on_llm_error passed!")
+
 if __name__ == "__main__":
     test_graph_analytics_route()
+    test_graph_fallback_on_llm_error()

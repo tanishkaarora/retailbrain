@@ -167,7 +167,7 @@ pip install -r requirements.txt
 
 ### 2. Add your API key
 
-Create a `.env` file in the root folder:
+Copy `.env.example` to `.env` in the root folder and add your key:
 ```env
 GEMINI_API_KEY=your_key_here
 USE_GEMINI=true
@@ -235,6 +235,7 @@ All tests passed successfully!
 | Streamlit UI (3 tabs: Overview, Charts, Ask) | ✅ Done |
 | Unit tests (including Smart Column Detective) | ✅ Done |
 | Mini-extension (Smart Column Detective) | ✅ Done |
+| Robust offline recovery & Mock mode | ✅ Done |
 | Deployment | ⏳ Week 4 |
 | ADRs (3 required: ADR-001, ADR-002, ADR-003) | ✅ Done |
 
