@@ -40,12 +40,12 @@ class AnalyticsNode:
 
         results = []
 
-        # Info prefix for user transparency
-        detective_info = (
-            f"Smart Column Detective selected columns: "
-            f"Categorical='{group_col}', Numeric='{value_col}', Date='{date_col}'."
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.debug(
+            "Smart Column Detective — numeric: %s, categorical: %s, date: %s",
+            value_col, group_col, date_col
         )
-        results.append(f"*(Analysis Metadata: {detective_info})*")
 
         # Top/bottom performers
         if any(w in q for w in ["top", "best", "highest", "most"]):

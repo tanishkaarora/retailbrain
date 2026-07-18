@@ -16,9 +16,13 @@ class IntentRouterNode:
         import streamlit as st
         has_csv = st.session_state.get("clean_df") is not None
 
+        import streamlit as st
+        vs = st.session_state.get("vector_store")
+        has_pdf = vs is not None and getattr(vs, "db", None) is not None
+
         prompt = INTENT_ROUTER_PROMPT.format(
             has_csv=str(has_csv),
-            has_pdf="yes",
+            has_pdf=str(has_pdf),
             question=state.question
         )
 
