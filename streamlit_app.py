@@ -85,10 +85,13 @@ html, body, [class*="css"], .stApp {
 #MainMenu, footer { visibility: hidden; }
 .stDeployButton { display: none; }
 .viewerBadge_container__r5tak { display: none; }
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
 
 /* ── Main container padding ── */
 .block-container {
-    padding: 1.5rem 2rem 2rem;
+    padding: 4rem 2rem 2rem !important;
     max-width: 1200px;
 }
 
