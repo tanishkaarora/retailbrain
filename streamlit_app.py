@@ -2,12 +2,12 @@
 
 import sys
 from pathlib import Path
-print("DIAGNOSTICS - SYS PATH:", sys.path)
+print("DIAGNOSTICS - SYS PATH:", sys.path, file=sys.stderr)
 try:
     import dotenv
-    print("DIAGNOSTICS - DOTENV PATH:", dotenv.__file__)
+    print("DIAGNOSTICS - DOTENV PATH:", dotenv.__file__, file=sys.stderr)
 except Exception as e:
-    print("DIAGNOSTICS - DOTENV FAILED:", str(e))
+    print("DIAGNOSTICS - DOTENV FAILED:", str(e), file=sys.stderr)
 
 import streamlit as st
 import time
