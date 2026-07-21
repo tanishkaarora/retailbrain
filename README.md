@@ -404,11 +404,15 @@ The **Smart Column Detective** resolves gaps between human conversational terms 
 
 ---
 
-## 🗺️ 3rd Year Extension Roadmap
-The project will evolve into an enterprise-grade retail platform:
-* **Version 1.1 (Aug–Sep 2026)**: Integrate persistent document indexing using **ChromaDB** or **Qdrant**, and support multi-file folder uploads.
-* **Version 1.2 (Oct–Nov 2026)**: Implement user authentication and conversational state memory.
-* **Version 2.0 (Dec 2026+)**: Decouple frontend (React) and backend (FastAPI), host forecasting workers via **Docker/Celery**, and deploy a multi-agent model (forecasting agent, SQL generation agent, and RAG agent).
+## 🗺️ 3rd Year Roadmap
+
+RetailBrain will continue evolving into a production-ready AI Business Intelligence platform.
+
+- **Version 1.1:** Multi-file support, persistent vector database (ChromaDB/Qdrant), and enhanced dashboards.
+- **Version 1.2:** Conversational memory, authentication, natural language to SQL, and sales forecasting.
+- **Version 2.0:** Multi-agent architecture, FastAPI + React, Docker, CI/CD, cloud deployment, and support for multiple business domains.
+
+**Long-Term Vision:** Build an enterprise-grade AI Business Intelligence platform that combines analytics, RAG, and AI agents to deliver intelligent, data-driven business insights.
 
 ---
 
