@@ -225,6 +225,45 @@ All tests passed successfully!
 
 ---
 
+## 🌐 Deployment
+
+This application is ready for production deployment on **Streamlit Community Cloud**.
+
+### Local Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Launch the Streamlit application:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+### Streamlit Community Cloud Deployment
+1. **Repository Setup**: Push your code to your public GitHub repository.
+2. **Deploy App**:
+   - Go to [Streamlit Community Cloud](https://share.streamlit.io/).
+   - Click **Deploy** (or **New app**).
+   - Choose your repository, branch (`main`), and set the main file path to `streamlit_app.py`.
+   - Click **Deploy!**.
+3. **Secrets Configuration**:
+   - Open your app settings in the Streamlit Cloud dashboard.
+   - Go to the **Secrets** section.
+   - Add your API keys in TOML format:
+     ```toml
+     GEMINI_API_KEY = "your-api-key-here"
+     GROQ_API_KEY = "your-api-key-here"
+     ```
+   - Click **Save**. The application will automatically restart and read these secrets.
+4. **Updating Deployments**:
+   - Simply push any new commits to your GitHub repository (`git push origin main`).
+   - Streamlit Cloud will detect the updates and rebuild the container automatically.
+   - For detailed troubleshooting, see the [Deployment Guide](docs/deployment.md).
+
+---
+
+---
+
 ## 📊 What's Built So Far
 
 | Module | Status |
@@ -239,7 +278,7 @@ All tests passed successfully!
 | Mini-extension (Smart Column Detective) | ✅ Done |
 | Robust offline recovery & Mock mode | ✅ Done |
 | Local HuggingFace BGE embeddings (CPU) | ✅ Done |
-| Deployment | ⏳ Week 4 |
+| Deployment | ✅ Done |
 | ADRs (3 required: ADR-001, ADR-002, ADR-003) | ✅ Done |
 
 ---

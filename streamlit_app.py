@@ -16,6 +16,46 @@ from src.analytics.chart_generator import generate_charts
 from src.analytics.question_suggester import generate_suggestions
 from src.graph_builder.graph_builder import CopilotGraphBuilder
 
+@st.cache_data
+def ingest_csv_cached(csv_bytes, csv_name):
+    import io
+    ingester = DataIngester()
+    file_like = io.BytesIO(csv_bytes)
+    file_like.name = csv_name
+    return ingester.ingest(file_like)
+
+@st.cache_data
+def compute_kpis_cached(df, profile):
+    engine = AnalyticsEngine()
+    return engine.compute_kpis(df, profile)
+
+@st.cache_resource
+def generate_charts_cached(df, profile):
+    return generate_charts(df, profile)
+
+@st.cache_resource
+def get_vectorstore_from_pdf(pdf_bytes, pdf_name, chunk_size, chunk_overlap):
+    import tempfile
+    import os
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+        tmp.write(pdf_bytes)
+        tmp_path = tmp.name
+    try:
+        processor = DocumentProcessor(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap
+        )
+        docs = processor.load_from_pdf(tmp_path)
+        chunks = processor.split_documents(docs)
+        vs = VectorStore()
+        vs.create_vectorstore(chunks)
+        return vs
+    finally:
+        try:
+            os.unlink(tmp_path)
+        except Exception:
+            pass
+
 # ── Page config — must be first ─────────────────────────────────────────────
 st.set_page_config(
     page_title="Retail Copilot",
@@ -626,58 +666,39 @@ with st.sidebar:
         reset_for_new_upload()
 
         with st.spinner("Processing..."):
-            import os
-
-            # API key setup
-            if st.session_state.get("use_groq_toggle") and st.session_state.get("groq_api_key"):
-                os.environ["USE_GROQ"]   = "true"
-                os.environ["USE_GEMINI"] = "false"
-                os.environ["GROQ_API_KEY"] = st.session_state["groq_api_key"]
-            elif st.session_state.get("gemini_api_key"):
-                os.environ["USE_GEMINI"]    = "true"
-                os.environ["GEMINI_API_KEY"] = st.session_state["gemini_api_key"]
-                os.environ["GOOGLE_API_KEY"] = st.session_state["gemini_api_key"]
-
-            import importlib
-            import src.config.config as cfg_mod
-            importlib.reload(cfg_mod)
             from src.config.config import Config as Cfg
             st.session_state.llm = Cfg.get_llm()
 
             # Process CSV
             if csv_file:
                 try:
-                    ingester = DataIngester()
-                    df, profile = ingester.ingest(csv_file)
+                    csv_bytes = csv_file.getvalue()
+                    df, profile = ingest_csv_cached(csv_bytes, csv_file.name)
                     st.session_state.clean_df       = df
                     st.session_state.data_profile   = profile
                     st.session_state.csv_filename   = csv_file.name
-                    engine = AnalyticsEngine()
-                    st.session_state.kpis   = engine.compute_kpis(df, profile)
-                    st.session_state.charts = generate_charts(df, profile)
+                    st.session_state.kpis   = compute_kpis_cached(df, profile)
+                    st.session_state.charts = generate_charts_cached(df, profile)
                 except ValueError as e:
                     st.error(str(e))
 
             # Process PDF
-            vs = VectorStore()
+            vs = None
             if pdf_file:
-                import tempfile
-                with tempfile.NamedTemporaryFile(
-                    delete=False, suffix=".pdf"
-                ) as tmp:
-                    tmp.write(pdf_file.read())
-                    tmp_path = tmp.name
                 try:
-                    processor = DocumentProcessor(
-                        chunk_size=Cfg.CHUNK_SIZE,
-                        chunk_overlap=Cfg.CHUNK_OVERLAP
+                    pdf_bytes = pdf_file.getvalue()
+                    vs = get_vectorstore_from_pdf(
+                        pdf_bytes,
+                        pdf_file.name,
+                        Cfg.CHUNK_SIZE,
+                        Cfg.CHUNK_OVERLAP
                     )
-                    docs   = processor.load_from_pdf(tmp_path)
-                    chunks = processor.split_documents(docs)
-                    vs.create_vectorstore(chunks)
                     st.session_state.pdf_filename = pdf_file.name
-                finally:
-                    os.unlink(tmp_path)
+                except Exception as e:
+                    st.error(f"Failed to process PDF: {e}")
+                    vs = VectorStore()
+            else:
+                vs = VectorStore()
 
             st.session_state.vector_store = vs
 

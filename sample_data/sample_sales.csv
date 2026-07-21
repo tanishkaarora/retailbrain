@@ -1,0 +1,26 @@
+Order_ID,Order_Date,Customer_Name,Product,Category,Quantity,Unit_Price,Revenue,Profit
+101,2024-01-05,Arun,Laptop,Electronics,1,60000,60000,18000
+102,2024-01-06,Meena,Mouse,Accessories,2,500,1000,300
+103,2024-01-06,Karthik,Keyboard,Accessories,1,1200,1200,360
+104,2024-01-07,John,Laptop,Electronics,1,62000,62000,18600
+105,2024-01-08,Priya,Headphones,Electronics,2,3500,7000,2100
+106,2024-01-10,Ravi,Shirt,Clothing,3,800,2400,720
+107,2024-01-12,Sunita,Jeans,Clothing,2,1500,3000,900
+108,2024-01-15,Arun,Monitor,Electronics,1,15000,15000,4500
+109,2024-01-18,Meena,Rice 5kg,Food,4,350,1400,280
+110,2024-01-20,Vijay,Laptop,Electronics,2,61000,122000,36600
+111,2024-02-02,Priya,Mouse,Accessories,1,500,500,150
+112,2024-02-05,Karthik,Headphones,Electronics,1,3500,3500,1050
+113,2024-02-08,John,Shirt,Clothing,2,800,1600,480
+114,2024-02-10,Sunita,Monitor,Electronics,1,16000,16000,4800
+115,2024-02-14,Ravi,Keyboard,Accessories,3,1200,3600,1080
+116,2024-02-18,Arun,Rice 5kg,Food,6,350,2100,420
+117,2024-02-20,Meena,Jeans,Clothing,1,1500,1500,450
+118,2024-02-25,Vijay,Laptop,Electronics,1,63000,63000,18900
+119,2024-03-01,Priya,Headphones,Electronics,3,3500,10500,3150
+120,2024-03-05,Karthik,Monitor,Electronics,2,15500,31000,9300
+121,2024-03-08,John,Mouse,Accessories,4,500,2000,600
+122,2024-03-10,Sunita,Shirt,Clothing,3,800,2400,720
+123,2024-03-12,Ravi,Laptop,Electronics,1,64000,64000,19200
+124,2024-03-15,Arun,Rice 5kg,Food,5,350,1750,350
+125,2024-03-18,Meena,Keyboard,Accessories,2,1200,2400,720

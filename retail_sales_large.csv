@@ -1,0 +1,1501 @@
+Order_ID,Order_Date,Customer_Name,Product,Category,Quantity,Unit_Price,Revenue,Profit,Ship_Mode,Region
+1000,2024-11-23,Hannah Abbott,Keyboard,Electronics,2,80,162.83,43.9,Standard Class,East
+1001,2024-02-14,Luke Skywalker,T-Shirt,Apparel,1,25,25.01,7.92,Standard Class,West
+1002,2024-04-11,Ford Prefect,Jeans,Apparel,4,60,246.21,80.31,Standard Class,East
+1003,2024-08-04,Victor Stone,Premium Pens,Office Supplies,2,15,28.81,11.25,Same Day,Central
+1004,2024-07-02,Wanda Maximoff,Protein Bars Box,Food,1,30,31.42,6.13,Second Class,East
+1005,2024-10-09,Steve Rogers,Protein Bars Box,Food,5,30,143.19,27.08,Standard Class,East
+1006,2024-05-28,Fiona Gallagher,Office Chair,Furniture,4,250,966.27,140.75,Standard Class,Central
+1007,2024-12-09,Rachel Green,Monitor,Electronics,5,300,1494.34,356.4,Second Class,West
+1008,2024-11-23,Tricia McMillan,Dining Table,Furniture,3,500,1459.36,198.42,Second Class,East
+1009,2024-06-10,Zachary Levi,Notebook,Office Supplies,2,5,9.71,3.88,First Class,Central
+1010,2024-11-25,Leonard Hofstadter,Bookcase,Furniture,2,180,368.89,54.54,Standard Class,Central
+1011,2024-10-25,Zachary Levi,Premium Pens,Office Supplies,2,15,30.77,13.2,Standard Class,East
+1012,2024-03-19,Kevin Bacon,Socks Pack,Apparel,1,15,15.04,5.76,Standard Class,South
+1013,2024-01-06,Hannah Abbott,Protein Bars Box,Food,3,30,86.92,15.66,Standard Class,South
+1014,2024-05-14,Rajesh Koothrappali,Coffee Table,Furniture,1,150,155.13,23.31,First Class,Central
+1015,2024-04-11,Julia Roberts,Premium Pens,Office Supplies,5,15,75.74,30.23,Same Day,East
+1016,2024-02-27,Xavier Charles,Premium Pens,Office Supplies,1,15,14.38,5.74,Standard Class,East
+1017,2024-02-05,Ford Prefect,Desk,Furniture,4,400,1562.41,251.82,First Class,West
+1018,2024-08-04,Nancy Drew,Honey Jar,Food,2,18,37.78,7.78,Second Class,South
+1019,2024-08-12,Arthur Dent,T-Shirt,Apparel,2,25,47.61,16.84,Standard Class,Central
+1020,2024-10-28,Oscar Martinez,Smartphone,Electronics,1,800,828.77,189.41,Standard Class,East
+1021,2024-05-01,Rachel Green,Jeans,Apparel,5,60,292.29,101.75,Standard Class,South
+1022,2024-07-27,Michael Scott,Smartphone,Electronics,4,800,3189.45,833.89,Standard Class,South
+1023,2024-12-10,George Clark,Tablet,Electronics,3,450,1316.07,308.63,Second Class,East
+1024,2024-08-17,Ian Malcolm,Jeans,Apparel,3,60,178.98,67.17,Standard Class,East
+1025,2024-10-08,George Clark,Laptop,Electronics,1,1200,1159.96,289.16,First Class,West
+1026,2024-04-19,Zachary Levi,Monitor,Electronics,4,300,1171.82,309.6,Standard Class,South
+1027,2024-08-20,Steve Rogers,Baseball Cap,Apparel,5,20,96.55,32.42,Second Class,South
+1028,2024-01-30,Luke Skywalker,Coffee Beans 1kg,Food,3,25,75.02,16.06,Standard Class,South
+1029,2024-03-21,Diana Prince,Coffee Beans 1kg,Food,2,25,50.88,9.64,Standard Class,East
+1030,2024-03-02,Zaphod Beeblebrox,Coffee Table,Furniture,5,150,743.94,113.46,Standard Class,East
+1031,2024-09-24,Ursula Buffett,Premium Pens,Office Supplies,3,15,43.34,17.84,Standard Class,South
+1032,2024-08-22,Ursula Buffett,Laptop,Electronics,4,1200,4595.17,1082.89,Standard Class,East
+1033,2024-05-15,Ian Malcolm,Notebook,Office Supplies,2,5,9.94,4.01,Standard Class,West
+1034,2024-06-03,Han Solo,Coffee Beans 1kg,Food,5,25,130.49,24.19,Standard Class,East
+1035,2024-02-29,George Clark,Organic Tea,Food,3,12,36.78,6.92,Standard Class,West
+1036,2024-11-20,Quentin Tarantino,Snack Mix Pack,Food,3,15,43.17,8.5,First Class,East
+1037,2024-05-21,Charlie Brown,Mouse,Electronics,2,40,77.29,19.1,Standard Class,Central
+1038,2024-12-27,Bernadette Rosten,Coffee Beans 1kg,Food,1,25,25.11,5.36,Standard Class,West
+1039,2024-10-25,Tricia McMillan,Sofa,Furniture,2,750,1559.85,247.83,Standard Class,Central
+1040,2024-01-21,Wanda Maximoff,Dining Table,Furniture,2,500,1028.01,166.05,Second Class,Central
+1041,2024-07-27,Han Solo,Desk,Furniture,2,400,830.51,112.74,Same Day,West
+1042,2024-06-19,Amy Farrah,Bookcase,Furniture,2,180,355.77,48.44,Second Class,East
+1043,2024-08-28,Oscar Martinez,Sofa,Furniture,3,750,2187.66,338.65,Standard Class,West
+1044,2024-07-23,Victor Stone,Notebook,Office Supplies,3,5,15.27,6.53,Standard Class,South
+1045,2024-06-18,Bob Jones,Keyboard,Electronics,2,80,152.61,38.89,Standard Class,Central
+1046,2024-06-25,Ursula Buffett,Socks Pack,Apparel,5,15,73.16,26.68,Standard Class,West
+1047,2024-01-01,Arthur Dent,Honey Jar,Food,2,18,37.62,8.16,Standard Class,East
+1048,2024-11-15,Ursula Buffett,Keyboard,Electronics,5,80,393.05,102.14,Standard Class,South
+1049,2024-10-10,Ian Malcolm,Sofa,Furniture,4,750,3034.65,437.08,Second Class,West
+1050,2024-10-07,Alice Smith,Stapler,Office Supplies,2,12,23.92,9.46,Standard Class,Central
+1051,2024-04-19,Rajesh Koothrappali,Baseball Cap,Apparel,2,20,40.06,14.39,Second Class,Central
+1052,2024-06-20,Fiona Gallagher,Dining Table,Furniture,3,500,1447.1,197.36,Standard Class,West
+1053,2024-08-31,Han Solo,Smartwatch,Electronics,4,250,1021.83,249.53,First Class,West
+1054,2024-07-23,Pam Beesly,Dining Table,Furniture,1,500,513.92,72.75,First Class,East
+1055,2024-12-22,Arthur Dent,T-Shirt,Apparel,5,25,124.46,46.19,Standard Class,East
+1056,2024-12-07,Arthur Dent,Olive Oil 1L,Food,3,20,60.68,12.67,Same Day,South
+1057,2024-09-15,Bernadette Rosten,Snack Mix Pack,Food,2,15,29.85,6.27,Second Class,South
+1058,2024-11-22,Rachel Green,Snack Mix Pack,Food,2,15,30.64,5.8,Standard Class,East
+1059,2024-06-20,Ursula Buffett,Coffee Beans 1kg,Food,2,25,50.97,10.61,Standard Class,South
+1060,2024-02-02,Amy Farrah,Jacket,Apparel,5,120,582.41,200.59,Standard Class,East
+1061,2024-10-26,Bob Jones,Snack Mix Pack,Food,4,15,58.79,11.5,Standard Class,Central
+1062,2024-08-02,Ford Prefect,Olive Oil 1L,Food,2,20,39.74,7.2,Standard Class,Central
+1063,2024-06-21,Zachary Levi,Sofa,Furniture,2,750,1561.04,238.46,Same Day,East
+1064,2024-12-05,Bob Jones,Tablet,Electronics,2,450,859.53,209.69,First Class,West
+1065,2024-04-18,Leonard Hofstadter,Stapler,Office Supplies,4,12,46.81,17.16,Standard Class,South
+1066,2024-01-10,Ford Prefect,Mouse,Electronics,2,40,82.03,22.35,Second Class,East
+1067,2024-04-12,Bob Jones,Organic Tea,Food,2,12,24.15,4.56,Standard Class,East
+1068,2024-12-24,Quentin Tarantino,Premium Pens,Office Supplies,5,15,77.08,28.76,Standard Class,East
+1069,2024-06-08,George Clark,Coffee Beans 1kg,Food,3,25,74.22,15.48,Standard Class,South
+1070,2024-02-08,Luke Skywalker,Office Chair,Furniture,3,250,772.22,117.36,First Class,East
+1071,2024-01-22,Wanda Maximoff,Snack Mix Pack,Food,3,15,42.81,8.43,Standard Class,Central
+1072,2024-09-07,George Clark,Jacket,Apparel,4,120,464.45,163.26,Second Class,South
+1073,2024-11-29,Rachel Green,Olive Oil 1L,Food,4,20,78.58,14.92,Standard Class,Central
+1074,2024-02-14,Rachel Green,Jeans,Apparel,4,60,236.07,82.53,Standard Class,South
+1075,2024-06-15,Laura Croft,Jeans,Apparel,3,60,176.03,62.8,Second Class,Central
+1076,2024-05-21,Tricia McMillan,Headphones,Electronics,1,150,149.83,39.39,Standard Class,South
+1077,2024-12-19,Sheldon Cooper,Sneakers,Apparel,1,90,89.14,29.6,Standard Class,West
+1078,2024-12-05,Luke Skywalker,File Folders,Office Supplies,5,10,52.48,21.2,Standard Class,South
+1079,2024-06-29,Leonard Hofstadter,Stapler,Office Supplies,3,12,35.34,14.82,Standard Class,West
+1080,2024-12-19,Laura Croft,Desk,Furniture,4,400,1676.88,268.27,Standard Class,Central
+1081,2024-05-31,Oscar Martinez,Premium Pens,Office Supplies,3,15,43.98,19.26,Standard Class,West
+1082,2024-10-10,Steve Rogers,Dining Table,Furniture,4,500,2014.81,300.37,Standard Class,East
+1083,2024-08-13,Victor Stone,Office Chair,Furniture,3,250,721.06,98.76,First Class,South
+1084,2024-09-08,Evan Wright,Honey Jar,Food,1,18,17.25,3.28,Standard Class,Central
+1085,2024-10-12,Amy Farrah,Olive Oil 1L,Food,5,20,99.51,19.67,Standard Class,South
+1086,2024-10-28,Bernadette Rosten,Paper Shredder,Office Supplies,5,90,470.14,177.07,Standard Class,East
+1087,2024-04-18,Quentin Tarantino,Monitor,Electronics,2,300,579.39,142.2,Standard Class,East
+1088,2024-12-18,Leia Organa,Jacket,Apparel,1,120,122.44,42.46,Standard Class,Central
+1089,2024-12-17,Oscar Martinez,Whiteboard,Office Supplies,5,60,297.75,120.16,Second Class,West
+1090,2024-11-27,Julia Roberts,Premium Pens,Office Supplies,1,15,15.14,6.45,Standard Class,Central
+1091,2024-05-27,Howard Wolowitz,Smartwatch,Electronics,3,250,750.04,187.28,Second Class,Central
+1092,2024-02-11,Leia Organa,Tablet,Electronics,3,450,1294.83,353.61,Standard Class,East
+1093,2024-10-21,Luke Skywalker,Keyboard,Electronics,5,80,398.82,102.73,Standard Class,West
+1094,2024-05-22,Laura Croft,Snack Mix Pack,Food,4,15,59.09,11.42,Same Day,South
+1095,2024-12-09,George Clark,Bookcase,Furniture,4,180,731.71,107.57,Second Class,Central
+1096,2024-10-08,Charlie Brown,T-Shirt,Apparel,3,25,78.53,26.96,Standard Class,East
+1097,2024-09-20,Alice Smith,Snack Mix Pack,Food,4,15,60.74,12.14,Standard Class,Central
+1098,2024-08-14,Diana Prince,Bookcase,Furniture,5,180,894.43,139.48,Standard Class,Central
+1099,2024-03-03,Bob Jones,Organic Tea,Food,2,12,24.13,4.43,Standard Class,East
+1100,2024-02-28,Leonard Hofstadter,Monitor,Electronics,4,300,1201.06,286.66,First Class,Central
+1101,2024-09-04,Sheldon Cooper,Sofa,Furniture,5,750,3908.2,587.2,Standard Class,West
+1102,2024-03-10,Evan Wright,File Folders,Office Supplies,3,10,30.96,11.85,First Class,Central
+1103,2024-06-01,Luke Skywalker,Honey Jar,Food,4,18,72.28,14.01,First Class,South
+1104,2024-10-09,Ford Prefect,Sneakers,Apparel,3,90,271.94,90.11,First Class,West
+1105,2024-07-29,Charlie Brown,Whiteboard,Office Supplies,4,60,237.27,98.02,Second Class,South
+1106,2024-11-29,Julia Roberts,T-Shirt,Apparel,2,25,51.85,19.51,Standard Class,Central
+1107,2024-08-13,George Clark,Snack Mix Pack,Food,1,15,15.56,3.4,Second Class,South
+1108,2024-02-08,Sheldon Cooper,Stapler,Office Supplies,5,12,62.11,26.59,Second Class,East
+1109,2024-09-30,Yolanda Adams,Whiteboard,Office Supplies,4,60,242.82,91.98,First Class,East
+1110,2024-12-16,Steve Rogers,Dining Table,Furniture,1,500,513.02,80.09,Standard Class,East
+1111,2024-02-21,Howard Wolowitz,Dining Table,Furniture,3,500,1473.66,201.43,First Class,East
+1112,2024-07-02,Xavier Charles,Jeans,Apparel,2,60,116.04,37.19,Standard Class,West
+1113,2024-07-14,Han Solo,Sofa,Furniture,5,750,3801.71,565.65,Standard Class,South
+1114,2024-12-07,Alice Smith,Jacket,Apparel,5,120,626.71,240.74,Standard Class,South
+1115,2024-06-02,Bernadette Rosten,File Folders,Office Supplies,3,10,31.06,11.45,Standard Class,South
+1116,2024-07-14,Zaphod Beeblebrox,Paper Shredder,Office Supplies,3,90,257.09,109.62,Same Day,Central
+1117,2024-07-21,Rachel Green,Laptop,Electronics,5,1200,6165.44,1458.16,Second Class,Central
+1118,2024-06-29,Oscar Martinez,Coffee Table,Furniture,3,150,455.77,73.88,Second Class,West
+1119,2024-11-26,Charlie Brown,File Folders,Office Supplies,1,10,9.59,3.68,Standard Class,West
+1120,2024-07-31,Laura Croft,Desk,Furniture,5,400,2006.17,325.81,First Class,Central
+1121,2024-03-25,Quentin Tarantino,Jacket,Apparel,3,120,376.66,122.36,Second Class,South
+1122,2024-04-25,Zachary Levi,Protein Bars Box,Food,1,30,29.29,5.42,Second Class,East
+1123,2024-07-07,Quentin Tarantino,Snack Mix Pack,Food,3,15,44.87,9.19,Standard Class,West
+1124,2024-10-14,Ursula Buffett,Organic Tea,Food,1,12,12.49,2.4,Standard Class,South
+1125,2024-07-28,Hannah Abbott,Office Chair,Furniture,1,250,240.4,34.15,Standard Class,South
+1126,2024-10-02,Ian Malcolm,Sneakers,Apparel,3,90,272.36,99.65,Second Class,South
+1127,2024-07-31,George Clark,Socks Pack,Apparel,4,15,57.2,19.5,First Class,Central
+1128,2024-08-15,Howard Wolowitz,Bookcase,Furniture,1,180,180.8,29.71,Same Day,Central
+1129,2024-07-02,Diana Prince,Jacket,Apparel,2,120,230.2,75.93,Same Day,South
+1130,2024-11-23,Leia Organa,Laptop,Electronics,3,1200,3703.31,871.24,Standard Class,West
+1131,2024-10-10,Nancy Drew,Organic Tea,Food,2,12,24.69,5.03,Standard Class,West
+1132,2024-05-21,Julia Roberts,Coffee Table,Furniture,3,150,457.25,62.08,Second Class,East
+1133,2024-01-08,Wanda Maximoff,Coffee Table,Furniture,3,150,429.86,67.6,Standard Class,Central
+1134,2024-09-26,Hannah Abbott,Smartwatch,Electronics,4,250,995.2,234.94,Second Class,East
+1135,2024-11-10,Charlie Brown,Protein Bars Box,Food,4,30,114.73,22.85,Standard Class,East
+1136,2024-07-24,Bernadette Rosten,Smartwatch,Electronics,4,250,982.21,228.28,Standard Class,East
+1137,2024-03-05,Rachel Green,Honey Jar,Food,5,18,88.93,18.13,Standard Class,Central
+1138,2024-05-30,Leonard Hofstadter,Olive Oil 1L,Food,4,20,82.82,17.06,Standard Class,East
+1139,2024-10-09,Nancy Drew,Sneakers,Apparel,2,90,178.18,65.23,Standard Class,South
+1140,2024-06-09,Bernadette Rosten,Whiteboard,Office Supplies,3,60,183.36,72.97,Standard Class,West
+1141,2024-02-16,Fiona Gallagher,Tablet,Electronics,1,450,464.03,117.32,Second Class,Central
+1142,2024-10-27,Tricia McMillan,Protein Bars Box,Food,1,30,31.1,6.49,Standard Class,South
+1143,2024-05-27,Leia Organa,Stapler,Office Supplies,1,12,11.59,4.62,Standard Class,West
+1144,2024-02-25,Wanda Maximoff,Protein Bars Box,Food,1,30,30.92,6.61,Second Class,West
+1145,2024-11-14,Han Solo,Coffee Beans 1kg,Food,5,25,119.11,22.74,First Class,Central
+1146,2024-06-07,Victor Stone,Notebook,Office Supplies,2,5,9.57,4.01,First Class,South
+1147,2024-01-16,Fiona Gallagher,Organic Tea,Food,4,12,46.36,8.92,Standard Class,Central
+1148,2024-06-15,Zaphod Beeblebrox,Coffee Beans 1kg,Food,1,25,25.43,4.85,Standard Class,East
+1149,2024-12-04,Bernadette Rosten,Socks Pack,Apparel,4,15,61.53,19.87,Standard Class,West
+1150,2024-08-08,Hannah Abbott,Whiteboard,Office Supplies,5,60,286.36,112.14,Standard Class,Central
+1151,2024-11-02,Diana Prince,Headphones,Electronics,3,150,461.89,110.61,First Class,West
+1152,2024-03-02,Alice Smith,Baseball Cap,Apparel,4,20,80.26,26.57,Standard Class,South
+1153,2024-10-13,Wanda Maximoff,Tablet,Electronics,1,450,468.95,125.73,Standard Class,South
+1154,2024-10-21,Bernadette Rosten,Snack Mix Pack,Food,4,15,57.13,11.03,Standard Class,South
+1155,2024-11-12,Leonard Hofstadter,Notebook,Office Supplies,4,5,19.87,7.79,Second Class,West
+1156,2024-02-10,Zachary Levi,Whiteboard,Office Supplies,3,60,172.37,70.79,Standard Class,West
+1157,2024-09-28,Rajesh Koothrappali,Bookcase,Furniture,3,180,525.76,73.29,Second Class,West
+1158,2024-04-11,Laura Croft,Organic Tea,Food,1,12,11.96,2.42,Standard Class,South
+1159,2024-10-23,Howard Wolowitz,Honey Jar,Food,5,18,86.86,15.87,Standard Class,Central
+1160,2024-08-14,Tony Stark,Paper Shredder,Office Supplies,1,90,88.29,34.98,Standard Class,East
+1161,2024-01-30,Xavier Charles,Notebook,Office Supplies,1,5,4.98,2.01,Standard Class,South
+1162,2024-01-22,Howard Wolowitz,Honey Jar,Food,2,18,36.0,7.86,Standard Class,South
+1163,2024-08-18,George Clark,Whiteboard,Office Supplies,1,60,57.23,23.84,Standard Class,West
+1164,2024-08-12,Arthur Dent,Olive Oil 1L,Food,2,20,39.55,8.34,Standard Class,Central
+1165,2024-12-13,Leia Organa,Mouse,Electronics,1,40,39.14,10.22,Standard Class,South
+1166,2024-12-02,Leia Organa,Bookcase,Furniture,1,180,187.5,27.06,Standard Class,West
+1167,2024-12-01,Zachary Levi,Coffee Table,Furniture,1,150,152.15,22.04,Standard Class,South
+1168,2024-03-06,Arthur Dent,Tablet,Electronics,5,450,2206.99,601.53,Standard Class,Central
+1169,2024-06-23,Penny Hofstadter,Desk,Furniture,2,400,827.55,114.23,Standard Class,Central
+1170,2024-10-03,Arthur Dent,Mouse,Electronics,5,40,193.09,45.19,Standard Class,South
+1171,2024-12-20,Han Solo,Dining Table,Furniture,4,500,2035.27,289.26,Standard Class,Central
+1172,2024-08-15,Han Solo,Whiteboard,Office Supplies,4,60,235.43,99.98,Standard Class,West
+1173,2024-08-28,Michael Scott,Whiteboard,Office Supplies,5,60,308.08,130.09,Same Day,South
+1174,2024-09-14,Arthur Dent,Jeans,Apparel,2,60,124.48,39.67,Second Class,West
+1175,2024-09-03,Xavier Charles,Coffee Beans 1kg,Food,5,25,119.8,22.33,First Class,Central
+1176,2024-08-18,Rajesh Koothrappali,Sofa,Furniture,1,750,773.75,124.99,First Class,West
+1177,2024-01-14,Amy Farrah,Tablet,Electronics,5,450,2361.27,575.55,Standard Class,South
+1178,2024-01-15,Ursula Buffett,Mouse,Electronics,2,40,83.34,20.72,Standard Class,Central
+1179,2024-03-12,Sheldon Cooper,Socks Pack,Apparel,1,15,14.63,5.46,First Class,East
+1180,2024-10-07,Leia Organa,Snack Mix Pack,Food,1,15,14.7,2.67,Second Class,West
+1181,2024-08-02,Han Solo,T-Shirt,Apparel,1,25,25.24,7.98,Second Class,South
+1182,2024-09-20,Zaphod Beeblebrox,Dining Table,Furniture,2,500,1011.48,143.85,Standard Class,East
+1183,2024-08-01,Laura Croft,Mouse,Electronics,1,40,39.56,9.83,Same Day,East
+1184,2024-11-21,Yolanda Adams,Stapler,Office Supplies,1,12,11.81,4.94,Standard Class,East
+1185,2024-11-17,George Clark,Honey Jar,Food,3,18,54.25,11.53,Standard Class,Central
+1186,2024-03-30,Leonard Hofstadter,Baseball Cap,Apparel,2,20,40.86,15.57,Second Class,East
+1187,2024-01-19,Steve Rogers,Office Chair,Furniture,2,250,521.67,78.49,First Class,Central
+1188,2024-10-05,Sheldon Cooper,Notebook,Office Supplies,2,5,10.37,4.01,Standard Class,East
+1189,2024-03-04,Xavier Charles,Sneakers,Apparel,4,90,354.21,116.21,First Class,South
+1190,2024-12-20,Penny Hofstadter,Paper Shredder,Office Supplies,3,90,258.63,105.57,Second Class,South
+1191,2024-04-02,Ford Prefect,Stapler,Office Supplies,1,12,11.77,4.8,Standard Class,Central
+1192,2024-08-06,Kevin Bacon,Jacket,Apparel,4,120,485.51,167.72,Standard Class,Central
+1193,2024-11-23,Diana Prince,Tablet,Electronics,3,450,1411.13,327.58,Standard Class,West
+1194,2024-11-07,Howard Wolowitz,Monitor,Electronics,1,300,295.86,80.61,Standard Class,Central
+1195,2024-01-17,Leia Organa,Dining Table,Furniture,4,500,1988.79,273.07,First Class,Central
+1196,2024-03-11,Arthur Dent,File Folders,Office Supplies,3,10,31.38,11.36,Standard Class,West
+1197,2024-04-05,Penny Hofstadter,Snack Mix Pack,Food,5,15,76.53,14.43,Standard Class,Central
+1198,2024-11-09,Steve Rogers,Jeans,Apparel,1,60,59.71,22.56,Standard Class,East
+1199,2024-08-15,Fiona Gallagher,Whiteboard,Office Supplies,3,60,187.04,80.07,Second Class,Central
+1200,2024-12-30,Laura Croft,Paper Shredder,Office Supplies,2,90,185.26,70.2,Standard Class,West
+1201,2024-09-09,Bob Jones,Paper Shredder,Office Supplies,5,90,455.04,166.95,Standard Class,West
+1202,2024-06-07,Zachary Levi,Socks Pack,Apparel,4,15,57.75,19.47,Second Class,East
+1203,2024-02-07,Howard Wolowitz,Baseball Cap,Apparel,5,20,102.68,33.27,Standard Class,West
+1204,2024-09-14,Diana Prince,Monitor,Electronics,3,300,939.13,221.89,Standard Class,Central
+1205,2024-09-22,Steve Rogers,Keyboard,Electronics,2,80,154.0,36.98,Standard Class,Central
+1206,2024-09-30,Fiona Gallagher,Honey Jar,Food,2,18,34.82,7.14,Standard Class,West
+1207,2024-11-05,Victor Stone,Coffee Beans 1kg,Food,1,25,25.38,5.35,Standard Class,Central
+1208,2024-08-01,Han Solo,Smartwatch,Electronics,5,250,1247.87,330.98,Standard Class,Central
+1209,2024-12-16,Zachary Levi,File Folders,Office Supplies,1,10,9.94,3.96,Second Class,West
+1210,2024-04-14,Victor Stone,Organic Tea,Food,3,12,36.84,7.9,First Class,Central
+1211,2024-07-23,Ian Malcolm,Paper Shredder,Office Supplies,5,90,448.49,171.05,Standard Class,West
+1212,2024-05-06,Julia Roberts,Laptop,Electronics,3,1200,3509.38,941.45,First Class,South
+1213,2024-03-22,Ursula Buffett,Honey Jar,Food,3,18,53.99,10.83,Standard Class,West
+1214,2024-09-12,Tony Stark,T-Shirt,Apparel,1,25,26.17,8.64,First Class,South
+1215,2024-06-29,Diana Prince,Keyboard,Electronics,4,80,313.14,70.58,Standard Class,South
+1216,2024-02-25,Bernadette Rosten,Bookcase,Furniture,3,180,515.44,70.38,Second Class,Central
+1217,2024-10-14,Michael Scott,Paper Shredder,Office Supplies,3,90,277.14,105.97,Standard Class,South
+1218,2024-11-15,Han Solo,Monitor,Electronics,1,300,301.73,73.4,Standard Class,Central
+1219,2024-03-14,Michael Scott,Olive Oil 1L,Food,4,20,76.31,15.91,Standard Class,East
+1220,2024-08-30,Arthur Dent,Jeans,Apparel,5,60,294.84,105.53,First Class,West
+1221,2024-03-24,Zachary Levi,Honey Jar,Food,3,18,55.13,10.58,Standard Class,South
+1222,2024-01-09,Xavier Charles,Whiteboard,Office Supplies,1,60,61.78,25.83,Same Day,Central
+1223,2024-12-18,Bob Jones,Snack Mix Pack,Food,3,15,46.0,9.35,Same Day,West
+1224,2024-03-28,Arthur Dent,Snack Mix Pack,Food,2,15,28.59,6.23,Second Class,West
+1225,2024-02-26,Michael Scott,Smartwatch,Electronics,3,250,764.29,187.65,Standard Class,South
+1226,2024-11-09,Sheldon Cooper,Monitor,Electronics,5,300,1574.72,391.98,Standard Class,Central
+1227,2024-07-11,Ursula Buffett,Sofa,Furniture,5,750,3815.95,614.48,Standard Class,Central
+1228,2024-12-14,Quentin Tarantino,Snack Mix Pack,Food,2,15,30.17,5.7,Same Day,Central
+1229,2024-06-01,Steve Rogers,Dining Table,Furniture,4,500,2012.1,328.04,Standard Class,Central
+1230,2024-05-20,Steve Rogers,Tablet,Electronics,4,450,1762.28,421.86,Second Class,West
+1231,2024-12-31,Fiona Gallagher,File Folders,Office Supplies,3,10,29.11,11.73,Second Class,West
+1232,2024-10-14,Rachel Green,Office Chair,Furniture,5,250,1217.81,188.88,Second Class,West
+1233,2024-09-28,Oscar Martinez,Office Chair,Furniture,1,250,240.01,37.95,Standard Class,South
+1234,2024-01-03,Tricia McMillan,Sofa,Furniture,4,750,3076.77,441.88,Standard Class,West
+1235,2024-05-26,Diana Prince,Headphones,Electronics,5,150,780.99,182.56,Second Class,East
+1236,2024-03-31,Charlie Brown,Sneakers,Apparel,2,90,186.78,58.96,First Class,Central
+1237,2024-10-17,Leia Organa,Mouse,Electronics,3,40,124.67,28.89,Standard Class,South
+1238,2024-09-15,Leonard Hofstadter,Premium Pens,Office Supplies,1,15,15.22,6.35,Standard Class,South
+1239,2024-01-08,Victor Stone,Paper Shredder,Office Supplies,2,90,185.89,74.58,Standard Class,South
+1240,2024-02-14,Zachary Levi,Monitor,Electronics,2,300,570.41,139.28,Standard Class,West
+1241,2024-08-16,Rachel Green,Stapler,Office Supplies,5,12,58.57,22.77,Second Class,East
+1242,2024-04-30,Diana Prince,Smartwatch,Electronics,3,250,764.27,196.37,Standard Class,Central
+1243,2024-05-31,Xavier Charles,Organic Tea,Food,2,12,23.17,4.86,Same Day,South
+1244,2024-11-06,Xavier Charles,Baseball Cap,Apparel,5,20,102.62,37.21,First Class,West
+1245,2024-11-01,Fiona Gallagher,Snack Mix Pack,Food,5,15,78.13,14.41,Second Class,East
+1246,2024-10-07,Rajesh Koothrappali,Coffee Table,Furniture,5,150,776.59,115.13,Standard Class,Central
+1247,2024-12-14,Nancy Drew,Snack Mix Pack,Food,1,15,15.46,3.06,First Class,South
+1248,2024-09-19,Amy Farrah,Socks Pack,Apparel,1,15,15.33,5.25,Standard Class,Central
+1249,2024-01-02,Nancy Drew,Coffee Beans 1kg,Food,1,25,25.1,4.58,Standard Class,East
+1250,2024-02-05,Sheldon Cooper,Keyboard,Electronics,4,80,328.51,89.98,Standard Class,West
+1251,2024-11-26,Amy Farrah,File Folders,Office Supplies,4,10,39.5,16.38,First Class,South
+1252,2024-12-04,Ford Prefect,Dining Table,Furniture,3,500,1504.33,235.93,Standard Class,South
+1253,2024-04-24,Alice Smith,Keyboard,Electronics,4,80,321.02,85.45,Second Class,South
+1254,2024-05-06,Leonard Hofstadter,Premium Pens,Office Supplies,3,15,42.89,17.71,Standard Class,East
+1255,2024-11-10,Bob Jones,Desk,Furniture,1,400,397.86,61.73,Standard Class,East
+1256,2024-01-25,Pam Beesly,Tablet,Electronics,4,450,1845.79,486.93,Standard Class,West
+1257,2024-03-12,Rajesh Koothrappali,Premium Pens,Office Supplies,5,15,73.03,31.41,Standard Class,Central
+1258,2024-12-04,Arthur Dent,Sofa,Furniture,3,750,2278.35,336.78,Standard Class,West
+1259,2024-09-10,Diana Prince,Whiteboard,Office Supplies,4,60,244.71,96.09,Second Class,Central
+1260,2024-06-02,Yolanda Adams,Coffee Table,Furniture,4,150,588.04,91.87,Standard Class,West
+1261,2024-08-25,Diana Prince,Snack Mix Pack,Food,4,15,59.33,11.28,Standard Class,West
+1262,2024-06-18,Fiona Gallagher,Jacket,Apparel,1,120,114.62,39.13,Standard Class,West
+1263,2024-11-05,Leia Organa,Smartphone,Electronics,2,800,1596.7,428.67,Second Class,West
+1264,2024-06-19,Tony Stark,Headphones,Electronics,2,150,307.41,80.76,Same Day,East
+1265,2024-05-04,Leia Organa,Sofa,Furniture,2,750,1482.1,223.81,Standard Class,Central
+1266,2024-07-02,Tony Stark,Stapler,Office Supplies,5,12,57.59,25.25,First Class,South
+1267,2024-08-28,Ursula Buffett,Bookcase,Furniture,3,180,553.03,74.93,Standard Class,West
+1268,2024-10-10,Luke Skywalker,Honey Jar,Food,4,18,70.78,13.82,Standard Class,West
+1269,2024-05-05,Penny Hofstadter,Honey Jar,Food,3,18,56.52,11.62,Standard Class,South
+1270,2024-09-08,Leonard Hofstadter,Dining Table,Furniture,3,500,1452.61,234.86,Standard Class,South
+1271,2024-11-24,Diana Prince,Coffee Beans 1kg,Food,1,25,25.66,5.04,First Class,East
+1272,2024-11-18,Oscar Martinez,Monitor,Electronics,1,300,296.2,75.8,Standard Class,South
+1273,2024-12-07,Han Solo,Baseball Cap,Apparel,4,20,76.09,26.79,Standard Class,South
+1274,2024-05-20,Ford Prefect,Notebook,Office Supplies,5,5,25.77,11.15,Second Class,South
+1275,2024-02-24,George Clark,Organic Tea,Food,2,12,24.76,4.72,Standard Class,Central
+1276,2024-07-22,Fiona Gallagher,File Folders,Office Supplies,4,10,39.2,16.71,Standard Class,West
+1277,2024-02-11,Charlie Brown,Tablet,Electronics,4,450,1720.1,387.84,Standard Class,South
+1278,2024-03-28,Fiona Gallagher,Sneakers,Apparel,3,90,280.66,106.47,Standard Class,East
+1279,2024-04-27,Nancy Drew,Snack Mix Pack,Food,3,15,45.83,8.76,Standard Class,East
+1280,2024-10-05,Zaphod Beeblebrox,Monitor,Electronics,3,300,907.83,238.41,Standard Class,West
+1281,2024-12-30,Zachary Levi,Keyboard,Electronics,2,80,162.83,41.04,Standard Class,South
+1282,2024-07-15,Ian Malcolm,Mouse,Electronics,1,40,41.35,10.01,Standard Class,West
+1283,2024-11-10,Leia Organa,Jacket,Apparel,1,120,119.89,40.75,Standard Class,South
+1284,2024-07-11,Bernadette Rosten,Dining Table,Furniture,5,500,2568.04,369.44,Second Class,East
+1285,2024-05-06,Evan Wright,Keyboard,Electronics,2,80,163.83,39.46,Standard Class,West
+1286,2024-02-24,Fiona Gallagher,Keyboard,Electronics,4,80,307.27,70.48,Standard Class,Central
+1287,2024-08-08,Howard Wolowitz,Olive Oil 1L,Food,5,20,95.9,19.39,Standard Class,East
+1288,2024-11-01,Leia Organa,File Folders,Office Supplies,1,10,10.28,4.3,Standard Class,South
+1289,2024-10-13,Pam Beesly,Olive Oil 1L,Food,2,20,38.56,7.41,Second Class,West
+1290,2024-09-09,Julia Roberts,Monitor,Electronics,4,300,1198.11,274.18,Standard Class,Central
+1291,2024-05-08,Pam Beesly,Socks Pack,Apparel,5,15,72.27,22.8,Standard Class,East
+1292,2024-07-21,Victor Stone,Snack Mix Pack,Food,3,15,46.42,9.95,Standard Class,South
+1293,2024-10-31,Ian Malcolm,Stapler,Office Supplies,5,12,59.87,22.4,First Class,West
+1294,2024-07-22,Ursula Buffett,Whiteboard,Office Supplies,4,60,235.82,90.18,Same Day,West
+1295,2024-07-20,Xavier Charles,Headphones,Electronics,5,150,763.63,192.82,Same Day,West
+1296,2024-08-24,Nancy Drew,Jacket,Apparel,1,120,122.08,39.64,Second Class,South
+1297,2024-06-04,Pam Beesly,Whiteboard,Office Supplies,2,60,114.89,50.47,Second Class,South
+1298,2024-09-02,Luke Skywalker,Socks Pack,Apparel,5,15,75.33,27.9,First Class,South
+1299,2024-07-03,Ford Prefect,Honey Jar,Food,1,18,18.28,3.55,Standard Class,West
+1300,2024-11-27,Han Solo,Tablet,Electronics,3,450,1296.8,298.17,Same Day,South
+1301,2024-04-23,Rajesh Koothrappali,Olive Oil 1L,Food,5,20,99.46,19.46,Second Class,West
+1302,2024-12-13,Luke Skywalker,Organic Tea,Food,3,12,34.58,6.8,Same Day,South
+1303,2024-02-13,Hannah Abbott,Bookcase,Furniture,3,180,541.14,78.71,Standard Class,West
+1304,2024-02-19,Howard Wolowitz,Jacket,Apparel,1,120,114.27,38.74,Standard Class,East
+1305,2024-02-25,Kevin Bacon,Coffee Table,Furniture,2,150,301.8,49.42,Standard Class,Central
+1306,2024-04-28,Zachary Levi,Desk,Furniture,4,400,1591.93,235.43,Standard Class,West
+1307,2024-01-03,Nancy Drew,Bookcase,Furniture,1,180,177.58,25.02,Standard Class,West
+1308,2024-02-28,Quentin Tarantino,Socks Pack,Apparel,3,15,45.39,15.4,Standard Class,South
+1309,2024-08-22,Han Solo,Dining Table,Furniture,3,500,1525.82,220.32,First Class,East
+1310,2024-05-02,Tony Stark,Monitor,Electronics,3,300,892.64,207.0,Second Class,South
+1311,2024-07-15,Bernadette Rosten,Sofa,Furniture,5,750,3770.59,564.42,Second Class,West
+1312,2024-03-12,Laura Croft,File Folders,Office Supplies,5,10,52.26,20.84,Standard Class,Central
+1313,2024-04-09,Yolanda Adams,Olive Oil 1L,Food,4,20,79.33,16.94,Standard Class,South
+1314,2024-09-07,Kevin Bacon,Laptop,Electronics,2,1200,2333.96,558.83,Standard Class,Central
+1315,2024-08-22,Zaphod Beeblebrox,Socks Pack,Apparel,5,15,73.26,25.86,Standard Class,East
+1316,2024-07-06,Ford Prefect,Smartwatch,Electronics,5,250,1200.3,319.88,Standard Class,South
+1317,2024-05-06,Tony Stark,Smartwatch,Electronics,3,250,745.43,204.77,Standard Class,East
+1318,2024-05-01,Nancy Drew,Honey Jar,Food,3,18,52.2,9.69,First Class,South
+1319,2024-04-15,Nancy Drew,Mouse,Electronics,5,40,196.47,51.12,Standard Class,West
+1320,2024-05-28,Zaphod Beeblebrox,Paper Shredder,Office Supplies,1,90,93.77,41.2,Standard Class,South
+1321,2024-12-01,Ian Malcolm,Desk,Furniture,2,400,820.92,127.48,Second Class,West
+1322,2024-09-07,Julia Roberts,Honey Jar,Food,3,18,53.74,11.04,Standard Class,South
+1323,2024-02-17,Zachary Levi,Honey Jar,Food,3,18,53.76,10.73,Second Class,Central
+1324,2024-10-24,Alice Smith,Smartwatch,Electronics,3,250,728.84,179.65,First Class,South
+1325,2024-04-18,Penny Hofstadter,Stapler,Office Supplies,3,12,36.24,14.45,Standard Class,West
+1326,2024-06-24,Diana Prince,Smartphone,Electronics,4,800,3181.21,715.88,Standard Class,West
+1327,2024-08-07,Michael Scott,Dining Table,Furniture,3,500,1439.0,209.82,Standard Class,Central
+1328,2024-02-12,Xavier Charles,Office Chair,Furniture,4,250,992.92,136.76,Standard Class,West
+1329,2024-02-18,Alice Smith,Sofa,Furniture,1,750,751.46,111.48,Standard Class,West
+1330,2024-01-05,Victor Stone,Tablet,Electronics,2,450,889.48,232.63,Standard Class,West
+1331,2024-02-22,George Clark,Stapler,Office Supplies,3,12,36.51,15.12,Standard Class,West
+1332,2024-02-05,Arthur Dent,Coffee Beans 1kg,Food,5,25,123.14,23.21,Second Class,South
+1333,2024-03-18,Amy Farrah,Honey Jar,Food,4,18,74.86,13.89,First Class,East
+1334,2024-03-04,Luke Skywalker,Jacket,Apparel,4,120,467.89,168.5,Standard Class,West
+1335,2024-05-07,Tricia McMillan,Olive Oil 1L,Food,5,20,103.48,21.35,Standard Class,East
+1336,2024-06-03,Nancy Drew,Olive Oil 1L,Food,5,20,97.96,17.85,Standard Class,South
+1337,2024-05-02,Penny Hofstadter,T-Shirt,Apparel,2,25,50.14,19.23,Standard Class,East
+1338,2024-07-03,Ursula Buffett,Sofa,Furniture,5,750,3848.52,629.75,Standard Class,West
+1339,2024-02-07,Bob Jones,Coffee Beans 1kg,Food,1,25,26.06,5.68,Standard Class,East
+1340,2024-07-22,Rajesh Koothrappali,Whiteboard,Office Supplies,5,60,306.05,112.2,Second Class,South
+1341,2024-10-01,Ford Prefect,Organic Tea,Food,3,12,36.04,6.78,Standard Class,East
+1342,2024-03-20,Ford Prefect,File Folders,Office Supplies,5,10,49.05,19.37,Standard Class,East
+1343,2024-05-02,Diana Prince,Office Chair,Furniture,4,250,980.93,154.25,Standard Class,East
+1344,2024-03-30,Hannah Abbott,Monitor,Electronics,1,300,300.69,79.43,Standard Class,Central
+1345,2024-05-12,Kevin Bacon,Premium Pens,Office Supplies,3,15,46.22,16.75,Second Class,East
+1346,2024-08-07,Rachel Green,Coffee Beans 1kg,Food,3,25,74.97,15.03,Second Class,East
+1347,2024-01-29,Penny Hofstadter,Organic Tea,Food,3,12,37.42,7.74,Standard Class,East
+1348,2024-02-29,Oscar Martinez,Coffee Beans 1kg,Food,1,25,24.36,4.84,First Class,East
+1349,2024-07-15,Julia Roberts,Office Chair,Furniture,5,250,1215.56,173.15,Second Class,South
+1350,2024-06-12,Rachel Green,Mouse,Electronics,1,40,38.72,10.27,Standard Class,East
+1351,2024-01-24,Zachary Levi,Smartwatch,Electronics,3,250,737.05,186.22,Second Class,Central
+1352,2024-01-05,Xavier Charles,Bookcase,Furniture,5,180,896.75,136.98,Second Class,West
+1353,2024-09-09,Michael Scott,Organic Tea,Food,2,12,22.86,4.61,Standard Class,South
+1354,2024-11-21,Alice Smith,Notebook,Office Supplies,4,5,19.21,7.73,Second Class,Central
+1355,2024-05-01,Amy Farrah,T-Shirt,Apparel,2,25,47.72,15.81,Second Class,East
+1356,2024-09-23,Amy Farrah,File Folders,Office Supplies,1,10,10.14,3.97,Standard Class,West
+1357,2024-10-30,Zaphod Beeblebrox,Tablet,Electronics,2,450,931.58,252.74,Standard Class,Central
+1358,2024-07-20,Ursula Buffett,File Folders,Office Supplies,3,10,28.91,12.19,Standard Class,West
+1359,2024-02-25,Julia Roberts,Monitor,Electronics,4,300,1154.49,280.44,Standard Class,South
+1360,2024-04-16,Howard Wolowitz,File Folders,Office Supplies,3,10,28.97,12.02,First Class,East
+1361,2024-12-26,Leia Organa,Headphones,Electronics,3,150,471.08,115.33,Standard Class,West
+1362,2024-01-26,Tony Stark,Premium Pens,Office Supplies,1,15,15.08,6.09,Same Day,South
+1363,2024-02-18,Leonard Hofstadter,Monitor,Electronics,1,300,288.92,76.91,Standard Class,West
+1364,2024-07-09,Fiona Gallagher,Olive Oil 1L,Food,3,20,57.13,10.43,First Class,East
+1365,2024-11-26,Howard Wolowitz,Office Chair,Furniture,3,250,716.3,116.56,Standard Class,South
+1366,2024-08-09,Zachary Levi,T-Shirt,Apparel,4,25,98.54,37.31,Second Class,West
+1367,2024-05-20,Rachel Green,Jeans,Apparel,1,60,60.88,21.3,Standard Class,West
+1368,2024-10-08,Sheldon Cooper,Smartphone,Electronics,3,800,2327.87,626.74,Standard Class,South
+1369,2024-09-26,Pam Beesly,Coffee Beans 1kg,Food,4,25,99.8,21.08,Second Class,Central
+1370,2024-06-25,Zaphod Beeblebrox,Protein Bars Box,Food,4,30,117.83,22.24,Standard Class,East
+1371,2024-05-23,Diana Prince,Socks Pack,Apparel,3,15,47.13,15.18,Second Class,West
+1372,2024-12-02,Pam Beesly,Paper Shredder,Office Supplies,1,90,90.68,39.77,Second Class,West
+1373,2024-07-17,Wanda Maximoff,Desk,Furniture,2,400,833.12,113.18,Standard Class,Central
+1374,2024-12-24,Wanda Maximoff,Olive Oil 1L,Food,2,20,41.35,8.78,Standard Class,West
+1375,2024-09-09,Ford Prefect,Premium Pens,Office Supplies,4,15,58.4,22.05,Standard Class,East
+1376,2024-09-26,Sheldon Cooper,Mouse,Electronics,5,40,196.82,46.03,Standard Class,West
+1377,2024-06-14,Diana Prince,Monitor,Electronics,5,300,1541.15,411.99,Second Class,West
+1378,2024-07-05,Evan Wright,Whiteboard,Office Supplies,4,60,235.24,87.25,Standard Class,Central
+1379,2024-03-21,Bernadette Rosten,Baseball Cap,Apparel,3,20,58.34,20.78,Standard Class,Central
+1380,2024-03-30,Yolanda Adams,Whiteboard,Office Supplies,3,60,188.08,81.98,Standard Class,East
+1381,2024-07-19,Zaphod Beeblebrox,Monitor,Electronics,5,300,1520.95,350.13,Standard Class,West
+1382,2024-09-11,Julia Roberts,Whiteboard,Office Supplies,1,60,58.01,24.99,Standard Class,Central
+1383,2024-02-15,Victor Stone,T-Shirt,Apparel,3,25,73.88,27.34,Standard Class,East
+1384,2024-01-01,Diana Prince,Sneakers,Apparel,4,90,359.75,122.86,Same Day,South
+1385,2024-10-06,Yolanda Adams,Smartwatch,Electronics,5,250,1207.83,276.21,Second Class,West
+1386,2024-01-18,Steve Rogers,Mouse,Electronics,3,40,118.1,31.82,Same Day,East
+1387,2024-03-23,Evan Wright,Coffee Beans 1kg,Food,3,25,76.53,15.1,Standard Class,South
+1388,2024-11-30,Kevin Bacon,Snack Mix Pack,Food,2,15,29.12,5.46,Standard Class,Central
+1389,2024-12-22,Tricia McMillan,Protein Bars Box,Food,3,30,85.95,17.44,Standard Class,East
+1390,2024-09-08,Julia Roberts,Mouse,Electronics,1,40,41.3,10.58,Standard Class,Central
+1391,2024-09-02,Michael Scott,Laptop,Electronics,2,1200,2514.49,625.3,Standard Class,Central
+1392,2024-02-29,Tony Stark,Sneakers,Apparel,4,90,345.28,121.91,First Class,Central
+1393,2024-04-04,Xavier Charles,Jacket,Apparel,2,120,238.55,79.54,Standard Class,Central
+1394,2024-05-17,Zaphod Beeblebrox,Monitor,Electronics,1,300,309.25,75.98,Standard Class,Central
+1395,2024-10-28,Oscar Martinez,Coffee Beans 1kg,Food,4,25,104.66,21.72,Second Class,South
+1396,2024-08-31,Zaphod Beeblebrox,Sofa,Furniture,3,750,2250.47,364.61,Standard Class,East
+1397,2024-10-19,Han Solo,Office Chair,Furniture,4,250,1047.22,166.77,Standard Class,West
+1398,2024-03-05,Charlie Brown,T-Shirt,Apparel,4,25,103.34,34.42,Standard Class,West
+1399,2024-02-04,Fiona Gallagher,Socks Pack,Apparel,4,15,60.12,22.8,Standard Class,Central
+1400,2024-01-07,Han Solo,Olive Oil 1L,Food,4,20,77.19,15.71,Standard Class,West
+1401,2024-02-21,George Clark,Coffee Beans 1kg,Food,3,25,77.83,14.83,First Class,Central
+1402,2024-12-01,Penny Hofstadter,Olive Oil 1L,Food,4,20,79.22,16.22,Standard Class,Central
+1403,2024-12-14,Zachary Levi,Tablet,Electronics,3,450,1383.18,374.9,Second Class,East
+1404,2024-07-09,Bob Jones,Stapler,Office Supplies,3,12,37.29,15.47,Standard Class,South
+1405,2024-04-26,Ian Malcolm,Whiteboard,Office Supplies,4,60,234.47,92.23,Second Class,Central
+1406,2024-11-26,Fiona Gallagher,Sofa,Furniture,2,750,1536.14,242.38,First Class,South
+1407,2024-07-10,Diana Prince,Organic Tea,Food,1,12,11.56,2.47,Standard Class,South
+1408,2024-10-18,Bob Jones,Desk,Furniture,2,400,762.65,104.11,Second Class,West
+1409,2024-07-03,Michael Scott,Stapler,Office Supplies,4,12,48.87,18.54,Standard Class,East
+1410,2024-09-07,Leia Organa,Jeans,Apparel,4,60,236.26,88.28,Standard Class,Central
+1411,2024-05-12,Fiona Gallagher,Notebook,Office Supplies,4,5,20.71,8.53,Standard Class,West
+1412,2024-12-12,Nancy Drew,Whiteboard,Office Supplies,4,60,239.38,88.71,Standard Class,East
+1413,2024-03-29,Leia Organa,Headphones,Electronics,3,150,459.57,119.7,Standard Class,Central
+1414,2024-05-20,Bernadette Rosten,Jacket,Apparel,4,120,470.5,165.35,Standard Class,South
+1415,2024-11-15,Zachary Levi,Coffee Beans 1kg,Food,1,25,25.15,5.12,Standard Class,Central
+1416,2024-05-24,Tony Stark,Smartwatch,Electronics,1,250,253.51,67.96,Standard Class,Central
+1417,2024-05-13,Tony Stark,Desk,Furniture,5,400,2061.09,327.86,Second Class,East
+1418,2024-11-03,Zachary Levi,Whiteboard,Office Supplies,2,60,125.97,47.96,Second Class,South
+1419,2024-08-02,Zachary Levi,Baseball Cap,Apparel,1,20,19.69,7.19,Standard Class,West
+1420,2024-12-17,Ford Prefect,Baseball Cap,Apparel,3,20,62.04,23.35,Standard Class,West
+1421,2024-04-02,Steve Rogers,Smartwatch,Electronics,2,250,522.35,141.02,Second Class,West
+1422,2024-12-01,Fiona Gallagher,Bookcase,Furniture,2,180,357.14,57.72,Second Class,Central
+1423,2024-07-09,Quentin Tarantino,Protein Bars Box,Food,4,30,114.64,23.54,First Class,South
+1424,2024-10-24,Han Solo,Smartwatch,Electronics,2,250,501.49,123.19,Standard Class,South
+1425,2024-03-18,Ian Malcolm,Bookcase,Furniture,4,180,694.31,111.69,Same Day,South
+1426,2024-04-02,Fiona Gallagher,Jacket,Apparel,2,120,228.11,76.22,Standard Class,East
+1427,2024-03-27,Zaphod Beeblebrox,Sofa,Furniture,1,750,760.01,111.8,Standard Class,South
+1428,2024-09-01,Yolanda Adams,Laptop,Electronics,5,1200,6270.04,1690.4,Standard Class,Central
+1429,2024-09-28,Michael Scott,Laptop,Electronics,2,1200,2354.9,541.95,Standard Class,Central
+1430,2024-09-14,Luke Skywalker,Premium Pens,Office Supplies,1,15,15.67,6.21,Second Class,Central
+1431,2024-09-23,Leia Organa,Protein Bars Box,Food,4,30,118.11,25.52,First Class,West
+1432,2024-07-02,Michael Scott,Sofa,Furniture,1,750,728.34,98.8,Standard Class,West
+1433,2024-09-15,Kevin Bacon,Mouse,Electronics,1,40,41.08,10.52,Standard Class,Central
+1434,2024-10-31,Diana Prince,Laptop,Electronics,1,1200,1193.32,275.87,Second Class,South
+1435,2024-05-09,Sheldon Cooper,Desk,Furniture,1,400,406.5,58.17,Standard Class,East
+1436,2024-11-06,Ian Malcolm,T-Shirt,Apparel,5,25,122.28,45.24,Second Class,East
+1437,2024-09-11,Michael Scott,Organic Tea,Food,3,12,35.49,6.97,Second Class,West
+1438,2024-03-23,Charlie Brown,Snack Mix Pack,Food,2,15,29.49,5.31,Second Class,South
+1439,2024-12-09,Fiona Gallagher,Smartwatch,Electronics,2,250,511.18,117.6,First Class,East
+1440,2024-05-11,Oscar Martinez,Jacket,Apparel,3,120,371.27,139.67,Standard Class,East
+1441,2024-05-28,Xavier Charles,File Folders,Office Supplies,1,10,9.51,3.53,Standard Class,East
+1442,2024-11-27,Kevin Bacon,Stapler,Office Supplies,4,12,49.82,18.31,Same Day,Central
+1443,2024-06-24,Laura Croft,Tablet,Electronics,4,450,1860.43,482.77,Same Day,Central
+1444,2024-09-01,Amy Farrah,Office Chair,Furniture,2,250,524.08,84.03,Second Class,East
+1445,2024-02-23,Amy Farrah,Snack Mix Pack,Food,5,15,75.83,16.01,Second Class,West
+1446,2024-11-09,Bob Jones,Sofa,Furniture,4,750,2982.21,408.26,Standard Class,South
+1447,2024-12-01,Ursula Buffett,Headphones,Electronics,3,150,446.98,116.81,Standard Class,East
+1448,2024-09-03,Wanda Maximoff,Jeans,Apparel,5,60,285.35,108.55,First Class,East
+1449,2024-09-15,Sheldon Cooper,Jeans,Apparel,1,60,58.45,22.38,Second Class,Central
+1450,2024-01-26,Rajesh Koothrappali,Coffee Table,Furniture,4,150,574.73,85.25,Standard Class,West
+1451,2024-10-20,Howard Wolowitz,Smartwatch,Electronics,4,250,1024.52,231.43,Standard Class,South
+1452,2024-07-25,Amy Farrah,Laptop,Electronics,1,1200,1246.81,315.59,Second Class,Central
+1453,2024-12-01,Leonard Hofstadter,Stapler,Office Supplies,1,12,11.8,4.97,Second Class,South
+1454,2024-11-03,Sheldon Cooper,Whiteboard,Office Supplies,4,60,228.05,88.58,Standard Class,West
+1455,2024-11-20,Steve Rogers,Olive Oil 1L,Food,3,20,62.38,12.46,Second Class,East
+1456,2024-07-28,George Clark,Paper Shredder,Office Supplies,2,90,174.88,74.49,Standard Class,South
+1457,2024-04-07,Victor Stone,Tablet,Electronics,1,450,462.25,114.42,First Class,East
+1458,2024-12-03,Luke Skywalker,Organic Tea,Food,4,12,48.26,9.52,Standard Class,East
+1459,2024-10-26,Sheldon Cooper,Organic Tea,Food,5,12,57.62,11.89,Standard Class,West
+1460,2024-11-06,Ursula Buffett,Snack Mix Pack,Food,4,15,58.64,12.82,Same Day,West
+1461,2024-05-30,Howard Wolowitz,Desk,Furniture,4,400,1654.89,250.61,Standard Class,Central
+1462,2024-06-09,Tricia McMillan,Desk,Furniture,2,400,814.93,132.54,Standard Class,Central
+1463,2024-03-08,Laura Croft,Olive Oil 1L,Food,3,20,60.37,12.27,Second Class,Central
+1464,2024-12-07,Amy Farrah,Protein Bars Box,Food,4,30,114.3,21.24,Second Class,East
+1465,2024-12-09,Diana Prince,Bookcase,Furniture,2,180,347.27,47.53,Same Day,Central
+1466,2024-05-31,Nancy Drew,Coffee Beans 1kg,Food,3,25,75.87,15.71,Second Class,East
+1467,2024-10-14,Oscar Martinez,Snack Mix Pack,Food,2,15,30.58,5.56,Standard Class,Central
+1468,2024-07-14,Yolanda Adams,Baseball Cap,Apparel,3,20,57.08,18.98,Same Day,East
+1469,2024-11-13,Howard Wolowitz,Dining Table,Furniture,3,500,1541.42,252.68,Second Class,West
+1470,2024-05-30,Howard Wolowitz,Dining Table,Furniture,1,500,511.75,70.92,Standard Class,West
+1471,2024-01-21,Bernadette Rosten,Paper Shredder,Office Supplies,3,90,256.65,101.97,Standard Class,Central
+1472,2024-03-20,Charlie Brown,Bookcase,Furniture,5,180,899.15,136.83,Standard Class,Central
+1473,2024-07-02,Evan Wright,Paper Shredder,Office Supplies,2,90,185.15,69.01,Same Day,East
+1474,2024-10-05,Ford Prefect,T-Shirt,Apparel,3,25,76.23,25.78,Standard Class,West
+1475,2024-05-30,Nancy Drew,Olive Oil 1L,Food,4,20,76.92,14.91,Same Day,East
+1476,2024-05-03,Han Solo,Organic Tea,Food,1,12,11.86,2.51,Second Class,Central
+1477,2024-02-28,Yolanda Adams,Paper Shredder,Office Supplies,3,90,270.39,108.34,Standard Class,Central
+1478,2024-09-06,Charlie Brown,Whiteboard,Office Supplies,2,60,125.38,46.82,Standard Class,East
+1479,2024-10-02,Ford Prefect,Smartphone,Electronics,2,800,1658.39,408.31,Second Class,West
+1480,2024-02-23,Nancy Drew,Honey Jar,Food,4,18,73.78,13.73,Standard Class,East
+1481,2024-08-23,Victor Stone,Smartphone,Electronics,1,800,804.65,204.18,Standard Class,Central
+1482,2024-04-26,Quentin Tarantino,Sneakers,Apparel,4,90,353.39,120.95,Standard Class,South
+1483,2024-03-01,Ford Prefect,Smartphone,Electronics,5,800,3943.08,986.33,Standard Class,East
+1484,2024-05-28,Tony Stark,Coffee Beans 1kg,Food,3,25,74.11,15.78,Second Class,South
+1485,2024-01-16,Sheldon Cooper,Coffee Table,Furniture,2,150,308.9,49.57,Standard Class,South
+1486,2024-05-31,Julia Roberts,Whiteboard,Office Supplies,3,60,180.96,73.18,Same Day,East
+1487,2024-03-04,Charlie Brown,Tablet,Electronics,5,450,2206.06,578.9,Standard Class,East
+1488,2024-06-25,Nancy Drew,Baseball Cap,Apparel,5,20,97.21,36.3,Standard Class,West
+1489,2024-04-09,Hannah Abbott,Dining Table,Furniture,5,500,2536.17,347.95,First Class,South
+1490,2024-12-09,Evan Wright,Notebook,Office Supplies,2,5,10.45,4.06,Second Class,South
+1491,2024-12-09,Pam Beesly,Keyboard,Electronics,5,80,392.71,97.21,Standard Class,West
+1492,2024-11-11,Tony Stark,Organic Tea,Food,5,12,62.75,11.72,Standard Class,Central
+1493,2024-06-09,Pam Beesly,Dining Table,Furniture,4,500,1926.86,302.5,Standard Class,Central
+1494,2024-09-02,Leonard Hofstadter,Jacket,Apparel,3,120,348.33,124.52,Standard Class,East
+1495,2024-05-23,Ian Malcolm,Organic Tea,Food,3,12,36.82,7.94,Second Class,East
+1496,2024-09-16,Bob Jones,Olive Oil 1L,Food,4,20,83.25,16.82,Second Class,West
+1497,2024-10-05,Ford Prefect,Baseball Cap,Apparel,2,20,41.57,14.81,Standard Class,West
+1498,2024-05-28,Ian Malcolm,Socks Pack,Apparel,5,15,75.02,27.11,Standard Class,Central
+1499,2024-11-10,Kevin Bacon,Organic Tea,Food,4,12,49.13,9.79,Standard Class,West
+1500,2024-07-02,Charlie Brown,Sofa,Furniture,2,750,1460.1,226.4,Standard Class,Central
+1501,2024-09-22,Xavier Charles,Sneakers,Apparel,4,90,377.3,127.41,First Class,East
+1502,2024-12-26,Arthur Dent,Whiteboard,Office Supplies,3,60,177.78,69.38,Standard Class,West
+1503,2024-10-27,Evan Wright,Protein Bars Box,Food,4,30,120.2,23.33,Same Day,West
+1504,2024-06-25,Penny Hofstadter,Socks Pack,Apparel,1,15,14.91,4.94,Standard Class,West
+1505,2024-09-20,Rachel Green,Desk,Furniture,2,400,812.89,119.85,Standard Class,East
+1506,2024-06-18,Hannah Abbott,Baseball Cap,Apparel,4,20,81.18,27.91,Standard Class,West
+1507,2024-05-04,Charlie Brown,Coffee Table,Furniture,5,150,779.31,108.64,Standard Class,East
+1508,2024-03-26,Quentin Tarantino,Coffee Table,Furniture,4,150,622.71,97.67,Standard Class,East
+1509,2024-05-25,Fiona Gallagher,Sofa,Furniture,5,750,3626.46,579.91,Same Day,South
+1510,2024-11-03,Julia Roberts,Organic Tea,Food,5,12,58.01,12.03,Second Class,Central
+1511,2024-08-20,Leia Organa,Coffee Beans 1kg,Food,2,25,48.04,9.04,Standard Class,West
+1512,2024-09-15,Amy Farrah,Coffee Table,Furniture,1,150,155.67,23.5,Standard Class,East
+1513,2024-03-01,Fiona Gallagher,Baseball Cap,Apparel,2,20,41.59,15.36,First Class,East
+1514,2024-11-28,Bernadette Rosten,Snack Mix Pack,Food,3,15,43.78,9.29,First Class,South
+1515,2024-07-14,Wanda Maximoff,Honey Jar,Food,5,18,87.79,18.49,Standard Class,West
+1516,2024-02-12,Steve Rogers,Olive Oil 1L,Food,4,20,81.67,17.28,Standard Class,East
+1517,2024-10-22,Arthur Dent,Laptop,Electronics,4,1200,4756.25,1095.5,Second Class,Central
+1518,2024-08-06,Luke Skywalker,Stapler,Office Supplies,5,12,60.67,26.65,Standard Class,Central
+1519,2024-07-22,Nancy Drew,Socks Pack,Apparel,5,15,75.44,26.32,Standard Class,Central
+1520,2024-06-06,Zaphod Beeblebrox,Whiteboard,Office Supplies,4,60,245.95,97.33,Second Class,East
+1521,2024-12-24,Kevin Bacon,Headphones,Electronics,5,150,772.56,197.54,Standard Class,Central
+1522,2024-12-16,Diana Prince,Sofa,Furniture,1,750,747.88,114.43,Second Class,West
+1523,2024-02-15,Evan Wright,Premium Pens,Office Supplies,3,15,46.01,19.99,Standard Class,East
+1524,2024-07-24,Han Solo,Protein Bars Box,Food,5,30,152.1,30.05,Standard Class,West
+1525,2024-04-13,Arthur Dent,Premium Pens,Office Supplies,1,15,15.17,6.28,Second Class,West
+1526,2024-07-03,Pam Beesly,Monitor,Electronics,1,300,295.59,72.35,Same Day,South
+1527,2024-10-27,Michael Scott,Coffee Beans 1kg,Food,1,25,25.57,5.17,First Class,Central
+1528,2024-10-25,Wanda Maximoff,Stapler,Office Supplies,2,12,23.89,9.37,Standard Class,West
+1529,2024-01-03,Quentin Tarantino,Sofa,Furniture,5,750,3751.19,544.67,Standard Class,East
+1530,2024-02-29,Rajesh Koothrappali,Paper Shredder,Office Supplies,5,90,470.97,190.77,Standard Class,South
+1531,2024-05-04,Victor Stone,Baseball Cap,Apparel,4,20,79.86,26.6,First Class,East
+1532,2024-07-14,Oscar Martinez,Bookcase,Furniture,4,180,734.46,104.95,Same Day,East
+1533,2024-05-27,Fiona Gallagher,Baseball Cap,Apparel,3,20,59.86,20.34,Standard Class,West
+1534,2024-10-20,Rachel Green,Dining Table,Furniture,2,500,973.49,138.49,Standard Class,West
+1535,2024-05-15,Nancy Drew,Desk,Furniture,2,400,772.48,106.76,Second Class,Central
+1536,2024-02-10,Penny Hofstadter,Coffee Beans 1kg,Food,5,25,123.39,23.77,Same Day,South
+1537,2024-10-21,Rachel Green,Jeans,Apparel,5,60,307.51,99.63,Standard Class,West
+1538,2024-09-26,Bernadette Rosten,Socks Pack,Apparel,1,15,15.54,5.74,Standard Class,South
+1539,2024-08-22,Hannah Abbott,Snack Mix Pack,Food,3,15,45.78,8.94,Second Class,East
+1540,2024-02-21,Ursula Buffett,Paper Shredder,Office Supplies,3,90,262.9,104.56,Standard Class,Central
+1541,2024-11-09,Victor Stone,Premium Pens,Office Supplies,4,15,61.2,23.85,Standard Class,South
+1542,2024-07-24,Rachel Green,Jeans,Apparel,5,60,309.43,113.08,Standard Class,West
+1543,2024-04-30,Tricia McMillan,Sneakers,Apparel,2,90,179.51,56.67,Standard Class,West
+1544,2024-08-03,Penny Hofstadter,Dining Table,Furniture,5,500,2571.33,370.27,Standard Class,Central
+1545,2024-10-14,Zaphod Beeblebrox,Tablet,Electronics,1,450,437.2,103.93,Second Class,East
+1546,2024-11-18,George Clark,Baseball Cap,Apparel,3,20,60.36,22.95,Standard Class,Central
+1547,2024-05-11,Wanda Maximoff,Tablet,Electronics,1,450,453.46,116.76,Standard Class,West
+1548,2024-10-02,Laura Croft,Stapler,Office Supplies,3,12,36.99,14.64,Second Class,South
+1549,2024-02-10,Yolanda Adams,Protein Bars Box,Food,4,30,124.42,25.58,Standard Class,West
+1550,2024-06-21,Amy Farrah,Olive Oil 1L,Food,4,20,76.63,14.85,Second Class,East
+1551,2024-06-09,Ursula Buffett,Whiteboard,Office Supplies,3,60,175.88,69.58,Standard Class,South
+1552,2024-07-04,Luke Skywalker,Snack Mix Pack,Food,4,15,57.75,10.94,Standard Class,East
+1553,2024-05-08,Fiona Gallagher,Desk,Furniture,4,400,1669.89,249.14,Standard Class,East
+1554,2024-01-28,Bob Jones,Socks Pack,Apparel,1,15,14.38,5.47,Standard Class,West
+1555,2024-07-18,Tony Stark,Desk,Furniture,3,400,1155.75,185.1,Standard Class,West
+1556,2024-01-15,Charlie Brown,Stapler,Office Supplies,4,12,48.23,17.88,Standard Class,Central
+1557,2024-12-23,Ford Prefect,Coffee Table,Furniture,5,150,751.76,115.91,Standard Class,South
+1558,2024-06-07,Wanda Maximoff,Socks Pack,Apparel,2,15,29.42,10.12,Second Class,South
+1559,2024-03-20,Tony Stark,Laptop,Electronics,5,1200,5906.33,1467.49,Second Class,West
+1560,2024-01-05,Penny Hofstadter,Jacket,Apparel,1,120,121.16,44.92,Second Class,Central
+1561,2024-10-07,Xavier Charles,Sofa,Furniture,5,750,3623.73,569.34,Standard Class,West
+1562,2024-07-18,Yolanda Adams,Bookcase,Furniture,1,180,180.3,28.67,Standard Class,West
+1563,2024-11-09,Rachel Green,Whiteboard,Office Supplies,5,60,290.64,106.22,Second Class,South
+1564,2024-03-10,Steve Rogers,Smartwatch,Electronics,5,250,1210.97,273.64,Standard Class,South
+1565,2024-01-26,Ford Prefect,Monitor,Electronics,1,300,306.46,80.09,Standard Class,West
+1566,2024-04-29,Fiona Gallagher,Office Chair,Furniture,4,250,981.16,155.99,Standard Class,South
+1567,2024-07-09,Leonard Hofstadter,Mouse,Electronics,1,40,38.22,10.08,Second Class,West
+1568,2024-02-06,Ford Prefect,Jeans,Apparel,2,60,123.81,46.18,First Class,Central
+1569,2024-03-03,Pam Beesly,Sneakers,Apparel,2,90,174.59,63.98,Second Class,East
+1570,2024-02-18,Arthur Dent,Sofa,Furniture,4,750,3130.86,437.56,Second Class,Central
+1571,2024-01-22,Tricia McMillan,Coffee Beans 1kg,Food,3,25,72.74,15.68,Standard Class,Central
+1572,2024-12-07,Nancy Drew,Headphones,Electronics,4,150,617.66,157.03,Standard Class,West
+1573,2024-07-21,Pam Beesly,Laptop,Electronics,5,1200,6113.04,1422.81,Second Class,South
+1574,2024-02-15,Pam Beesly,Sofa,Furniture,1,750,782.31,129.01,Second Class,Central
+1575,2024-11-16,Diana Prince,Mouse,Electronics,2,40,77.01,18.22,Second Class,East
+1576,2024-10-12,Wanda Maximoff,Baseball Cap,Apparel,2,20,39.43,12.79,Standard Class,South
+1577,2024-01-21,Penny Hofstadter,Socks Pack,Apparel,3,15,43.6,14.3,Standard Class,South
+1578,2024-06-27,Ursula Buffett,Jacket,Apparel,5,120,574.13,187.08,First Class,West
+1579,2024-05-31,Quentin Tarantino,Protein Bars Box,Food,4,30,122.8,26.44,Standard Class,South
+1580,2024-11-13,Xavier Charles,Organic Tea,Food,3,12,34.88,7.23,Second Class,South
+1581,2024-10-09,Julia Roberts,Protein Bars Box,Food,3,30,86.49,17.38,Standard Class,Central
+1582,2024-02-04,Charlie Brown,Desk,Furniture,1,400,387.66,52.7,Standard Class,South
+1583,2024-11-24,Yolanda Adams,Socks Pack,Apparel,5,15,71.62,23.67,Second Class,Central
+1584,2024-02-06,Alice Smith,Dining Table,Furniture,4,500,1993.61,307.35,First Class,East
+1585,2024-07-03,Tricia McMillan,Jacket,Apparel,1,120,120.35,44.1,Second Class,Central
+1586,2024-06-04,Evan Wright,Coffee Table,Furniture,1,150,150.47,21.17,Standard Class,West
+1587,2024-09-26,Pam Beesly,Honey Jar,Food,2,18,36.89,7.77,Standard Class,South
+1588,2024-10-22,Wanda Maximoff,Baseball Cap,Apparel,4,20,82.34,29.11,First Class,West
+1589,2024-09-15,Victor Stone,Coffee Table,Furniture,5,150,780.19,118.2,Standard Class,Central
+1590,2024-06-15,Xavier Charles,Baseball Cap,Apparel,4,20,80.87,28.66,Second Class,Central
+1591,2024-04-19,Yolanda Adams,Honey Jar,Food,3,18,53.72,10.52,Standard Class,South
+1592,2024-01-18,Steve Rogers,Coffee Beans 1kg,Food,5,25,118.83,26.07,Standard Class,Central
+1593,2024-04-19,Ursula Buffett,Keyboard,Electronics,5,80,383.77,95.18,Standard Class,West
+1594,2024-03-20,Ian Malcolm,Stapler,Office Supplies,5,12,61.87,22.73,Standard Class,Central
+1595,2024-07-23,Zaphod Beeblebrox,Dining Table,Furniture,1,500,483.65,77.27,Second Class,South
+1596,2024-12-19,Zaphod Beeblebrox,Keyboard,Electronics,1,80,76.63,17.46,Second Class,South
+1597,2024-06-20,Wanda Maximoff,Sneakers,Apparel,1,90,92.23,34.54,First Class,West
+1598,2024-01-06,Yolanda Adams,Keyboard,Electronics,5,80,393.07,102.15,Standard Class,West
+1599,2024-03-19,Diana Prince,Sneakers,Apparel,5,90,437.49,146.68,Standard Class,East
+1600,2024-07-20,Julia Roberts,Bookcase,Furniture,1,180,180.87,25.84,Standard Class,East
+1601,2024-07-23,Rajesh Koothrappali,Baseball Cap,Apparel,2,20,40.24,14.05,Second Class,South
+1602,2024-11-29,Zaphod Beeblebrox,Coffee Table,Furniture,5,150,730.67,104.48,Same Day,West
+1603,2024-08-08,Ursula Buffett,Coffee Beans 1kg,Food,1,25,24.66,4.63,Second Class,South
+1604,2024-06-25,Leia Organa,Keyboard,Electronics,2,80,161.97,40.01,Same Day,South
+1605,2024-04-29,Michael Scott,Premium Pens,Office Supplies,1,15,14.61,5.99,Standard Class,East
+1606,2024-03-16,Steve Rogers,Mouse,Electronics,1,40,38.09,8.97,Standard Class,South
+1607,2024-10-02,Nancy Drew,Coffee Table,Furniture,5,150,759.23,125.1,Second Class,South
+1608,2024-12-21,Bob Jones,Socks Pack,Apparel,5,15,71.7,23.59,Standard Class,West
+1609,2024-12-22,Han Solo,Notebook,Office Supplies,4,5,19.13,7.9,Second Class,East
+1610,2024-12-05,Xavier Charles,Laptop,Electronics,3,1200,3503.22,854.91,First Class,South
+1611,2024-12-29,George Clark,File Folders,Office Supplies,5,10,48.49,21.21,Standard Class,West
+1612,2024-10-14,Bob Jones,Headphones,Electronics,5,150,742.0,172.77,Standard Class,South
+1613,2024-06-26,Wanda Maximoff,Whiteboard,Office Supplies,3,60,185.61,76.11,Standard Class,Central
+1614,2024-07-17,Bob Jones,Protein Bars Box,Food,2,30,60.94,11.18,Standard Class,South
+1615,2024-07-14,Arthur Dent,Honey Jar,Food,2,18,35.74,6.88,Standard Class,West
+1616,2024-11-05,Victor Stone,Socks Pack,Apparel,2,15,30.24,10.97,Standard Class,West
+1617,2024-04-13,Ian Malcolm,Whiteboard,Office Supplies,5,60,314.87,137.93,First Class,South
+1618,2024-03-15,Zaphod Beeblebrox,Bookcase,Furniture,1,180,174.31,27.92,Standard Class,East
+1619,2024-03-15,Bob Jones,File Folders,Office Supplies,4,10,38.61,14.48,Standard Class,Central
+1620,2024-03-08,Laura Croft,Keyboard,Electronics,5,80,403.85,95.53,Standard Class,West
+1621,2024-01-14,Wanda Maximoff,Smartwatch,Electronics,2,250,510.6,124.43,Standard Class,South
+1622,2024-07-17,Penny Hofstadter,Jeans,Apparel,2,60,118.9,45.52,Standard Class,East
+1623,2024-05-18,Amy Farrah,Dining Table,Furniture,2,500,967.71,158.36,Second Class,East
+1624,2024-08-12,Han Solo,Baseball Cap,Apparel,3,20,59.57,22.0,First Class,West
+1625,2024-11-07,Yolanda Adams,File Folders,Office Supplies,5,10,50.1,19.85,First Class,East
+1626,2024-01-22,Pam Beesly,Olive Oil 1L,Food,4,20,80.46,16.14,Same Day,East
+1627,2024-11-18,Diana Prince,Bookcase,Furniture,4,180,739.7,106.2,Standard Class,Central
+1628,2024-03-26,Bernadette Rosten,Paper Shredder,Office Supplies,1,90,89.67,36.92,Second Class,West
+1629,2024-02-16,Rajesh Koothrappali,Monitor,Electronics,5,300,1483.96,357.89,First Class,West
+1630,2024-01-13,Laura Croft,Socks Pack,Apparel,2,15,29.25,10.63,First Class,East
+1631,2024-12-30,Kevin Bacon,Smartphone,Electronics,1,800,766.82,199.65,Second Class,Central
+1632,2024-09-18,Han Solo,Sofa,Furniture,5,750,3904.59,593.36,Standard Class,West
+1633,2024-12-03,Julia Roberts,Desk,Furniture,2,400,793.57,114.5,Second Class,East
+1634,2024-08-16,Steve Rogers,Office Chair,Furniture,2,250,506.13,72.17,Same Day,East
+1635,2024-08-22,Penny Hofstadter,Socks Pack,Apparel,1,15,14.61,5.2,Standard Class,South
+1636,2024-08-31,Leonard Hofstadter,Sneakers,Apparel,1,90,87.7,30.99,Standard Class,East
+1637,2024-11-13,Tricia McMillan,Office Chair,Furniture,2,250,476.84,76.59,Standard Class,Central
+1638,2024-12-07,Zaphod Beeblebrox,Protein Bars Box,Food,3,30,86.48,19.0,First Class,East
+1639,2024-03-23,Steve Rogers,Honey Jar,Food,5,18,94.2,19.78,Standard Class,West
+1640,2024-07-03,Charlie Brown,Keyboard,Electronics,3,80,247.69,65.12,Standard Class,South
+1641,2024-10-08,Evan Wright,File Folders,Office Supplies,2,10,19.66,7.73,Standard Class,Central
+1642,2024-04-17,Nancy Drew,Coffee Beans 1kg,Food,1,25,24.96,5.18,Standard Class,East
+1643,2024-12-27,Steve Rogers,Socks Pack,Apparel,3,15,46.92,16.8,Standard Class,Central
+1644,2024-09-11,Arthur Dent,Sneakers,Apparel,2,90,183.75,70.48,First Class,West
+1645,2024-01-01,Hannah Abbott,Smartwatch,Electronics,1,250,257.49,70.8,Second Class,West
+1646,2024-07-30,Charlie Brown,Stapler,Office Supplies,5,12,57.07,21.46,Second Class,West
+1647,2024-05-24,Quentin Tarantino,Keyboard,Electronics,3,80,246.41,56.84,Standard Class,Central
+1648,2024-06-19,Victor Stone,Baseball Cap,Apparel,5,20,103.32,33.95,Standard Class,East
+1649,2024-06-22,Sheldon Cooper,T-Shirt,Apparel,2,25,51.96,18.32,Standard Class,South
+1650,2024-06-20,Leonard Hofstadter,Baseball Cap,Apparel,1,20,20.13,7.3,Second Class,Central
+1651,2024-10-11,Ford Prefect,Headphones,Electronics,5,150,717.47,166.79,Second Class,Central
+1652,2024-01-16,Victor Stone,Baseball Cap,Apparel,5,20,96.87,31.31,Second Class,South
+1653,2024-06-06,Ursula Buffett,Keyboard,Electronics,4,80,315.89,84.18,Standard Class,West
+1654,2024-06-03,Nancy Drew,Protein Bars Box,Food,2,30,61.67,13.35,Standard Class,East
+1655,2024-08-15,Rajesh Koothrappali,Smartwatch,Electronics,5,250,1302.95,340.88,Standard Class,Central
+1656,2024-09-25,Tony Stark,Premium Pens,Office Supplies,1,15,14.56,5.28,Second Class,West
+1657,2024-07-17,Arthur Dent,Laptop,Electronics,3,1200,3539.98,953.88,First Class,East
+1658,2024-02-22,Arthur Dent,Notebook,Office Supplies,5,5,24.55,9.22,Second Class,West
+1659,2024-05-21,Ford Prefect,File Folders,Office Supplies,1,10,9.77,3.53,Standard Class,West
+1660,2024-11-14,Tricia McMillan,Coffee Beans 1kg,Food,2,25,48.86,10.64,Standard Class,Central
+1661,2024-05-25,Zaphod Beeblebrox,Desk,Furniture,1,400,401.62,54.83,Standard Class,Central
+1662,2024-01-15,Sheldon Cooper,Smartphone,Electronics,4,800,3165.41,823.75,Standard Class,South
+1663,2024-10-30,Howard Wolowitz,Protein Bars Box,Food,3,30,91.92,19.01,Standard Class,West
+1664,2024-09-30,Fiona Gallagher,Socks Pack,Apparel,2,15,28.79,9.69,Standard Class,South
+1665,2024-11-25,Leonard Hofstadter,Jeans,Apparel,2,60,124.95,42.79,Standard Class,Central
+1666,2024-12-24,Victor Stone,File Folders,Office Supplies,4,10,38.45,15.31,Standard Class,South
+1667,2024-03-28,Steve Rogers,Paper Shredder,Office Supplies,5,90,445.76,185.95,Standard Class,East
+1668,2024-02-24,Ursula Buffett,Honey Jar,Food,1,18,17.82,3.5,Second Class,South
+1669,2024-11-13,Pam Beesly,Organic Tea,Food,4,12,46.6,9.68,Standard Class,Central
+1670,2024-08-08,Bernadette Rosten,Protein Bars Box,Food,5,30,152.44,27.91,Second Class,West
+1671,2024-12-30,Zaphod Beeblebrox,T-Shirt,Apparel,5,25,125.69,46.82,Standard Class,Central
+1672,2024-03-31,Tony Stark,T-Shirt,Apparel,5,25,122.84,44.24,Standard Class,South
+1673,2024-02-01,Fiona Gallagher,Desk,Furniture,5,400,2051.42,317.61,First Class,East
+1674,2024-08-19,Ford Prefect,File Folders,Office Supplies,5,10,48.53,20.88,Standard Class,West
+1675,2024-06-02,Zaphod Beeblebrox,File Folders,Office Supplies,3,10,30.33,12.16,Same Day,East
+1676,2024-03-06,Steve Rogers,Mouse,Electronics,5,40,204.07,54.29,Same Day,East
+1677,2024-07-02,Hannah Abbott,Notebook,Office Supplies,2,5,10.13,4.22,Standard Class,South
+1678,2024-07-26,Yolanda Adams,Socks Pack,Apparel,2,15,28.92,10.23,Second Class,South
+1679,2024-07-03,Amy Farrah,Bookcase,Furniture,2,180,365.34,50.9,Standard Class,East
+1680,2024-09-06,Bernadette Rosten,Office Chair,Furniture,2,250,518.01,83.82,Standard Class,South
+1681,2024-12-22,Leia Organa,Socks Pack,Apparel,2,15,30.16,10.45,Standard Class,South
+1682,2024-06-30,Oscar Martinez,Sofa,Furniture,5,750,3880.05,551.36,Standard Class,South
+1683,2024-09-13,Rachel Green,Socks Pack,Apparel,5,15,75.51,27.51,Standard Class,East
+1684,2024-02-27,Luke Skywalker,Baseball Cap,Apparel,1,20,19.93,6.39,Standard Class,Central
+1685,2024-11-08,Fiona Gallagher,Sofa,Furniture,1,750,758.48,122.96,Second Class,Central
+1686,2024-09-30,Alice Smith,Sneakers,Apparel,5,90,446.45,170.65,First Class,Central
+1687,2024-05-30,Steve Rogers,Office Chair,Furniture,5,250,1195.18,178.31,Second Class,Central
+1688,2024-03-27,Zaphod Beeblebrox,Keyboard,Electronics,5,80,383.3,95.93,Standard Class,South
+1689,2024-05-22,Quentin Tarantino,Coffee Table,Furniture,3,150,428.14,59.23,Standard Class,Central
+1690,2024-03-30,Luke Skywalker,Dining Table,Furniture,4,500,1952.25,304.6,Standard Class,West
+1691,2024-09-05,Laura Croft,Coffee Beans 1kg,Food,3,25,75.72,16.12,Same Day,West
+1692,2024-09-10,Amy Farrah,Jeans,Apparel,4,60,233.06,85.39,Second Class,West
+1693,2024-06-25,Diana Prince,Notebook,Office Supplies,1,5,4.99,1.99,Standard Class,South
+1694,2024-09-29,Oscar Martinez,Baseball Cap,Apparel,4,20,80.24,27.72,Standard Class,West
+1695,2024-05-27,Howard Wolowitz,Baseball Cap,Apparel,3,20,57.58,20.28,Same Day,East
+1696,2024-06-30,Bernadette Rosten,Honey Jar,Food,3,18,55.63,10.58,Standard Class,Central
+1697,2024-10-26,Zachary Levi,Baseball Cap,Apparel,2,20,40.08,14.53,Second Class,West
+1698,2024-04-02,Ursula Buffett,Coffee Beans 1kg,Food,1,25,24.78,4.98,Second Class,East
+1699,2024-12-16,Howard Wolowitz,Premium Pens,Office Supplies,3,15,42.86,15.74,Standard Class,East
+1700,2024-10-31,Nancy Drew,Honey Jar,Food,1,18,17.26,3.52,Second Class,East
+1701,2024-07-11,Zaphod Beeblebrox,Office Chair,Furniture,2,250,508.02,69.74,Standard Class,South
+1702,2024-08-20,Rachel Green,Baseball Cap,Apparel,3,20,58.66,18.73,Standard Class,East
+1703,2024-07-17,Victor Stone,Keyboard,Electronics,3,80,239.8,65.09,Standard Class,East
+1704,2024-11-08,Zachary Levi,Dining Table,Furniture,4,500,1943.68,299.91,Standard Class,South
+1705,2024-08-14,Quentin Tarantino,Laptop,Electronics,1,1200,1233.27,278.64,Standard Class,Central
+1706,2024-09-11,Julia Roberts,Laptop,Electronics,4,1200,4994.22,1267.19,Standard Class,Central
+1707,2024-09-20,Penny Hofstadter,Sneakers,Apparel,4,90,361.44,113.94,Second Class,East
+1708,2024-12-18,Sheldon Cooper,Mouse,Electronics,3,40,114.66,31.51,Second Class,South
+1709,2024-11-27,Fiona Gallagher,Paper Shredder,Office Supplies,3,90,277.03,106.16,Standard Class,South
+1710,2024-04-13,Laura Croft,Coffee Beans 1kg,Food,4,25,101.96,22.01,Second Class,Central
+1711,2024-11-18,Wanda Maximoff,T-Shirt,Apparel,4,25,95.36,30.21,Second Class,West
+1712,2024-10-30,Pam Beesly,Sneakers,Apparel,1,90,90.0,34.43,Second Class,Central
+1713,2024-08-18,Bob Jones,Mouse,Electronics,1,40,39.62,9.33,Standard Class,East
+1714,2024-11-30,Arthur Dent,Baseball Cap,Apparel,5,20,104.25,33.11,Standard Class,West
+1715,2024-03-13,Penny Hofstadter,Smartwatch,Electronics,5,250,1189.3,305.21,Standard Class,West
+1716,2024-06-06,George Clark,Socks Pack,Apparel,2,15,30.95,9.98,Second Class,East
+1717,2024-09-11,Leia Organa,Organic Tea,Food,1,12,11.8,2.52,Second Class,South
+1718,2024-12-13,Zachary Levi,Notebook,Office Supplies,5,5,25.84,10.94,Standard Class,Central
+1719,2024-01-24,Luke Skywalker,Bookcase,Furniture,1,180,184.64,25.86,Standard Class,West
+1720,2024-07-08,Tricia McMillan,Sofa,Furniture,2,750,1445.01,229.37,First Class,East
+1721,2024-11-19,Han Solo,Jeans,Apparel,1,60,57.04,18.68,First Class,East
+1722,2024-02-15,Luke Skywalker,File Folders,Office Supplies,4,10,38.57,14.72,Second Class,West
+1723,2024-08-18,Amy Farrah,Desk,Furniture,5,400,2043.44,313.39,Second Class,West
+1724,2024-02-15,Tony Stark,File Folders,Office Supplies,1,10,9.62,3.87,Standard Class,West
+1725,2024-02-18,Han Solo,Paper Shredder,Office Supplies,5,90,439.94,165.2,Standard Class,West
+1726,2024-03-17,Sheldon Cooper,Jeans,Apparel,2,60,114.65,39.04,Second Class,East
+1727,2024-04-17,Bernadette Rosten,Stapler,Office Supplies,5,12,57.26,24.01,Second Class,South
+1728,2024-10-02,Laura Croft,Office Chair,Furniture,4,250,1039.51,162.83,Standard Class,East
+1729,2024-10-30,Luke Skywalker,File Folders,Office Supplies,2,10,19.46,7.18,Second Class,Central
+1730,2024-04-26,George Clark,Dining Table,Furniture,4,500,2078.27,285.15,First Class,South
+1731,2024-10-26,Penny Hofstadter,Tablet,Electronics,2,450,871.03,212.25,Standard Class,South
+1732,2024-08-22,Michael Scott,Stapler,Office Supplies,2,12,24.46,8.92,Standard Class,East
+1733,2024-03-10,Hannah Abbott,Sneakers,Apparel,4,90,349.91,117.45,Standard Class,Central
+1734,2024-03-21,Han Solo,Coffee Table,Furniture,5,150,743.38,111.99,First Class,East
+1735,2024-04-20,Luke Skywalker,Sneakers,Apparel,3,90,276.38,91.83,Standard Class,South
+1736,2024-06-16,Bernadette Rosten,Organic Tea,Food,5,12,59.51,10.82,First Class,East
+1737,2024-08-28,Rajesh Koothrappali,Tablet,Electronics,5,450,2239.3,530.77,Standard Class,East
+1738,2024-10-12,Alice Smith,Jeans,Apparel,2,60,121.77,39.13,Standard Class,West
+1739,2024-09-02,Tony Stark,Dining Table,Furniture,4,500,2095.28,312.01,First Class,East
+1740,2024-03-11,Zachary Levi,Bookcase,Furniture,4,180,745.95,102.29,Second Class,East
+1741,2024-12-19,Victor Stone,Coffee Beans 1kg,Food,3,25,76.49,15.64,Standard Class,Central
+1742,2024-10-21,Nancy Drew,Mouse,Electronics,1,40,41.55,9.58,Standard Class,Central
+1743,2024-07-06,Leonard Hofstadter,Coffee Beans 1kg,Food,3,25,75.46,15.92,Standard Class,East
+1744,2024-03-11,Victor Stone,Coffee Table,Furniture,1,150,153.8,24.27,Standard Class,West
+1745,2024-06-13,Wanda Maximoff,Paper Shredder,Office Supplies,4,90,355.42,140.81,Standard Class,East
+1746,2024-09-13,Arthur Dent,Smartwatch,Electronics,5,250,1244.0,302.8,Second Class,Central
+1747,2024-12-10,Evan Wright,Sofa,Furniture,1,750,734.13,120.18,Standard Class,West
+1748,2024-02-25,Kevin Bacon,Notebook,Office Supplies,2,5,10.02,4.11,Standard Class,West
+1749,2024-05-30,Amy Farrah,Organic Tea,Food,4,12,49.14,8.89,Standard Class,South
+1750,2024-04-06,Evan Wright,Headphones,Electronics,5,150,755.9,194.86,Standard Class,South
+1751,2024-06-16,Penny Hofstadter,Honey Jar,Food,5,18,89.62,18.17,Second Class,South
+1752,2024-06-05,Kevin Bacon,Premium Pens,Office Supplies,4,15,61.62,22.42,Standard Class,Central
+1753,2024-06-29,Steve Rogers,Jeans,Apparel,5,60,290.47,95.06,First Class,Central
+1754,2024-12-28,Julia Roberts,Desk,Furniture,1,400,402.98,59.73,Standard Class,Central
+1755,2024-07-08,Laura Croft,Coffee Table,Furniture,1,150,144.72,21.48,Second Class,Central
+1756,2024-03-24,Ford Prefect,Notebook,Office Supplies,1,5,5.13,2.24,Standard Class,South
+1757,2024-06-12,Julia Roberts,Mouse,Electronics,3,40,125.64,33.01,Standard Class,Central
+1758,2024-10-20,Julia Roberts,Honey Jar,Food,4,18,73.67,15.91,Standard Class,East
+1759,2024-03-12,Tricia McMillan,Keyboard,Electronics,1,80,79.57,18.27,Standard Class,West
+1760,2024-01-29,Leia Organa,Coffee Table,Furniture,5,150,727.18,99.99,Standard Class,Central
+1761,2024-08-16,Fiona Gallagher,Snack Mix Pack,Food,2,15,31.23,6.07,Standard Class,East
+1762,2024-03-16,Bernadette Rosten,File Folders,Office Supplies,3,10,29.55,12.95,Standard Class,Central
+1763,2024-10-14,Fiona Gallagher,Dining Table,Furniture,4,500,2060.74,296.04,Second Class,South
+1764,2024-08-05,Amy Farrah,Coffee Table,Furniture,5,150,735.24,121.06,Standard Class,West
+1765,2024-09-25,Victor Stone,Tablet,Electronics,1,450,446.15,112.78,Standard Class,Central
+1766,2024-12-29,Zaphod Beeblebrox,Desk,Furniture,2,400,804.31,109.6,Second Class,Central
+1767,2024-06-03,Luke Skywalker,File Folders,Office Supplies,5,10,47.63,17.16,Second Class,West
+1768,2024-05-14,Tony Stark,T-Shirt,Apparel,3,25,78.05,28.11,Standard Class,South
+1769,2024-01-15,Hannah Abbott,File Folders,Office Supplies,1,10,10.08,4.08,Standard Class,Central
+1770,2024-05-12,Sheldon Cooper,Mouse,Electronics,5,40,206.91,48.24,Second Class,East
+1771,2024-01-30,Julia Roberts,File Folders,Office Supplies,2,10,19.55,7.69,Standard Class,East
+1772,2024-07-01,Diana Prince,Stapler,Office Supplies,5,12,60.08,25.31,Standard Class,East
+1773,2024-04-03,George Clark,Organic Tea,Food,5,12,61.96,12.85,Standard Class,Central
+1774,2024-06-03,Rachel Green,Notebook,Office Supplies,5,5,23.78,9.55,Standard Class,West
+1775,2024-07-09,Penny Hofstadter,Jacket,Apparel,2,120,240.08,89.6,Standard Class,West
+1776,2024-10-13,Han Solo,Olive Oil 1L,Food,5,20,99.17,21.48,Second Class,East
+1777,2024-02-29,Ian Malcolm,Smartwatch,Electronics,3,250,722.93,178.63,Standard Class,Central
+1778,2024-11-01,Arthur Dent,Premium Pens,Office Supplies,3,15,43.75,18.75,Standard Class,East
+1779,2024-03-13,Oscar Martinez,Premium Pens,Office Supplies,2,15,29.77,12.53,Standard Class,East
+1780,2024-02-27,Evan Wright,Smartwatch,Electronics,4,250,953.28,245.94,Standard Class,East
+1781,2024-10-30,Diana Prince,T-Shirt,Apparel,3,25,76.26,28.05,Standard Class,Central
+1782,2024-03-04,Leia Organa,Coffee Table,Furniture,2,150,285.88,39.84,Standard Class,Central
+1783,2024-05-22,Luke Skywalker,Stapler,Office Supplies,2,12,24.01,8.77,First Class,West
+1784,2024-10-23,Alice Smith,Organic Tea,Food,2,12,24.96,5.03,Same Day,West
+1785,2024-02-20,Nancy Drew,Honey Jar,Food,4,18,71.57,15.62,Standard Class,West
+1786,2024-04-02,Wanda Maximoff,Sneakers,Apparel,2,90,173.03,66.43,Standard Class,South
+1787,2024-03-04,Leonard Hofstadter,Monitor,Electronics,4,300,1206.86,273.99,Second Class,Central
+1788,2024-06-16,Penny Hofstadter,Tablet,Electronics,3,450,1375.25,367.27,Standard Class,Central
+1789,2024-04-25,Tricia McMillan,Jacket,Apparel,4,120,498.95,185.2,Standard Class,East
+1790,2024-12-13,Xavier Charles,Office Chair,Furniture,4,250,993.81,153.8,Second Class,South
+1791,2024-02-13,Hannah Abbott,Sofa,Furniture,4,750,3072.43,497.04,Second Class,East
+1792,2024-03-27,Evan Wright,Premium Pens,Office Supplies,3,15,43.3,18.49,Standard Class,South
+1793,2024-09-12,Rachel Green,Olive Oil 1L,Food,3,20,59.14,12.22,Second Class,South
+1794,2024-07-26,Penny Hofstadter,Protein Bars Box,Food,2,30,57.73,11.52,Second Class,East
+1795,2024-04-28,Ian Malcolm,Smartphone,Electronics,1,800,814.25,222.78,Second Class,South
+1796,2024-07-14,Leia Organa,Premium Pens,Office Supplies,3,15,46.17,19.06,Standard Class,East
+1797,2024-09-23,Penny Hofstadter,Jeans,Apparel,3,60,180.09,63.57,Second Class,South
+1798,2024-10-03,Ford Prefect,Laptop,Electronics,4,1200,4744.14,1142.05,First Class,East
+1799,2024-07-11,Howard Wolowitz,T-Shirt,Apparel,1,25,25.96,8.48,Standard Class,Central
+1800,2024-08-08,Ian Malcolm,Whiteboard,Office Supplies,4,60,241.65,96.48,Standard Class,East
+1801,2024-10-10,Ford Prefect,Snack Mix Pack,Food,4,15,60.04,11.75,Standard Class,West
+1802,2024-09-10,Luke Skywalker,Socks Pack,Apparel,3,15,44.19,14.01,Second Class,Central
+1803,2024-01-24,Ian Malcolm,Stapler,Office Supplies,5,12,59.28,23.37,Standard Class,Central
+1804,2024-07-01,Amy Farrah,Notebook,Office Supplies,2,5,10.09,4.37,Standard Class,Central
+1805,2024-02-03,Tony Stark,Mouse,Electronics,2,40,76.3,19.68,Standard Class,Central
+1806,2024-08-04,Zaphod Beeblebrox,Snack Mix Pack,Food,3,15,45.4,9.96,Standard Class,South
+1807,2024-07-12,Zaphod Beeblebrox,Jacket,Apparel,5,120,576.0,208.66,Standard Class,South
+1808,2024-06-21,Penny Hofstadter,Honey Jar,Food,3,18,53.26,10.52,Standard Class,Central
+1809,2024-09-11,Evan Wright,Organic Tea,Food,3,12,37.79,7.41,Standard Class,Central
+1810,2024-04-25,Han Solo,Smartphone,Electronics,5,800,4026.57,1012.9,Standard Class,East
+1811,2024-08-06,Nancy Drew,Notebook,Office Supplies,3,5,14.9,6.01,Standard Class,Central
+1812,2024-04-12,Amy Farrah,Jacket,Apparel,5,120,622.85,223.57,Standard Class,West
+1813,2024-09-21,Laura Croft,Snack Mix Pack,Food,2,15,29.3,6.02,Second Class,South
+1814,2024-11-10,Bernadette Rosten,Honey Jar,Food,1,18,17.93,3.4,Standard Class,Central
+1815,2024-12-16,Tony Stark,Sneakers,Apparel,3,90,273.62,102.39,First Class,East
+1816,2024-05-16,Steve Rogers,Bookcase,Furniture,5,180,865.22,121.79,Standard Class,West
+1817,2024-05-05,Tony Stark,Sneakers,Apparel,5,90,456.61,145.01,Same Day,South
+1818,2024-03-22,Rachel Green,Office Chair,Furniture,3,250,761.9,106.88,Second Class,Central
+1819,2024-01-22,Penny Hofstadter,Laptop,Electronics,1,1200,1244.06,335.93,Standard Class,Central
+1820,2024-07-27,Xavier Charles,Tablet,Electronics,2,450,901.98,240.33,Standard Class,East
+1821,2024-09-25,Quentin Tarantino,T-Shirt,Apparel,2,25,49.15,17.49,Standard Class,Central
+1822,2024-07-18,Pam Beesly,Jeans,Apparel,2,60,125.64,43.44,Standard Class,West
+1823,2024-05-10,Luke Skywalker,Smartwatch,Electronics,5,250,1227.06,302.09,Standard Class,East
+1824,2024-12-15,Pam Beesly,Premium Pens,Office Supplies,3,15,46.45,16.8,Standard Class,Central
+1825,2024-11-06,Charlie Brown,Headphones,Electronics,3,150,456.25,118.64,Standard Class,Central
+1826,2024-12-16,Hannah Abbott,Organic Tea,Food,4,12,50.05,10.85,Standard Class,South
+1827,2024-06-03,Fiona Gallagher,Bookcase,Furniture,2,180,374.97,57.72,First Class,West
+1828,2024-11-25,Amy Farrah,Keyboard,Electronics,1,80,79.77,19.6,Second Class,South
+1829,2024-06-19,Bernadette Rosten,Monitor,Electronics,3,300,892.88,233.45,Standard Class,Central
+1830,2024-10-07,Ursula Buffett,Baseball Cap,Apparel,1,20,20.26,7.5,Second Class,West
+1831,2024-03-10,Alice Smith,Jeans,Apparel,3,60,172.99,57.51,Standard Class,East
+1832,2024-12-31,Ian Malcolm,Honey Jar,Food,4,18,71.65,15.4,Second Class,Central
+1833,2024-03-09,Quentin Tarantino,Dining Table,Furniture,5,500,2424.67,357.48,Second Class,Central
+1834,2024-04-03,Zachary Levi,Socks Pack,Apparel,2,15,31.27,11.27,Standard Class,East
+1835,2024-11-16,Oscar Martinez,Smartwatch,Electronics,2,250,477.49,122.19,Standard Class,West
+1836,2024-11-03,Quentin Tarantino,Office Chair,Furniture,3,250,713.56,107.59,Standard Class,East
+1837,2024-08-20,Penny Hofstadter,Headphones,Electronics,2,150,293.64,73.32,Standard Class,Central
+1838,2024-03-07,Bernadette Rosten,Coffee Table,Furniture,2,150,306.8,43.16,Same Day,Central
+1839,2024-04-02,Amy Farrah,Office Chair,Furniture,3,250,758.83,123.1,Same Day,West
+1840,2024-07-08,Luke Skywalker,T-Shirt,Apparel,1,25,26.19,8.98,Standard Class,Central
+1841,2024-04-18,Yolanda Adams,Baseball Cap,Apparel,5,20,100.57,32.05,Standard Class,East
+1842,2024-04-30,Sheldon Cooper,Paper Shredder,Office Supplies,5,90,427.74,171.25,Second Class,East
+1843,2024-07-14,Tony Stark,Baseball Cap,Apparel,3,20,60.48,20.15,Standard Class,East
+1844,2024-09-14,Penny Hofstadter,File Folders,Office Supplies,2,10,19.28,7.12,Standard Class,South
+1845,2024-01-23,Ian Malcolm,Jacket,Apparel,3,120,374.5,124.87,First Class,Central
+1846,2024-05-15,Arthur Dent,File Folders,Office Supplies,2,10,20.53,7.64,Standard Class,South
+1847,2024-12-02,Howard Wolowitz,Headphones,Electronics,2,150,286.08,68.09,Standard Class,West
+1848,2024-12-27,Leonard Hofstadter,T-Shirt,Apparel,4,25,104.89,37.16,Standard Class,Central
+1849,2024-08-22,Penny Hofstadter,Monitor,Electronics,1,300,311.05,72.8,Standard Class,West
+1850,2024-03-27,Rajesh Koothrappali,Paper Shredder,Office Supplies,5,90,451.17,183.02,Standard Class,East
+1851,2024-08-01,Evan Wright,Sofa,Furniture,1,750,733.82,120.67,First Class,East
+1852,2024-03-03,Zachary Levi,Paper Shredder,Office Supplies,1,90,85.76,34.03,Second Class,West
+1853,2024-12-28,Sheldon Cooper,Baseball Cap,Apparel,3,20,58.98,18.76,Standard Class,East
+1854,2024-11-14,Howard Wolowitz,Whiteboard,Office Supplies,5,60,309.05,118.25,Standard Class,East
+1855,2024-01-29,Evan Wright,Olive Oil 1L,Food,4,20,77.42,16.92,Standard Class,Central
+1856,2024-07-23,Fiona Gallagher,Headphones,Electronics,2,150,293.55,77.09,Standard Class,South
+1857,2024-11-30,Julia Roberts,Keyboard,Electronics,4,80,332.92,84.95,Second Class,Central
+1858,2024-07-02,George Clark,Paper Shredder,Office Supplies,2,90,179.58,72.74,Standard Class,South
+1859,2024-08-04,Fiona Gallagher,Jacket,Apparel,5,120,575.58,201.99,Standard Class,South
+1860,2024-08-25,Oscar Martinez,Sofa,Furniture,5,750,3671.51,543.83,Standard Class,East
+1861,2024-09-01,Tony Stark,Desk,Furniture,3,400,1175.46,160.37,Second Class,South
+1862,2024-02-09,Charlie Brown,Coffee Beans 1kg,Food,5,25,124.56,26.01,Standard Class,East
+1863,2024-05-09,Wanda Maximoff,Paper Shredder,Office Supplies,1,90,86.53,35.73,Second Class,East
+1864,2024-04-01,Laura Croft,T-Shirt,Apparel,1,25,24.53,8.97,Standard Class,Central
+1865,2024-12-09,Howard Wolowitz,Protein Bars Box,Food,3,30,87.4,16.01,Same Day,West
+1866,2024-11-05,Quentin Tarantino,Tablet,Electronics,5,450,2163.75,505.42,Standard Class,South
+1867,2024-09-01,Leonard Hofstadter,Baseball Cap,Apparel,5,20,101.18,38.77,Second Class,Central
+1868,2024-07-03,Zachary Levi,Notebook,Office Supplies,2,5,9.61,3.47,Standard Class,West
+1869,2024-04-06,Bob Jones,Sofa,Furniture,2,750,1551.31,249.37,Standard Class,South
+1870,2024-10-02,Michael Scott,Keyboard,Electronics,4,80,304.7,71.09,Standard Class,South
+1871,2024-03-19,Howard Wolowitz,Sneakers,Apparel,1,90,87.31,30.98,First Class,West
+1872,2024-07-19,Diana Prince,Notebook,Office Supplies,1,5,5.24,2.24,Standard Class,South
+1873,2024-10-23,Leia Organa,Protein Bars Box,Food,1,30,30.04,6.28,Standard Class,South
+1874,2024-12-13,Penny Hofstadter,Dining Table,Furniture,1,500,503.82,76.38,Standard Class,South
+1875,2024-05-17,Amy Farrah,T-Shirt,Apparel,4,25,99.48,34.37,Standard Class,Central
+1876,2024-03-23,Steve Rogers,Sofa,Furniture,3,750,2269.72,353.05,Standard Class,West
+1877,2024-11-04,Leonard Hofstadter,Bookcase,Furniture,4,180,741.31,117.86,Same Day,Central
+1878,2024-03-23,Han Solo,Bookcase,Furniture,1,180,174.12,24.32,Second Class,West
+1879,2024-09-08,George Clark,Sneakers,Apparel,3,90,283.48,96.42,Standard Class,East
+1880,2024-05-13,Wanda Maximoff,Desk,Furniture,5,400,1967.55,272.35,Standard Class,East
+1881,2024-04-26,Hannah Abbott,Organic Tea,Food,4,12,49.37,10.41,Standard Class,Central
+1882,2024-10-12,Rachel Green,Dining Table,Furniture,5,500,2551.6,415.4,Standard Class,East
+1883,2024-08-12,Leonard Hofstadter,Smartphone,Electronics,5,800,4129.44,937.79,Standard Class,East
+1884,2024-02-23,Kevin Bacon,Headphones,Electronics,3,150,459.37,120.86,Standard Class,Central
+1885,2024-09-12,George Clark,Dining Table,Furniture,3,500,1443.45,203.61,Standard Class,West
+1886,2024-07-31,Alice Smith,Sofa,Furniture,3,750,2156.68,315.25,Standard Class,West
+1887,2024-07-31,Xavier Charles,Desk,Furniture,5,400,1927.6,285.02,Standard Class,West
+1888,2024-07-28,Leonard Hofstadter,Honey Jar,Food,3,18,52.09,9.4,First Class,South
+1889,2024-09-21,Evan Wright,Mouse,Electronics,3,40,119.21,29.17,Standard Class,West
+1890,2024-01-19,Julia Roberts,Coffee Beans 1kg,Food,5,25,123.78,25.65,Same Day,South
+1891,2024-10-10,Tony Stark,Stapler,Office Supplies,1,12,12.24,4.84,Second Class,West
+1892,2024-04-15,Ford Prefect,Olive Oil 1L,Food,4,20,82.2,17.69,Second Class,South
+1893,2024-02-13,Charlie Brown,Protein Bars Box,Food,4,30,120.25,24.25,Second Class,West
+1894,2024-04-19,Fiona Gallagher,Olive Oil 1L,Food,3,20,57.14,12.32,Standard Class,West
+1895,2024-10-03,Luke Skywalker,Premium Pens,Office Supplies,3,15,46.04,19.67,Second Class,East
+1896,2024-05-12,Rajesh Koothrappali,Notebook,Office Supplies,1,5,4.97,2.02,Second Class,East
+1897,2024-01-03,Leonard Hofstadter,Premium Pens,Office Supplies,5,15,73.88,28.28,Standard Class,West
+1898,2024-10-20,Ian Malcolm,Socks Pack,Apparel,2,15,30.97,10.54,Standard Class,West
+1899,2024-02-20,Julia Roberts,Sneakers,Apparel,1,90,93.5,32.57,Standard Class,South
+1900,2024-08-16,Evan Wright,Whiteboard,Office Supplies,5,60,311.16,126.56,Standard Class,South
+1901,2024-11-21,Bernadette Rosten,Baseball Cap,Apparel,4,20,82.59,26.85,Second Class,South
+1902,2024-03-06,Penny Hofstadter,Jeans,Apparel,5,60,305.83,106.09,First Class,East
+1903,2024-01-17,Kevin Bacon,Protein Bars Box,Food,1,30,28.83,5.62,Standard Class,South
+1904,2024-05-28,Charlie Brown,Organic Tea,Food,1,12,11.76,2.35,Standard Class,Central
+1905,2024-03-14,Julia Roberts,Snack Mix Pack,Food,1,15,15.58,2.94,First Class,Central
+1906,2024-09-07,Alice Smith,Mouse,Electronics,1,40,39.92,9.6,First Class,South
+1907,2024-08-19,Victor Stone,Sneakers,Apparel,5,90,450.21,156.34,Standard Class,West
+1908,2024-08-18,Howard Wolowitz,Dining Table,Furniture,3,500,1483.09,240.27,Standard Class,South
+1909,2024-06-22,Ford Prefect,Smartwatch,Electronics,3,250,765.54,194.14,Standard Class,West
+1910,2024-12-28,Tony Stark,Honey Jar,Food,1,18,17.45,3.57,Standard Class,East
+1911,2024-10-22,Diana Prince,Olive Oil 1L,Food,2,20,38.48,8.37,Second Class,East
+1912,2024-04-02,Bob Jones,Premium Pens,Office Supplies,2,15,28.75,11.58,Second Class,South
+1913,2024-06-13,Zachary Levi,Coffee Beans 1kg,Food,4,25,98.4,18.42,First Class,East
+1914,2024-01-13,Arthur Dent,File Folders,Office Supplies,3,10,30.13,11.53,Standard Class,East
+1915,2024-04-03,Quentin Tarantino,Monitor,Electronics,3,300,860.3,234.91,Same Day,West
+1916,2024-04-02,Bob Jones,Keyboard,Electronics,4,80,317.21,76.51,Standard Class,West
+1917,2024-07-11,Hannah Abbott,Headphones,Electronics,2,150,299.79,78.73,Second Class,West
+1918,2024-07-16,Hannah Abbott,Notebook,Office Supplies,3,5,14.35,5.2,Standard Class,South
+1919,2024-11-20,Oscar Martinez,Keyboard,Electronics,5,80,389.85,98.53,Same Day,East
+1920,2024-03-05,Tony Stark,Snack Mix Pack,Food,4,15,61.7,11.46,Standard Class,West
+1921,2024-10-03,Kevin Bacon,Coffee Table,Furniture,4,150,572.51,91.25,Same Day,South
+1922,2024-11-13,Steve Rogers,Office Chair,Furniture,1,250,244.33,34.82,First Class,South
+1923,2024-12-14,Yolanda Adams,Whiteboard,Office Supplies,2,60,114.55,48.01,Standard Class,Central
+1924,2024-10-15,Evan Wright,Notebook,Office Supplies,4,5,20.45,9.0,Second Class,West
+1925,2024-08-09,Nancy Drew,Olive Oil 1L,Food,3,20,60.81,13.33,First Class,Central
+1926,2024-12-28,Howard Wolowitz,Premium Pens,Office Supplies,3,15,47.07,18.18,Standard Class,South
+1927,2024-12-20,Ian Malcolm,Smartwatch,Electronics,1,250,247.83,66.86,First Class,West
+1928,2024-12-26,Penny Hofstadter,Socks Pack,Apparel,1,15,15.06,5.68,Second Class,East
+1929,2024-12-09,Howard Wolowitz,Mouse,Electronics,4,40,158.19,42.23,Second Class,Central
+1930,2024-12-22,Alice Smith,Smartwatch,Electronics,3,250,713.2,186.97,First Class,South
+1931,2024-05-23,Wanda Maximoff,Office Chair,Furniture,5,250,1216.78,182.29,Standard Class,West
+1932,2024-07-04,Charlie Brown,File Folders,Office Supplies,5,10,52.42,21.55,Standard Class,West
+1933,2024-02-26,Rachel Green,Olive Oil 1L,Food,4,20,81.28,16.47,Standard Class,West
+1934,2024-12-15,Leia Organa,Organic Tea,Food,1,12,11.55,2.51,Standard Class,East
+1935,2024-04-26,Arthur Dent,Premium Pens,Office Supplies,1,15,15.27,6.58,Same Day,Central
+1936,2024-01-02,Bernadette Rosten,Mouse,Electronics,4,40,156.38,40.5,Second Class,South
+1937,2024-08-26,Penny Hofstadter,Paper Shredder,Office Supplies,1,90,85.92,37.24,First Class,West
+1938,2024-09-29,Howard Wolowitz,Notebook,Office Supplies,4,5,20.76,8.81,Standard Class,East
+1939,2024-04-25,Bernadette Rosten,Headphones,Electronics,2,150,286.89,73.52,Standard Class,Central
+1940,2024-01-15,Sheldon Cooper,T-Shirt,Apparel,5,25,129.26,42.95,Second Class,Central
+1941,2024-08-30,Pam Beesly,Notebook,Office Supplies,3,5,15.67,6.61,Standard Class,West
+1942,2024-11-13,Howard Wolowitz,Smartwatch,Electronics,5,250,1302.09,317.54,Standard Class,East
+1943,2024-12-21,Evan Wright,Office Chair,Furniture,4,250,956.58,148.58,Standard Class,South
+1944,2024-10-13,Diana Prince,File Folders,Office Supplies,4,10,38.93,15.88,Standard Class,South
+1945,2024-12-03,Han Solo,Smartwatch,Electronics,4,250,1037.99,265.69,Standard Class,South
+1946,2024-06-22,Bob Jones,Socks Pack,Apparel,3,15,43.21,15.41,Standard Class,East
+1947,2024-02-04,Luke Skywalker,Coffee Table,Furniture,2,150,295.66,44.18,Standard Class,Central
+1948,2024-11-13,Howard Wolowitz,Desk,Furniture,2,400,770.21,117.48,Second Class,East
+1949,2024-09-19,Wanda Maximoff,Paper Shredder,Office Supplies,5,90,448.63,183.16,Second Class,West
+1950,2024-05-29,Xavier Charles,Monitor,Electronics,1,300,297.66,69.88,Standard Class,East
+1951,2024-04-12,Michael Scott,Mouse,Electronics,2,40,80.8,19.52,Second Class,South
+1952,2024-10-23,Zaphod Beeblebrox,Paper Shredder,Office Supplies,3,90,259.33,111.53,Standard Class,West
+1953,2024-01-22,Penny Hofstadter,Office Chair,Furniture,2,250,506.2,71.97,Second Class,South
+1954,2024-06-18,Yolanda Adams,Sofa,Furniture,2,750,1479.42,202.99,Second Class,East
+1955,2024-01-16,Tricia McMillan,Monitor,Electronics,3,300,858.95,194.54,Standard Class,Central
+1956,2024-04-11,Steve Rogers,Desk,Furniture,3,400,1241.7,176.79,Second Class,Central
+1957,2024-04-10,Bob Jones,Bookcase,Furniture,1,180,177.82,28.21,Standard Class,West
+1958,2024-02-26,Victor Stone,Bookcase,Furniture,4,180,731.59,119.42,Standard Class,Central
+1959,2024-11-15,Bernadette Rosten,Smartphone,Electronics,2,800,1647.18,386.4,First Class,West
+1960,2024-07-12,Xavier Charles,Paper Shredder,Office Supplies,4,90,375.16,157.96,Same Day,West
+1961,2024-10-27,Michael Scott,Protein Bars Box,Food,2,30,60.78,11.62,Standard Class,East
+1962,2024-03-05,Rajesh Koothrappali,Snack Mix Pack,Food,2,15,30.87,6.32,Second Class,South
+1963,2024-03-26,Rajesh Koothrappali,Baseball Cap,Apparel,5,20,96.79,35.32,Standard Class,South
+1964,2024-09-26,Sheldon Cooper,Sneakers,Apparel,3,90,262.09,98.98,Standard Class,East
+1965,2024-08-19,Pam Beesly,Jeans,Apparel,3,60,181.28,68.97,Standard Class,South
+1966,2024-07-10,Quentin Tarantino,Coffee Beans 1kg,Food,2,25,49.72,9.65,Second Class,Central
+1967,2024-10-25,Charlie Brown,Socks Pack,Apparel,5,15,74.76,25.69,Standard Class,South
+1968,2024-09-11,Ursula Buffett,File Folders,Office Supplies,1,10,9.77,3.58,Standard Class,West
+1969,2024-02-12,Steve Rogers,Olive Oil 1L,Food,5,20,104.27,19.18,Standard Class,Central
+1970,2024-02-06,Xavier Charles,Headphones,Electronics,3,150,438.75,115.07,Standard Class,Central
+1971,2024-12-15,Rachel Green,Dining Table,Furniture,5,500,2377.13,342.27,Same Day,Central
+1972,2024-06-26,Zachary Levi,Socks Pack,Apparel,1,15,15.55,5.15,Standard Class,West
+1973,2024-04-17,Sheldon Cooper,Coffee Table,Furniture,5,150,766.69,114.12,Second Class,South
+1974,2024-02-13,Ursula Buffett,Sofa,Furniture,4,750,3105.88,422.1,Standard Class,South
+1975,2024-03-12,Zaphod Beeblebrox,Bookcase,Furniture,1,180,177.12,26.14,Standard Class,Central
+1976,2024-12-17,Zachary Levi,Protein Bars Box,Food,3,30,93.8,17.46,Standard Class,East
+1977,2024-06-18,Zaphod Beeblebrox,Olive Oil 1L,Food,5,20,97.04,18.98,First Class,South
+1978,2024-09-30,Yolanda Adams,Sofa,Furniture,1,750,760.43,109.61,Standard Class,South
+1979,2024-03-28,George Clark,Organic Tea,Food,1,12,11.43,2.15,Second Class,South
+1980,2024-07-16,Steve Rogers,Desk,Furniture,3,400,1194.56,174.48,Second Class,East
+1981,2024-01-06,Kevin Bacon,File Folders,Office Supplies,4,10,38.52,15.16,Standard Class,East
+1982,2024-02-05,Yolanda Adams,Desk,Furniture,2,400,772.7,117.65,Standard Class,South
+1983,2024-06-07,Luke Skywalker,Coffee Table,Furniture,4,150,629.47,93.4,Standard Class,East
+1984,2024-07-23,Leia Organa,Coffee Table,Furniture,3,150,448.21,68.26,First Class,South
+1985,2024-02-16,Steve Rogers,Jacket,Apparel,3,120,356.94,116.92,Standard Class,West
+1986,2024-11-12,Bernadette Rosten,Sneakers,Apparel,2,90,178.08,67.88,Second Class,East
+1987,2024-05-02,Kevin Bacon,Whiteboard,Office Supplies,5,60,305.94,127.82,Standard Class,East
+1988,2024-04-21,Penny Hofstadter,Socks Pack,Apparel,1,15,15.38,5.39,Same Day,East
+1989,2024-06-15,Amy Farrah,Jeans,Apparel,3,60,179.32,57.4,Standard Class,East
+1990,2024-12-21,Leonard Hofstadter,Jacket,Apparel,4,120,457.81,152.24,First Class,South
+1991,2024-12-29,Ian Malcolm,Whiteboard,Office Supplies,4,60,229.98,94.88,Standard Class,East
+1992,2024-12-31,Howard Wolowitz,Sofa,Furniture,3,750,2326.16,356.39,Second Class,West
+1993,2024-03-31,Steve Rogers,Tablet,Electronics,2,450,915.96,213.12,Standard Class,East
+1994,2024-07-02,Laura Croft,Dining Table,Furniture,1,500,497.1,67.82,First Class,West
+1995,2024-11-21,Arthur Dent,Tablet,Electronics,3,450,1289.07,314.37,Standard Class,East
+1996,2024-04-13,Pam Beesly,Premium Pens,Office Supplies,2,15,28.58,10.32,Standard Class,South
+1997,2024-04-08,Evan Wright,Office Chair,Furniture,2,250,495.78,68.53,Second Class,East
+1998,2024-06-16,Ursula Buffett,Honey Jar,Food,2,18,37.58,6.95,Standard Class,South
+1999,2024-04-19,George Clark,Stapler,Office Supplies,2,12,22.83,8.61,Standard Class,Central
+2000,2024-04-22,Evan Wright,Whiteboard,Office Supplies,5,60,311.56,122.41,Standard Class,East
+2001,2024-11-02,Penny Hofstadter,Monitor,Electronics,3,300,943.33,245.09,Same Day,Central
+2002,2024-12-13,Ian Malcolm,Premium Pens,Office Supplies,3,15,43.05,15.56,Same Day,South
+2003,2024-10-26,Howard Wolowitz,Socks Pack,Apparel,2,15,29.2,10.46,Standard Class,East
+2004,2024-03-04,Tony Stark,Dining Table,Furniture,4,500,1911.98,279.6,Second Class,East
+2005,2024-05-31,Michael Scott,Sofa,Furniture,2,750,1563.51,239.13,Standard Class,West
+2006,2024-08-15,Victor Stone,Bookcase,Furniture,3,180,541.13,88.92,Standard Class,East
+2007,2024-11-27,Steve Rogers,Headphones,Electronics,3,150,451.77,122.13,Standard Class,West
+2008,2024-12-06,Pam Beesly,Coffee Table,Furniture,4,150,596.54,80.64,Standard Class,West
+2009,2024-09-08,Evan Wright,Office Chair,Furniture,2,250,479.59,73.27,First Class,West
+2010,2024-04-14,Pam Beesly,Coffee Beans 1kg,Food,4,25,96.64,18.16,Second Class,Central
+2011,2024-08-05,Laura Croft,Organic Tea,Food,3,12,37.68,7.09,Standard Class,South
+2012,2024-09-03,Fiona Gallagher,File Folders,Office Supplies,4,10,39.69,16.22,Standard Class,South
+2013,2024-08-09,Julia Roberts,T-Shirt,Apparel,4,25,102.59,38.93,Standard Class,East
+2014,2024-10-31,Ford Prefect,Coffee Table,Furniture,2,150,294.18,42.21,Standard Class,South
+2015,2024-10-14,Leia Organa,T-Shirt,Apparel,3,25,72.72,27.57,Standard Class,South
+2016,2024-01-03,Alice Smith,Honey Jar,Food,3,18,56.38,12.34,Standard Class,South
+2017,2024-07-10,Yolanda Adams,Jacket,Apparel,5,120,629.55,203.79,Standard Class,East
+2018,2024-10-16,Kevin Bacon,Sofa,Furniture,3,750,2252.16,337.06,Second Class,Central
+2019,2024-12-18,Xavier Charles,Tablet,Electronics,4,450,1795.99,486.85,Second Class,West
+2020,2024-07-04,Bob Jones,Bookcase,Furniture,5,180,877.89,134.37,Standard Class,West
+2021,2024-12-05,Kevin Bacon,Smartphone,Electronics,1,800,791.81,201.36,Standard Class,South
+2022,2024-02-11,Arthur Dent,Sofa,Furniture,2,750,1528.78,229.35,Second Class,Central
+2023,2024-09-29,Yolanda Adams,Protein Bars Box,Food,4,30,115.31,23.4,Second Class,East
+2024,2024-06-25,Julia Roberts,Whiteboard,Office Supplies,2,60,122.39,44.12,First Class,South
+2025,2024-03-27,Penny Hofstadter,Smartphone,Electronics,1,800,802.0,206.7,Second Class,South
+2026,2024-08-08,Kevin Bacon,Bookcase,Furniture,2,180,359.51,53.95,Second Class,West
+2027,2024-02-26,Howard Wolowitz,Organic Tea,Food,2,12,24.74,4.64,Standard Class,West
+2028,2024-07-28,Howard Wolowitz,Coffee Beans 1kg,Food,2,25,49.39,9.44,Standard Class,East
+2029,2024-06-24,Bob Jones,Organic Tea,Food,4,12,45.65,8.7,Standard Class,East
+2030,2024-01-04,Luke Skywalker,Smartphone,Electronics,2,800,1580.11,396.61,Standard Class,East
+2031,2024-05-16,Penny Hofstadter,Jacket,Apparel,5,120,610.91,207.11,Standard Class,Central
+2032,2024-06-10,Pam Beesly,Whiteboard,Office Supplies,4,60,251.41,108.07,Standard Class,East
+2033,2024-02-21,Alice Smith,Baseball Cap,Apparel,4,20,76.21,24.66,Second Class,West
+2034,2024-09-28,Rachel Green,Bookcase,Furniture,4,180,721.07,111.63,Standard Class,South
+2035,2024-01-02,Ursula Buffett,Mouse,Electronics,1,40,40.71,9.64,Same Day,Central
+2036,2024-09-05,Zachary Levi,Coffee Beans 1kg,Food,3,25,78.65,16.85,Standard Class,South
+2037,2024-02-21,Yolanda Adams,Paper Shredder,Office Supplies,2,90,173.3,73.44,Second Class,East
+2038,2024-06-03,Tricia McMillan,Jeans,Apparel,4,60,243.9,80.94,Same Day,South
+2039,2024-04-18,Kevin Bacon,Smartphone,Electronics,4,800,3091.28,839.12,Same Day,East
+2040,2024-07-15,Rachel Green,Dining Table,Furniture,3,500,1524.82,248.06,Second Class,East
+2041,2024-11-20,Penny Hofstadter,Mouse,Electronics,2,40,81.15,19.79,First Class,East
+2042,2024-07-14,Tricia McMillan,Jeans,Apparel,2,60,115.05,36.96,Standard Class,Central
+2043,2024-10-30,Michael Scott,Mouse,Electronics,2,40,80.62,18.15,First Class,South
+2044,2024-02-01,Luke Skywalker,Organic Tea,Food,4,12,49.3,10.45,Same Day,Central
+2045,2024-03-05,Arthur Dent,Olive Oil 1L,Food,2,20,40.15,7.97,Standard Class,East
+2046,2024-03-15,Steve Rogers,Sofa,Furniture,4,750,2893.76,448.42,Standard Class,Central
+2047,2024-12-25,Charlie Brown,Protein Bars Box,Food,3,30,87.96,18.82,Standard Class,East
+2048,2024-10-20,Sheldon Cooper,Sofa,Furniture,3,750,2150.73,342.62,Second Class,South
+2049,2024-03-19,Nancy Drew,Dining Table,Furniture,1,500,517.84,81.21,First Class,West
+2050,2024-06-02,Kevin Bacon,Tablet,Electronics,3,450,1416.19,372.3,Standard Class,South
+2051,2024-07-19,Evan Wright,Honey Jar,Food,3,18,55.09,11.12,Standard Class,West
+2052,2024-02-19,Ian Malcolm,Paper Shredder,Office Supplies,1,90,89.62,33.44,Second Class,Central
+2053,2024-03-11,Howard Wolowitz,Jacket,Apparel,2,120,245.65,77.54,Standard Class,West
+2054,2024-10-21,George Clark,Sofa,Furniture,4,750,3127.8,431.27,Second Class,West
+2055,2024-08-30,Laura Croft,Smartphone,Electronics,5,800,4187.89,1073.56,Second Class,South
+2056,2024-07-25,Pam Beesly,Smartphone,Electronics,2,800,1630.08,444.57,Standard Class,Central
+2057,2024-11-30,Yolanda Adams,Smartwatch,Electronics,4,250,986.73,227.93,Standard Class,South
+2058,2024-02-12,Hannah Abbott,Baseball Cap,Apparel,5,20,97.74,35.89,Standard Class,South
+2059,2024-10-30,Laura Croft,Sneakers,Apparel,4,90,345.58,110.39,Standard Class,West
+2060,2024-10-02,Laura Croft,Baseball Cap,Apparel,1,20,19.13,7.15,Standard Class,South
+2061,2024-10-02,Hannah Abbott,Dining Table,Furniture,1,500,475.27,70.54,Standard Class,West
+2062,2024-06-09,Hannah Abbott,Monitor,Electronics,5,300,1438.17,342.05,Standard Class,West
+2063,2024-01-18,Fiona Gallagher,Keyboard,Electronics,3,80,238.15,64.84,Same Day,West
+2064,2024-01-01,Pam Beesly,Notebook,Office Supplies,5,5,25.4,10.05,First Class,Central
+2065,2024-10-22,Penny Hofstadter,Paper Shredder,Office Supplies,3,90,275.07,113.61,Standard Class,West
+2066,2024-01-23,Pam Beesly,Headphones,Electronics,2,150,313.72,80.03,Standard Class,West
+2067,2024-04-20,Luke Skywalker,Stapler,Office Supplies,2,12,22.98,8.74,Second Class,South
+2068,2024-07-14,Kevin Bacon,Sneakers,Apparel,1,90,93.96,30.54,First Class,South
+2069,2024-04-14,Evan Wright,Whiteboard,Office Supplies,2,60,119.04,44.32,Second Class,West
+2070,2024-08-10,Yolanda Adams,Headphones,Electronics,1,150,152.76,37.48,Standard Class,East
+2071,2024-06-17,Fiona Gallagher,Stapler,Office Supplies,3,12,35.19,12.94,Standard Class,West
+2072,2024-04-23,Yolanda Adams,Smartphone,Electronics,2,800,1614.21,428.31,Standard Class,Central
+2073,2024-02-18,Arthur Dent,Whiteboard,Office Supplies,5,60,303.22,130.91,First Class,Central
+2074,2024-03-28,Ursula Buffett,Jeans,Apparel,3,60,179.58,58.17,Second Class,South
+2075,2024-01-05,Rajesh Koothrappali,Dining Table,Furniture,2,500,955.29,149.75,Standard Class,Central
+2076,2024-07-08,Pam Beesly,Snack Mix Pack,Food,4,15,61.79,12.36,Standard Class,Central
+2077,2024-05-21,Bernadette Rosten,Honey Jar,Food,2,18,37.61,7.38,Standard Class,East
+2078,2024-06-09,Fiona Gallagher,Smartphone,Electronics,2,800,1612.05,369.53,First Class,West
+2079,2024-05-26,Tricia McMillan,T-Shirt,Apparel,4,25,99.8,35.03,Second Class,West
+2080,2024-12-12,Ford Prefect,Tablet,Electronics,1,450,459.64,119.57,Standard Class,East
+2081,2024-06-25,Pam Beesly,Honey Jar,Food,5,18,94.18,19.49,Standard Class,South
+2082,2024-09-25,Oscar Martinez,Office Chair,Furniture,3,250,783.94,115.77,Second Class,Central
+2083,2024-07-13,Kevin Bacon,Notebook,Office Supplies,3,5,15.5,6.63,First Class,West
+2084,2024-03-01,Steve Rogers,File Folders,Office Supplies,3,10,30.71,12.45,Standard Class,East
+2085,2024-04-21,Tony Stark,Coffee Beans 1kg,Food,4,25,95.57,17.23,First Class,South
+2086,2024-08-23,Victor Stone,Stapler,Office Supplies,1,12,11.88,4.29,Standard Class,West
+2087,2024-08-08,Penny Hofstadter,Office Chair,Furniture,5,250,1238.84,201.18,Standard Class,West
+2088,2024-01-04,Julia Roberts,Premium Pens,Office Supplies,4,15,59.19,25.53,Standard Class,Central
+2089,2024-10-01,Rachel Green,Smartwatch,Electronics,4,250,1024.71,230.86,Standard Class,Central
+2090,2024-12-29,Michael Scott,Headphones,Electronics,3,150,446.45,107.84,Standard Class,South
+2091,2024-01-17,Kevin Bacon,Sofa,Furniture,3,750,2261.28,359.53,Standard Class,South
+2092,2024-12-31,Ian Malcolm,File Folders,Office Supplies,5,10,48.16,21.03,Second Class,South
+2093,2024-01-11,Ian Malcolm,Bookcase,Furniture,5,180,859.68,137.46,Standard Class,West
+2094,2024-08-07,Leia Organa,Tablet,Electronics,4,450,1724.87,425.09,Standard Class,South
+2095,2024-11-12,Julia Roberts,Organic Tea,Food,2,12,24.87,5.47,Standard Class,East
+2096,2024-05-06,Bernadette Rosten,Sofa,Furniture,1,750,726.65,116.73,Second Class,West
+2097,2024-11-18,Julia Roberts,Office Chair,Furniture,2,250,524.52,85.43,Standard Class,Central
+2098,2024-08-06,Bob Jones,Organic Tea,Food,1,12,11.89,2.29,First Class,South
+2099,2024-11-20,Oscar Martinez,Bookcase,Furniture,4,180,730.36,105.27,Standard Class,South
+2100,2024-05-17,Xavier Charles,Stapler,Office Supplies,4,12,46.47,16.73,Standard Class,East
+2101,2024-12-04,Ursula Buffett,Bookcase,Furniture,4,180,715.03,101.94,Standard Class,East
+2102,2024-09-08,Xavier Charles,Stapler,Office Supplies,1,12,12.22,5.15,Standard Class,East
+2103,2024-03-07,Victor Stone,Whiteboard,Office Supplies,3,60,175.29,66.97,Second Class,Central
+2104,2024-10-26,Yolanda Adams,Smartphone,Electronics,2,800,1526.57,417.39,Standard Class,East
+2105,2024-12-01,Michael Scott,Dining Table,Furniture,4,500,2088.36,320.71,First Class,East
+2106,2024-06-03,Sheldon Cooper,Coffee Table,Furniture,2,150,297.55,46.52,Standard Class,West
+2107,2024-10-13,Wanda Maximoff,File Folders,Office Supplies,1,10,9.98,4.01,First Class,East
+2108,2024-09-14,Bob Jones,Coffee Table,Furniture,3,150,440.53,72.1,Second Class,West
+2109,2024-02-01,Michael Scott,Sneakers,Apparel,5,90,434.95,159.87,First Class,East
+2110,2024-07-15,Tricia McMillan,Sneakers,Apparel,5,90,427.66,151.83,Standard Class,West
+2111,2024-10-30,Alice Smith,Snack Mix Pack,Food,5,15,73.53,13.88,Second Class,Central
+2112,2024-12-28,Rachel Green,Coffee Beans 1kg,Food,2,25,48.96,10.07,Standard Class,West
+2113,2024-05-22,Ian Malcolm,Notebook,Office Supplies,2,5,10.03,3.61,Same Day,West
+2114,2024-06-26,Leia Organa,Stapler,Office Supplies,1,12,12.27,4.82,First Class,Central
+2115,2024-11-09,Steve Rogers,Notebook,Office Supplies,1,5,5.12,1.96,Second Class,West
+2116,2024-05-11,Bob Jones,Honey Jar,Food,5,18,94.01,17.89,Standard Class,South
+2117,2024-11-16,Leia Organa,Organic Tea,Food,4,12,46.58,9.56,Standard Class,Central
+2118,2024-07-21,Julia Roberts,Jeans,Apparel,4,60,230.25,75.45,Standard Class,South
+2119,2024-04-04,Laura Croft,Coffee Table,Furniture,4,150,608.85,82.58,First Class,West
+2120,2024-03-24,Laura Croft,Baseball Cap,Apparel,5,20,95.72,31.8,Standard Class,West
+2121,2024-11-26,Zachary Levi,Monitor,Electronics,1,300,296.52,68.35,Standard Class,South
+2122,2024-01-07,Charlie Brown,Desk,Furniture,1,400,411.7,55.7,Standard Class,East
+2123,2024-02-24,Ford Prefect,Whiteboard,Office Supplies,1,60,61.56,26.56,Standard Class,South
+2124,2024-03-24,Tony Stark,File Folders,Office Supplies,2,10,20.25,7.49,Standard Class,Central
+2125,2024-01-23,George Clark,Protein Bars Box,Food,1,30,28.93,6.26,Standard Class,South
+2126,2024-01-13,Oscar Martinez,Sneakers,Apparel,2,90,175.07,65.92,Standard Class,Central
+2127,2024-07-15,Hannah Abbott,Jeans,Apparel,1,60,59.14,21.18,Standard Class,Central
+2128,2024-03-01,Xavier Charles,Laptop,Electronics,5,1200,6018.29,1534.55,Standard Class,South
+2129,2024-12-13,Bernadette Rosten,Dining Table,Furniture,3,500,1477.26,204.04,Standard Class,Central
+2130,2024-09-12,Xavier Charles,Whiteboard,Office Supplies,1,60,61.67,22.92,Second Class,West
+2131,2024-03-16,Yolanda Adams,Baseball Cap,Apparel,4,20,80.62,30.81,Second Class,East
+2132,2024-05-22,Julia Roberts,Mouse,Electronics,2,40,78.82,19.68,Standard Class,South
+2133,2024-09-03,Amy Farrah,Honey Jar,Food,3,18,53.37,10.78,Standard Class,West
+2134,2024-10-02,Ford Prefect,Socks Pack,Apparel,5,15,71.88,26.24,Second Class,South
+2135,2024-09-26,Zaphod Beeblebrox,Dining Table,Furniture,1,500,485.16,77.88,Standard Class,East
+2136,2024-07-04,Tricia McMillan,Jeans,Apparel,1,60,59.17,22.16,Standard Class,Central
+2137,2024-03-12,Steve Rogers,Jeans,Apparel,5,60,292.27,109.0,Same Day,South
+2138,2024-01-29,Ian Malcolm,Monitor,Electronics,4,300,1184.6,308.08,Second Class,South
+2139,2024-12-05,Luke Skywalker,Smartwatch,Electronics,5,250,1205.86,279.84,First Class,East
+2140,2024-05-05,Evan Wright,Tablet,Electronics,2,450,921.92,241.92,Second Class,South
+2141,2024-12-23,Tony Stark,Sneakers,Apparel,3,90,264.24,86.12,Standard Class,East
+2142,2024-11-24,Charlie Brown,Organic Tea,Food,5,12,62.0,12.85,Standard Class,South
+2143,2024-08-20,Tricia McMillan,Paper Shredder,Office Supplies,5,90,446.57,166.37,Standard Class,West
+2144,2024-02-17,Arthur Dent,Jeans,Apparel,2,60,116.63,38.24,Standard Class,East
+2145,2024-10-13,Leia Organa,Smartwatch,Electronics,4,250,1032.73,240.88,Standard Class,South
+2146,2024-07-09,Bernadette Rosten,Bookcase,Furniture,1,180,181.86,29.17,Standard Class,Central
+2147,2024-01-15,Pam Beesly,Premium Pens,Office Supplies,5,15,75.73,31.85,Standard Class,West
+2148,2024-06-07,Michael Scott,Organic Tea,Food,1,12,12.57,2.55,Standard Class,East
+2149,2024-10-15,Sheldon Cooper,Laptop,Electronics,3,1200,3423.05,831.23,Standard Class,Central
+2150,2024-05-24,Zachary Levi,Organic Tea,Food,3,12,37.71,7.85,Second Class,Central
+2151,2024-02-19,Victor Stone,Baseball Cap,Apparel,5,20,95.24,35.31,Standard Class,West
+2152,2024-09-01,Luke Skywalker,Keyboard,Electronics,2,80,153.26,39.28,Standard Class,South
+2153,2024-04-28,Nancy Drew,Dining Table,Furniture,2,500,994.75,138.21,Same Day,Central
+2154,2024-05-28,Xavier Charles,Snack Mix Pack,Food,1,15,14.61,3.21,First Class,South
+2155,2024-11-06,Evan Wright,Coffee Table,Furniture,4,150,578.56,93.21,Standard Class,East
+2156,2024-10-07,Fiona Gallagher,T-Shirt,Apparel,4,25,96.61,32.33,Standard Class,Central
+2157,2024-07-05,Wanda Maximoff,Smartphone,Electronics,2,800,1561.27,388.23,Second Class,South
+2158,2024-05-11,Howard Wolowitz,Office Chair,Furniture,5,250,1294.88,190.38,Standard Class,Central
+2159,2024-11-13,Ian Malcolm,Jacket,Apparel,5,120,592.42,214.9,Second Class,Central
+2160,2024-09-16,Howard Wolowitz,Whiteboard,Office Supplies,1,60,61.45,23.33,Standard Class,East
+2161,2024-10-14,Alice Smith,Office Chair,Furniture,3,250,776.54,110.03,Standard Class,South
+2162,2024-08-24,Fiona Gallagher,File Folders,Office Supplies,4,10,38.44,14.39,Standard Class,South
+2163,2024-02-25,Zachary Levi,Jeans,Apparel,4,60,236.22,84.4,Standard Class,Central
+2164,2024-04-18,Sheldon Cooper,Keyboard,Electronics,4,80,334.35,77.66,Standard Class,West
+2165,2024-04-19,Ursula Buffett,Coffee Beans 1kg,Food,5,25,130.46,25.37,Second Class,East
+2166,2024-08-08,Sheldon Cooper,Office Chair,Furniture,2,250,488.49,75.26,First Class,South
+2167,2024-02-12,Julia Roberts,Keyboard,Electronics,4,80,331.88,83.38,Standard Class,South
+2168,2024-12-08,Quentin Tarantino,Office Chair,Furniture,1,250,246.05,38.78,First Class,South
+2169,2024-03-25,Michael Scott,File Folders,Office Supplies,4,10,41.86,16.53,Standard Class,West
+2170,2024-12-20,Zaphod Beeblebrox,T-Shirt,Apparel,5,25,119.72,43.31,Second Class,West
+2171,2024-11-11,Julia Roberts,Whiteboard,Office Supplies,3,60,187.81,75.12,Standard Class,South
+2172,2024-06-11,Hannah Abbott,Jacket,Apparel,5,120,626.6,234.98,Second Class,South
+2173,2024-11-20,Howard Wolowitz,Coffee Beans 1kg,Food,1,25,24.8,5.01,Standard Class,West
+2174,2024-03-26,Leia Organa,Jeans,Apparel,3,60,188.49,66.99,Standard Class,West
+2175,2024-01-08,Xavier Charles,Notebook,Office Supplies,3,5,15.3,6.3,First Class,East
+2176,2024-08-21,Amy Farrah,Jacket,Apparel,3,120,360.83,132.99,Second Class,South
+2177,2024-02-28,Laura Croft,Sneakers,Apparel,3,90,271.15,92.65,Standard Class,West
+2178,2024-12-03,Bernadette Rosten,Whiteboard,Office Supplies,5,60,314.86,133.65,First Class,East
+2179,2024-02-23,Fiona Gallagher,Tablet,Electronics,1,450,456.01,114.08,Standard Class,East
+2180,2024-01-17,Steve Rogers,Jeans,Apparel,2,60,115.37,43.26,Second Class,South
+2181,2024-03-04,Wanda Maximoff,Sneakers,Apparel,4,90,370.16,129.75,Standard Class,Central
+2182,2024-05-17,Quentin Tarantino,File Folders,Office Supplies,2,10,19.07,6.91,Standard Class,South
+2183,2024-07-10,Arthur Dent,Protein Bars Box,Food,3,30,87.68,19.2,Standard Class,South
+2184,2024-04-08,Han Solo,T-Shirt,Apparel,5,25,130.97,42.85,Standard Class,South
+2185,2024-06-11,Arthur Dent,Sofa,Furniture,2,750,1500.64,231.01,Standard Class,West
+2186,2024-07-19,Quentin Tarantino,Organic Tea,Food,3,12,34.29,6.19,Standard Class,East
+2187,2024-10-30,Julia Roberts,Smartphone,Electronics,5,800,4193.37,1076.54,Standard Class,West
+2188,2024-07-02,Laura Croft,Dining Table,Furniture,2,500,1022.63,162.82,Standard Class,West
+2189,2024-07-12,Quentin Tarantino,Keyboard,Electronics,1,80,81.11,20.6,First Class,East
+2190,2024-02-22,Hannah Abbott,Socks Pack,Apparel,1,15,14.64,4.8,Standard Class,Central
+2191,2024-02-09,Penny Hofstadter,Premium Pens,Office Supplies,4,15,59.48,23.73,Standard Class,East
+2192,2024-11-16,Evan Wright,Dining Table,Furniture,4,500,2026.71,301.02,Standard Class,Central
+2193,2024-03-23,Laura Croft,Notebook,Office Supplies,2,5,9.62,3.73,Second Class,East
+2194,2024-06-26,Sheldon Cooper,Olive Oil 1L,Food,5,20,104.27,19.57,Standard Class,Central
+2195,2024-01-16,Ford Prefect,Monitor,Electronics,2,300,623.91,141.3,First Class,East
+2196,2024-03-11,Oscar Martinez,Monitor,Electronics,3,300,940.79,228.07,Standard Class,West
+2197,2024-10-09,Steve Rogers,Baseball Cap,Apparel,4,20,83.38,27.72,Standard Class,South
+2198,2024-04-11,Rachel Green,T-Shirt,Apparel,5,25,120.82,39.8,Second Class,Central
+2199,2024-09-06,Bernadette Rosten,Sneakers,Apparel,5,90,455.53,162.86,Second Class,Central
+2200,2024-08-07,Michael Scott,Protein Bars Box,Food,3,30,89.54,19.3,First Class,East
+2201,2024-09-18,Quentin Tarantino,Snack Mix Pack,Food,3,15,44.54,8.22,Standard Class,Central
+2202,2024-06-14,Bernadette Rosten,Bookcase,Furniture,2,180,355.39,56.29,Standard Class,Central
+2203,2024-03-03,Alice Smith,Whiteboard,Office Supplies,1,60,59.79,25.33,Second Class,West
+2204,2024-04-29,Tricia McMillan,Tablet,Electronics,3,450,1296.39,309.71,Standard Class,West
+2205,2024-11-07,Evan Wright,Honey Jar,Food,4,18,70.69,13.63,Second Class,South
+2206,2024-04-10,Diana Prince,Sneakers,Apparel,1,90,86.57,30.01,Same Day,South
+2207,2024-11-03,Ursula Buffett,Snack Mix Pack,Food,2,15,28.55,6.03,Standard Class,Central
+2208,2024-10-21,Alice Smith,Jacket,Apparel,2,120,228.89,80.65,Second Class,South
+2209,2024-09-27,Charlie Brown,Whiteboard,Office Supplies,1,60,61.98,24.37,Standard Class,East
+2210,2024-06-03,Rachel Green,Stapler,Office Supplies,4,12,47.97,17.45,Standard Class,Central
+2211,2024-06-01,Leonard Hofstadter,Baseball Cap,Apparel,1,20,19.06,6.07,Second Class,East
+2212,2024-01-06,Ian Malcolm,Mouse,Electronics,4,40,155.06,41.88,Standard Class,East
+2213,2024-07-07,Ford Prefect,Laptop,Electronics,3,1200,3459.89,942.33,First Class,East
+2214,2024-02-08,Quentin Tarantino,Whiteboard,Office Supplies,5,60,293.1,109.51,Second Class,South
+2215,2024-03-11,Luke Skywalker,T-Shirt,Apparel,2,25,51.27,19.34,Standard Class,West
+2216,2024-07-30,Howard Wolowitz,Headphones,Electronics,5,150,785.73,189.44,Standard Class,South
+2217,2024-09-04,Oscar Martinez,Keyboard,Electronics,3,80,241.4,64.85,Second Class,Central
+2218,2024-12-03,Nancy Drew,Smartphone,Electronics,4,800,3254.56,808.46,Standard Class,East
+2219,2024-07-16,Michael Scott,T-Shirt,Apparel,3,25,76.95,25.92,Standard Class,Central
+2220,2024-08-20,Julia Roberts,Coffee Beans 1kg,Food,2,25,49.43,9.79,Standard Class,Central
+2221,2024-11-13,Rajesh Koothrappali,Sofa,Furniture,2,750,1449.63,209.06,Standard Class,South
+2222,2024-10-22,George Clark,Sofa,Furniture,1,750,713.74,106.22,Second Class,West
+2223,2024-05-16,Bob Jones,Baseball Cap,Apparel,5,20,96.18,34.0,Standard Class,Central
+2224,2024-06-30,Bernadette Rosten,Desk,Furniture,4,400,1528.51,218.85,Standard Class,Central
+2225,2024-02-20,Diana Prince,Baseball Cap,Apparel,4,20,79.22,28.25,Standard Class,West
+2226,2024-09-28,Leia Organa,Socks Pack,Apparel,4,15,60.88,23.26,Standard Class,East
+2227,2024-04-22,Hannah Abbott,Laptop,Electronics,5,1200,6019.28,1437.24,Standard Class,East
+2228,2024-11-13,Zachary Levi,Sneakers,Apparel,1,90,89.96,29.41,Standard Class,Central
+2229,2024-04-14,Wanda Maximoff,Whiteboard,Office Supplies,5,60,287.83,115.21,Standard Class,East
+2230,2024-12-24,Han Solo,Baseball Cap,Apparel,3,20,58.02,21.04,First Class,West
+2231,2024-03-26,Laura Croft,File Folders,Office Supplies,2,10,19.86,7.18,Same Day,South
+2232,2024-05-15,Evan Wright,Dining Table,Furniture,1,500,504.16,75.45,Standard Class,South
+2233,2024-05-06,Sheldon Cooper,Laptop,Electronics,1,1200,1240.24,311.63,Standard Class,Central
+2234,2024-03-26,Julia Roberts,Smartphone,Electronics,3,800,2388.63,625.2,Second Class,Central
+2235,2024-10-06,Quentin Tarantino,Jacket,Apparel,3,120,352.84,119.39,Standard Class,Central
+2236,2024-09-22,Leia Organa,T-Shirt,Apparel,3,25,72.36,24.87,Second Class,East
+2237,2024-04-22,Julia Roberts,File Folders,Office Supplies,1,10,9.86,4.14,Standard Class,South
+2238,2024-04-09,Yolanda Adams,Keyboard,Electronics,5,80,419.49,112.76,First Class,South
+2239,2024-03-30,Quentin Tarantino,Stapler,Office Supplies,4,12,47.08,17.1,Standard Class,Central
+2240,2024-09-23,Victor Stone,Coffee Beans 1kg,Food,4,25,97.88,21.41,Second Class,Central
+2241,2024-09-12,Julia Roberts,Baseball Cap,Apparel,2,20,40.5,14.64,Standard Class,Central
+2242,2024-06-04,Penny Hofstadter,Notebook,Office Supplies,3,5,14.58,6.21,Standard Class,East
+2243,2024-03-04,Diana Prince,Jacket,Apparel,1,120,114.6,37.2,Standard Class,East
+2244,2024-05-25,Rajesh Koothrappali,Organic Tea,Food,1,12,12.6,2.37,Second Class,West
+2245,2024-10-26,Fiona Gallagher,Premium Pens,Office Supplies,1,15,14.62,6.06,Standard Class,Central
+2246,2024-07-16,Bernadette Rosten,T-Shirt,Apparel,3,25,72.55,25.07,First Class,Central
+2247,2024-06-14,Luke Skywalker,Dining Table,Furniture,2,500,1005.43,144.81,Standard Class,South
+2248,2024-02-13,Tony Stark,Honey Jar,Food,4,18,74.03,15.79,Standard Class,South
+2249,2024-02-19,Ian Malcolm,Snack Mix Pack,Food,3,15,44.86,8.84,Standard Class,Central
+2250,2024-08-03,Amy Farrah,T-Shirt,Apparel,5,25,119.86,38.94,Standard Class,South
+2251,2024-06-03,Pam Beesly,Olive Oil 1L,Food,3,20,57.32,12.26,Standard Class,Central
+2252,2024-03-05,Zachary Levi,Smartwatch,Electronics,5,250,1198.08,285.75,Standard Class,East
+2253,2024-11-28,George Clark,Paper Shredder,Office Supplies,1,90,91.72,39.36,Second Class,South
+2254,2024-03-03,Luke Skywalker,Honey Jar,Food,1,18,18.11,3.96,Second Class,West
+2255,2024-03-10,Oscar Martinez,Bookcase,Furniture,3,180,556.5,85.54,Second Class,East
+2256,2024-04-12,Hannah Abbott,Laptop,Electronics,2,1200,2404.76,570.79,Standard Class,East
+2257,2024-02-23,Sheldon Cooper,Smartwatch,Electronics,4,250,979.99,244.2,Standard Class,East
+2258,2024-04-04,Pam Beesly,Protein Bars Box,Food,5,30,148.99,30.61,Second Class,East
+2259,2024-04-04,Julia Roberts,Desk,Furniture,5,400,1995.23,286.72,Second Class,West
+2260,2024-12-07,George Clark,Snack Mix Pack,Food,3,15,44.49,9.43,Second Class,South
+2261,2024-08-25,Amy Farrah,Jeans,Apparel,1,60,60.39,19.07,Standard Class,East
+2262,2024-06-04,Charlie Brown,Snack Mix Pack,Food,1,15,15.69,3.12,First Class,Central
+2263,2024-08-22,Rachel Green,Monitor,Electronics,3,300,886.4,230.74,Standard Class,West
+2264,2024-07-18,Rajesh Koothrappali,Monitor,Electronics,2,300,597.57,160.11,Standard Class,Central
+2265,2024-03-12,Rachel Green,File Folders,Office Supplies,1,10,9.88,3.93,First Class,South
+2266,2024-12-03,Laura Croft,Honey Jar,Food,5,18,86.66,16.72,Second Class,Central
+2267,2024-10-24,Wanda Maximoff,Olive Oil 1L,Food,4,20,82.82,15.43,Standard Class,East
+2268,2024-02-19,George Clark,Baseball Cap,Apparel,4,20,83.85,31.16,Standard Class,West
+2269,2024-05-01,George Clark,Dining Table,Furniture,4,500,2084.48,285.28,Second Class,South
+2270,2024-05-08,Hannah Abbott,Smartphone,Electronics,4,800,3335.54,804.06,Second Class,East
+2271,2024-12-23,Howard Wolowitz,Jeans,Apparel,5,60,292.57,101.12,Standard Class,West
+2272,2024-05-26,Oscar Martinez,Dining Table,Furniture,2,500,958.6,130.11,Standard Class,West
+2273,2024-12-08,George Clark,Office Chair,Furniture,2,250,513.72,78.11,First Class,Central
+2274,2024-02-06,Victor Stone,Dining Table,Furniture,5,500,2517.59,375.65,Standard Class,West
+2275,2024-06-29,Wanda Maximoff,Olive Oil 1L,Food,2,20,39.71,7.75,Second Class,South
+2276,2024-02-06,Zaphod Beeblebrox,Monitor,Electronics,5,300,1499.81,341.32,Standard Class,East
+2277,2024-10-03,Victor Stone,Headphones,Electronics,3,150,445.07,108.11,First Class,Central
+2278,2024-03-21,Steve Rogers,Headphones,Electronics,5,150,742.44,169.15,First Class,Central
+2279,2024-12-23,Hannah Abbott,Snack Mix Pack,Food,3,15,44.27,8.43,Second Class,East
+2280,2024-06-20,Diana Prince,Desk,Furniture,5,400,2084.83,322.94,Second Class,Central
+2281,2024-02-01,Pam Beesly,T-Shirt,Apparel,5,25,123.07,39.38,First Class,East
+2282,2024-08-01,Leia Organa,Coffee Beans 1kg,Food,5,25,122.13,22.19,Standard Class,West
+2283,2024-01-19,Penny Hofstadter,Organic Tea,Food,3,12,37.01,7.96,Standard Class,Central
+2284,2024-04-26,Bob Jones,Laptop,Electronics,2,1200,2443.67,639.99,Standard Class,South
+2285,2024-10-09,Sheldon Cooper,Tablet,Electronics,4,450,1836.24,463.61,Second Class,South
+2286,2024-02-29,Howard Wolowitz,Mouse,Electronics,3,40,125.02,29.62,Standard Class,South
+2287,2024-02-17,Luke Skywalker,Headphones,Electronics,4,150,629.46,142.1,Second Class,East
+2288,2024-05-07,Diana Prince,Laptop,Electronics,2,1200,2290.49,555.41,Standard Class,Central
+2289,2024-12-01,Pam Beesly,Premium Pens,Office Supplies,5,15,76.17,27.89,Standard Class,East
+2290,2024-10-05,Nancy Drew,Baseball Cap,Apparel,3,20,59.66,20.06,First Class,West
+2291,2024-07-06,Tricia McMillan,Whiteboard,Office Supplies,2,60,117.83,47.52,Standard Class,Central
+2292,2024-02-23,Diana Prince,File Folders,Office Supplies,5,10,48.52,18.0,Standard Class,East
+2293,2024-09-23,Oscar Martinez,Whiteboard,Office Supplies,5,60,306.75,129.77,Standard Class,Central
+2294,2024-01-19,Pam Beesly,Baseball Cap,Apparel,4,20,79.99,25.39,Same Day,East
+2295,2024-05-22,Luke Skywalker,Jacket,Apparel,1,120,119.94,45.02,Standard Class,South
+2296,2024-07-15,Howard Wolowitz,Headphones,Electronics,2,150,300.97,77.66,Standard Class,South
+2297,2024-01-17,Ford Prefect,Notebook,Office Supplies,5,5,26.06,11.27,Second Class,Central
+2298,2024-10-29,Nancy Drew,Mouse,Electronics,5,40,205.65,55.82,Standard Class,South
+2299,2024-01-30,George Clark,Snack Mix Pack,Food,3,15,44.66,9.32,First Class,South
+2300,2024-09-22,Quentin Tarantino,Sofa,Furniture,4,750,2889.56,391.41,Second Class,West
+2301,2024-12-15,Rachel Green,Headphones,Electronics,5,150,715.4,170.78,Standard Class,South
+2302,2024-05-17,Quentin Tarantino,Coffee Beans 1kg,Food,1,25,25.84,5.53,Standard Class,Central
+2303,2024-08-15,Leonard Hofstadter,Smartwatch,Electronics,1,250,249.51,66.67,Standard Class,Central
+2304,2024-04-21,Amy Farrah,Smartphone,Electronics,3,800,2508.79,619.73,First Class,Central
+2305,2024-05-12,Rachel Green,File Folders,Office Supplies,2,10,19.29,7.9,Standard Class,West
+2306,2024-01-26,Oscar Martinez,Laptop,Electronics,2,1200,2419.17,549.39,Second Class,South
+2307,2024-04-26,Diana Prince,Stapler,Office Supplies,1,12,12.05,4.38,Second Class,Central
+2308,2024-04-30,Wanda Maximoff,Smartphone,Electronics,5,800,3894.79,939.77,Standard Class,East
+2309,2024-07-09,Amy Farrah,Tablet,Electronics,3,450,1364.44,331.58,Standard Class,Central
+2310,2024-07-27,Xavier Charles,Jacket,Apparel,5,120,572.68,217.69,Standard Class,Central
+2311,2024-10-29,Bob Jones,Headphones,Electronics,3,150,469.8,114.6,Standard Class,Central
+2312,2024-10-25,Charlie Brown,Sofa,Furniture,1,750,754.91,124.51,Same Day,West
+2313,2024-11-18,Tricia McMillan,Socks Pack,Apparel,1,15,15.16,5.47,Second Class,East
+2314,2024-09-23,Howard Wolowitz,Stapler,Office Supplies,2,12,24.99,9.65,Second Class,Central
+2315,2024-07-04,Oscar Martinez,Jacket,Apparel,1,120,122.79,46.24,Second Class,South
+2316,2024-07-04,Fiona Gallagher,Paper Shredder,Office Supplies,5,90,456.9,186.61,Standard Class,Central
+2317,2024-08-17,Amy Farrah,Coffee Table,Furniture,2,150,308.29,45.39,First Class,West
+2318,2024-10-26,Ian Malcolm,Protein Bars Box,Food,3,30,86.23,16.97,Standard Class,East
+2319,2024-03-16,Zaphod Beeblebrox,Baseball Cap,Apparel,2,20,38.06,12.31,First Class,South
+2320,2024-05-14,Tricia McMillan,Baseball Cap,Apparel,1,20,20.67,6.55,Standard Class,East
+2321,2024-03-26,Evan Wright,Coffee Table,Furniture,5,150,739.08,108.7,First Class,South
+2322,2024-10-12,Pam Beesly,Notebook,Office Supplies,3,5,15.14,6.2,First Class,Central
+2323,2024-01-24,Evan Wright,File Folders,Office Supplies,4,10,39.16,15.59,Standard Class,South
+2324,2024-03-09,Laura Croft,Olive Oil 1L,Food,1,20,20.19,3.93,Standard Class,East
+2325,2024-11-28,Leonard Hofstadter,Jacket,Apparel,4,120,501.35,161.33,Standard Class,Central
+2326,2024-06-01,Penny Hofstadter,Notebook,Office Supplies,5,5,24.46,9.56,Standard Class,South
+2327,2024-04-01,Julia Roberts,Headphones,Electronics,4,150,575.97,137.79,Standard Class,Central
+2328,2024-03-01,Steve Rogers,File Folders,Office Supplies,4,10,39.15,16.97,Standard Class,West
+2329,2024-11-06,George Clark,Dining Table,Furniture,3,500,1507.82,226.57,Standard Class,West
+2330,2024-03-27,Bob Jones,Coffee Beans 1kg,Food,5,25,118.83,25.35,Standard Class,West
+2331,2024-01-14,Xavier Charles,Bookcase,Furniture,5,180,901.88,144.24,Standard Class,South
+2332,2024-05-31,Hannah Abbott,Smartwatch,Electronics,4,250,1036.45,284.66,Standard Class,East
+2333,2024-12-08,Hannah Abbott,Notebook,Office Supplies,2,5,9.66,3.74,Second Class,Central
+2334,2024-08-20,Rajesh Koothrappali,Mouse,Electronics,1,40,38.76,9.8,Standard Class,Central
+2335,2024-11-16,Charlie Brown,Headphones,Electronics,2,150,305.2,72.72,Standard Class,West
+2336,2024-03-18,Penny Hofstadter,Dining Table,Furniture,4,500,2026.95,279.03,Standard Class,West
+2337,2024-09-21,Nancy Drew,Tablet,Electronics,1,450,459.45,104.27,Standard Class,West
+2338,2024-12-18,Quentin Tarantino,Snack Mix Pack,Food,5,15,74.88,15.45,Standard Class,Central
+2339,2024-04-02,Tony Stark,Bookcase,Furniture,4,180,727.04,110.0,Standard Class,South
+2340,2024-05-31,George Clark,Office Chair,Furniture,3,250,736.9,114.13,Standard Class,South
+2341,2024-02-29,Laura Croft,Jacket,Apparel,1,120,122.46,45.21,Standard Class,South
+2342,2024-09-04,Penny Hofstadter,Snack Mix Pack,Food,2,15,30.02,6.47,Standard Class,Central
+2343,2024-07-28,Diana Prince,Protein Bars Box,Food,3,30,89.02,17.6,Second Class,South
+2344,2024-07-23,Quentin Tarantino,Keyboard,Electronics,4,80,324.36,73.72,Second Class,Central
+2345,2024-08-17,Amy Farrah,Coffee Table,Furniture,2,150,313.44,48.08,Standard Class,East
+2346,2024-06-17,Ian Malcolm,Olive Oil 1L,Food,1,20,20.6,3.78,Same Day,East
+2347,2024-12-26,Victor Stone,Paper Shredder,Office Supplies,1,90,88.76,33.36,Second Class,West
+2348,2024-03-21,Ford Prefect,Baseball Cap,Apparel,2,20,41.64,14.08,Standard Class,West
+2349,2024-04-20,Tricia McMillan,Office Chair,Furniture,1,250,250.04,39.69,Second Class,East
+2350,2024-01-22,Kevin Bacon,Stapler,Office Supplies,1,12,11.44,4.8,Standard Class,West
+2351,2024-07-12,Zachary Levi,Dining Table,Furniture,3,500,1436.08,224.98,First Class,East
+2352,2024-07-31,Bob Jones,Monitor,Electronics,1,300,290.83,74.24,Second Class,South
+2353,2024-06-08,Ursula Buffett,Socks Pack,Apparel,1,15,14.55,4.85,Standard Class,South
+2354,2024-12-01,Zaphod Beeblebrox,Sneakers,Apparel,3,90,282.61,100.12,Standard Class,West
+2355,2024-09-04,Steve Rogers,Olive Oil 1L,Food,2,20,40.91,8.92,Standard Class,South
+2356,2024-10-06,George Clark,Jeans,Apparel,5,60,308.14,106.71,Same Day,South
+2357,2024-09-01,Zaphod Beeblebrox,Keyboard,Electronics,3,80,230.29,53.76,Standard Class,East
+2358,2024-09-07,Luke Skywalker,Office Chair,Furniture,2,250,501.17,80.28,Standard Class,South
+2359,2024-04-29,Diana Prince,Jacket,Apparel,4,120,496.05,157.52,Standard Class,Central
+2360,2024-12-18,Zaphod Beeblebrox,Snack Mix Pack,Food,1,15,15.38,3.26,Standard Class,West
+2361,2024-10-06,Penny Hofstadter,Whiteboard,Office Supplies,2,60,120.17,51.52,Standard Class,South
+2362,2024-02-11,George Clark,Baseball Cap,Apparel,1,20,19.32,7.1,Standard Class,East
+2363,2024-03-26,Michael Scott,T-Shirt,Apparel,1,25,24.18,8.98,First Class,South
+2364,2024-09-06,Ian Malcolm,Snack Mix Pack,Food,4,15,59.61,11.43,Standard Class,East
+2365,2024-12-12,Rachel Green,Protein Bars Box,Food,5,30,144.62,29.06,First Class,West
+2366,2024-04-14,Han Solo,Paper Shredder,Office Supplies,5,90,436.98,168.86,Standard Class,South
+2367,2024-03-10,Kevin Bacon,Honey Jar,Food,4,18,69.69,13.86,Standard Class,South
+2368,2024-01-03,Tony Stark,Desk,Furniture,1,400,383.79,59.01,Standard Class,Central
+2369,2024-10-31,Kevin Bacon,Mouse,Electronics,5,40,202.58,54.98,First Class,Central
+2370,2024-05-20,Steve Rogers,Socks Pack,Apparel,3,15,46.95,16.63,Standard Class,South
+2371,2024-11-24,Michael Scott,Monitor,Electronics,1,300,290.35,73.51,Second Class,Central
+2372,2024-03-05,Arthur Dent,Honey Jar,Food,4,18,75.36,15.79,Standard Class,Central
+2373,2024-11-11,Sheldon Cooper,Desk,Furniture,1,400,383.65,61.04,Second Class,West
+2374,2024-03-16,Julia Roberts,Sofa,Furniture,1,750,722.77,115.08,Standard Class,East
+2375,2024-08-05,Sheldon Cooper,Stapler,Office Supplies,5,12,60.36,23.55,Second Class,West
+2376,2024-07-16,Sheldon Cooper,Stapler,Office Supplies,5,12,62.3,26.63,Standard Class,East
+2377,2024-03-26,Rachel Green,Sofa,Furniture,5,750,3819.51,579.56,Standard Class,Central
+2378,2024-08-10,Wanda Maximoff,Office Chair,Furniture,3,250,767.14,108.48,First Class,Central
+2379,2024-10-13,Michael Scott,Jacket,Apparel,2,120,232.7,79.18,First Class,East
+2380,2024-04-09,Alice Smith,Protein Bars Box,Food,3,30,93.74,18.76,Standard Class,Central
+2381,2024-01-07,Leia Organa,Notebook,Office Supplies,3,5,14.32,5.95,Standard Class,South
+2382,2024-05-09,Rachel Green,Laptop,Electronics,4,1200,4795.34,1192.47,Same Day,South
+2383,2024-11-27,Ford Prefect,Laptop,Electronics,3,1200,3674.03,859.15,Standard Class,West
+2384,2024-03-08,Fiona Gallagher,T-Shirt,Apparel,1,25,24.54,9.2,Standard Class,East
+2385,2024-05-22,Michael Scott,Honey Jar,Food,1,18,18.72,3.5,Standard Class,Central
+2386,2024-10-27,Xavier Charles,Coffee Beans 1kg,Food,4,25,95.65,20.37,Standard Class,East
+2387,2024-09-13,Julia Roberts,Notebook,Office Supplies,2,5,10.11,4.2,Standard Class,Central
+2388,2024-07-28,Laura Croft,Keyboard,Electronics,3,80,236.19,59.85,Standard Class,East
+2389,2024-12-22,Fiona Gallagher,Snack Mix Pack,Food,1,15,14.52,2.66,Standard Class,East
+2390,2024-06-11,Luke Skywalker,Monitor,Electronics,1,300,298.81,80.34,Standard Class,Central
+2391,2024-05-06,Tony Stark,Dining Table,Furniture,2,500,1020.59,143.23,Standard Class,South
+2392,2024-03-12,Zaphod Beeblebrox,File Folders,Office Supplies,2,10,20.77,7.77,Second Class,Central
+2393,2024-05-31,Quentin Tarantino,Jacket,Apparel,1,120,118.19,42.54,Standard Class,Central
+2394,2024-08-18,Kevin Bacon,Tablet,Electronics,2,450,944.44,232.99,Standard Class,West
+2395,2024-11-26,Steve Rogers,Bookcase,Furniture,5,180,863.17,136.56,Standard Class,Central
+2396,2024-05-12,Nancy Drew,Jacket,Apparel,1,120,119.7,41.62,First Class,West
+2397,2024-06-14,Xavier Charles,Snack Mix Pack,Food,5,15,76.51,15.7,First Class,Central
+2398,2024-01-05,Kevin Bacon,Sneakers,Apparel,3,90,261.55,88.94,Standard Class,East
+2399,2024-03-24,Leonard Hofstadter,Organic Tea,Food,1,12,12.11,2.52,Standard Class,South
+2400,2024-07-23,Sheldon Cooper,Bookcase,Furniture,3,180,549.64,79.15,Standard Class,South
+2401,2024-04-29,Rajesh Koothrappali,Tablet,Electronics,4,450,1816.75,423.67,Second Class,South
+2402,2024-03-26,Tony Stark,Honey Jar,Food,5,18,86.67,16.76,Standard Class,West
+2403,2024-01-28,Fiona Gallagher,Premium Pens,Office Supplies,3,15,44.82,18.5,Standard Class,West
+2404,2024-04-12,Laura Croft,Stapler,Office Supplies,1,12,11.92,4.98,Standard Class,West
+2405,2024-03-19,Tricia McMillan,Notebook,Office Supplies,4,5,19.94,8.27,Standard Class,East
+2406,2024-12-23,Nancy Drew,Baseball Cap,Apparel,4,20,82.1,26.41,Second Class,West
+2407,2024-03-06,Ursula Buffett,Sofa,Furniture,3,750,2271.81,343.1,First Class,South
+2408,2024-06-26,Penny Hofstadter,Coffee Beans 1kg,Food,2,25,51.34,10.0,First Class,West
+2409,2024-06-23,Rajesh Koothrappali,Tablet,Electronics,1,450,450.0,102.25,Standard Class,West
+2410,2024-06-03,Bernadette Rosten,Mouse,Electronics,4,40,154.41,37.14,Second Class,South
+2411,2024-12-11,Sheldon Cooper,Keyboard,Electronics,4,80,325.83,86.9,Standard Class,South
+2412,2024-08-26,Fiona Gallagher,Whiteboard,Office Supplies,1,60,61.82,22.32,Second Class,South
+2413,2024-06-12,Ian Malcolm,Olive Oil 1L,Food,4,20,79.89,17.45,Second Class,East
+2414,2024-07-24,Bernadette Rosten,Keyboard,Electronics,4,80,323.32,85.72,Standard Class,East
+2415,2024-08-18,Rajesh Koothrappali,File Folders,Office Supplies,3,10,28.84,10.8,Second Class,Central
+2416,2024-08-05,Ford Prefect,Baseball Cap,Apparel,1,20,20.9,7.62,Standard Class,Central
+2417,2024-05-12,Michael Scott,Olive Oil 1L,Food,4,20,78.25,14.47,Standard Class,South
+2418,2024-09-07,Leonard Hofstadter,Notebook,Office Supplies,5,5,24.81,10.27,Second Class,Central
+2419,2024-01-13,Ford Prefect,Premium Pens,Office Supplies,3,15,44.76,17.18,Standard Class,East
+2420,2024-01-19,Leia Organa,Mouse,Electronics,1,40,38.99,8.94,Standard Class,South
+2421,2024-02-18,Ian Malcolm,Dining Table,Furniture,4,500,1969.08,292.88,Standard Class,Central
+2422,2024-11-12,Pam Beesly,Olive Oil 1L,Food,4,20,78.98,14.68,Standard Class,Central
+2423,2024-11-22,George Clark,Socks Pack,Apparel,1,15,14.88,4.71,Standard Class,Central
+2424,2024-05-11,Fiona Gallagher,T-Shirt,Apparel,2,25,50.58,17.84,Standard Class,Central
+2425,2024-05-04,Diana Prince,Paper Shredder,Office Supplies,4,90,351.89,146.07,Standard Class,South
+2426,2024-04-05,Rachel Green,Honey Jar,Food,1,18,18.32,3.5,Standard Class,West
+2427,2024-07-27,Nancy Drew,Tablet,Electronics,2,450,908.92,248.86,Standard Class,South
+2428,2024-06-11,George Clark,Desk,Furniture,1,400,382.55,54.95,Second Class,West
+2429,2024-12-30,Leia Organa,Socks Pack,Apparel,4,15,60.25,20.98,Standard Class,Central
+2430,2024-10-12,Alice Smith,Stapler,Office Supplies,3,12,34.75,14.89,Standard Class,South
+2431,2024-09-12,Nancy Drew,Honey Jar,Food,2,18,35.65,7.36,Second Class,Central
+2432,2024-10-19,Fiona Gallagher,Socks Pack,Apparel,3,15,44.12,16.22,Standard Class,Central
+2433,2024-08-19,Leonard Hofstadter,Monitor,Electronics,5,300,1509.73,371.05,Standard Class,Central
+2434,2024-01-12,Steve Rogers,Honey Jar,Food,4,18,75.03,13.9,Same Day,South
+2435,2024-11-06,Hannah Abbott,Tablet,Electronics,2,450,906.37,212.03,Standard Class,East
+2436,2024-03-22,Zachary Levi,Snack Mix Pack,Food,3,15,46.8,8.95,Second Class,South
+2437,2024-07-04,George Clark,Paper Shredder,Office Supplies,5,90,466.16,186.27,Standard Class,West
+2438,2024-08-25,Steve Rogers,Jeans,Apparel,2,60,120.39,40.74,Standard Class,East
+2439,2024-08-25,Laura Croft,Tablet,Electronics,5,450,2229.82,572.66,Second Class,South
+2440,2024-11-12,Oscar Martinez,Coffee Table,Furniture,5,150,757.47,118.9,Standard Class,East
+2441,2024-01-12,Ursula Buffett,Organic Tea,Food,2,12,24.44,5.33,Standard Class,South
+2442,2024-01-12,Leia Organa,Socks Pack,Apparel,5,15,74.68,27.3,First Class,West
+2443,2024-05-02,Laura Croft,Baseball Cap,Apparel,2,20,38.26,12.13,Standard Class,Central
+2444,2024-10-22,Leonard Hofstadter,Jeans,Apparel,5,60,308.9,118.34,Standard Class,West
+2445,2024-09-13,Hannah Abbott,Protein Bars Box,Food,2,30,57.04,10.34,Standard Class,East
+2446,2024-12-12,Amy Farrah,Snack Mix Pack,Food,4,15,62.75,13.51,Standard Class,South
+2447,2024-10-02,Hannah Abbott,Honey Jar,Food,5,18,89.83,18.78,Second Class,South
+2448,2024-05-29,Zachary Levi,Mouse,Electronics,4,40,158.86,36.73,Second Class,South
+2449,2024-03-15,Quentin Tarantino,Coffee Beans 1kg,Food,2,25,48.21,9.15,Standard Class,Central
+2450,2024-09-04,Nancy Drew,Notebook,Office Supplies,3,5,14.94,6.23,Standard Class,East
+2451,2024-05-05,Quentin Tarantino,Stapler,Office Supplies,4,12,48.96,19.85,Standard Class,South
+2452,2024-10-31,Charlie Brown,Desk,Furniture,5,400,2076.03,315.36,Standard Class,West
+2453,2024-12-31,Steve Rogers,Whiteboard,Office Supplies,2,60,119.7,47.3,Standard Class,Central
+2454,2024-05-30,Julia Roberts,Desk,Furniture,5,400,1951.46,276.79,Standard Class,South
+2455,2024-04-18,Luke Skywalker,Premium Pens,Office Supplies,5,15,76.66,32.17,Standard Class,Central
+2456,2024-09-21,Zachary Levi,Socks Pack,Apparel,2,15,30.26,10.59,Same Day,West
+2457,2024-09-24,Xavier Charles,Sneakers,Apparel,2,90,174.16,65.8,First Class,South
+2458,2024-01-08,Evan Wright,Premium Pens,Office Supplies,3,15,44.0,18.58,Standard Class,West
+2459,2024-03-02,Michael Scott,File Folders,Office Supplies,4,10,41.36,17.69,Standard Class,East
+2460,2024-09-25,Oscar Martinez,Bookcase,Furniture,1,180,188.14,28.26,Standard Class,East
+2461,2024-05-18,Tricia McMillan,Honey Jar,Food,5,18,89.52,17.99,First Class,East
+2462,2024-05-05,Quentin Tarantino,Dining Table,Furniture,2,500,967.74,159.08,Standard Class,South
+2463,2024-05-16,Tricia McMillan,Notebook,Office Supplies,2,5,10.41,3.86,Second Class,East
+2464,2024-06-04,Diana Prince,Desk,Furniture,2,400,797.14,120.45,Standard Class,South
+2465,2024-01-27,Ursula Buffett,Headphones,Electronics,4,150,598.56,137.67,Standard Class,East
+2466,2024-10-28,Nancy Drew,Snack Mix Pack,Food,3,15,46.63,8.6,Standard Class,South
+2467,2024-08-14,Michael Scott,Honey Jar,Food,5,18,87.77,17.23,Second Class,East
+2468,2024-05-18,Penny Hofstadter,Bookcase,Furniture,5,180,940.63,135.44,Standard Class,Central
+2469,2024-09-29,Pam Beesly,Stapler,Office Supplies,5,12,57.67,24.25,Standard Class,South
+2470,2024-04-03,Penny Hofstadter,Mouse,Electronics,5,40,193.58,50.92,Standard Class,West
+2471,2024-12-10,Tony Stark,Smartwatch,Electronics,3,250,727.02,167.53,Standard Class,West
+2472,2024-04-28,Nancy Drew,Paper Shredder,Office Supplies,3,90,259.28,99.56,Standard Class,South
+2473,2024-11-08,Nancy Drew,Honey Jar,Food,2,18,36.96,7.81,Standard Class,West
+2474,2024-03-21,Han Solo,Bookcase,Furniture,5,180,925.18,132.38,Same Day,South
+2475,2024-05-14,Sheldon Cooper,Stapler,Office Supplies,2,12,24.79,9.55,Standard Class,Central
+2476,2024-06-06,Bernadette Rosten,Snack Mix Pack,Food,4,15,57.33,11.26,Standard Class,South
+2477,2024-11-26,Ian Malcolm,Jacket,Apparel,1,120,116.5,42.54,Second Class,West
+2478,2024-05-30,Xavier Charles,Mouse,Electronics,4,40,160.93,42.16,Second Class,Central
+2479,2024-04-20,Han Solo,Snack Mix Pack,Food,3,15,43.47,9.08,Standard Class,West
+2480,2024-10-30,Sheldon Cooper,Tablet,Electronics,4,450,1720.68,391.98,Standard Class,South
+2481,2024-06-24,Rachel Green,Protein Bars Box,Food,4,30,119.66,25.75,First Class,East
+2482,2024-02-07,Ursula Buffett,Jeans,Apparel,2,60,120.74,41.74,Standard Class,West
+2483,2024-06-16,Zaphod Beeblebrox,Honey Jar,Food,3,18,55.02,10.21,Standard Class,Central
+2484,2024-02-04,Ursula Buffett,File Folders,Office Supplies,2,10,19.46,7.57,Standard Class,South
+2485,2024-04-11,Quentin Tarantino,Paper Shredder,Office Supplies,1,90,89.35,37.93,Standard Class,South
+2486,2024-01-25,Arthur Dent,Mouse,Electronics,1,40,41.84,11.24,Standard Class,East
+2487,2024-06-16,Ford Prefect,Jacket,Apparel,5,120,614.07,217.73,Standard Class,East
+2488,2024-10-12,Hannah Abbott,Organic Tea,Food,5,12,60.44,12.01,Second Class,East
+2489,2024-11-28,Michael Scott,Tablet,Electronics,3,450,1370.31,313.32,Standard Class,West
+2490,2024-11-27,Zaphod Beeblebrox,File Folders,Office Supplies,5,10,51.95,20.37,Second Class,South
+2491,2024-05-30,Alice Smith,Snack Mix Pack,Food,1,15,14.89,2.83,Standard Class,Central
+2492,2024-04-24,Luke Skywalker,Paper Shredder,Office Supplies,4,90,369.72,150.09,Second Class,West
+2493,2024-06-30,Zaphod Beeblebrox,Desk,Furniture,2,400,768.07,115.98,Standard Class,West
+2494,2024-01-21,Ian Malcolm,Protein Bars Box,Food,1,30,31.29,6.46,Standard Class,Central
+2495,2024-04-13,Tony Stark,Sofa,Furniture,3,750,2311.28,313.92,Standard Class,West
+2496,2024-08-13,Hannah Abbott,T-Shirt,Apparel,4,25,98.8,34.21,First Class,West
+2497,2024-07-23,Michael Scott,Sofa,Furniture,5,750,3925.97,589.69,Second Class,East
+2498,2024-10-23,Arthur Dent,Monitor,Electronics,2,300,614.44,149.26,Standard Class,South
+2499,2024-06-11,Amy Farrah,Desk,Furniture,1,400,399.12,59.97,Second Class,Central
