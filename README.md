@@ -48,7 +48,7 @@
 ## 🌐 Live Demo
 
 * **Live Application URL:** [retail-brain.streamlit.app](https://retail-brain.streamlit.app/)
-* **Demo Video:** Coming Soon *[🎥 Project Video](https://drive.google.com/file/d/1YMDQoao-oXjO3AycraRQsNonZU-uxoig/view?usp=drivesdk)*
+* **Demo Video:* *[🎥 Project Video](https://drive.google.com/file/d/1YMDQoao-oXjO3AycraRQsNonZU-uxoig/view?usp=drivesdk)*
 
 ---
 
